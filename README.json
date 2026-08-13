@@ -1,0 +1,202 @@
+{
+  "items": [
+    {
+      "description": "Traditional off-policy distillation (e.g., SFT on teacher demonstrations) suffers from exposure bias and train-test mismatch: the student learns to predict the next token given perfect teacher prefixes, but during inference, it must condition on its own flawed generations. Errors compound rapidly.\nOn-policy distillation (OPD) solves this by forcing the student to generate trajectories from its own distribution, and then evaluating those trajectories using a teacher model, reward model, or verifier. The student learns to correct its own mistakes in its own state space.\nWith the rise of reasoning models (System 2 thinking) in 2024–2026, long chains of thought exacerbate compounding errors. Off-policy SFT is no longer sufficient. OPD has become the indispensable post-training paradigm for scaling reasoning, adopted by frontier models like DeepSeek-V4, Qwen3, Gemma-2, Nemotron, and MiMo.",
+      "items": [],
+      "title": "🤔 Why On-Policy? — The Core Problem"
+    },
+    {
+      "description": "For a top-down four-factor selection guide (teacher access, task characteristics, compute budget, stability requirements), see §3.3 Method Selection Considerations of the survey paper.",
+      "items": [],
+      "title": "💡 Choosing a Method"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "📋 Survey Version History"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "🔍 Teacher–Student Model Atlas"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "📐 Loss-Objective Distribution"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "🏆 Hall of Fame — Must-Read OPD Papers by Era"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "🏛️ Foundations (2023)"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "🔬 Evolution (2024)"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "🗺️ Taxonomy"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "📜 Full Tree"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "⚖️ §4 Objective Functions and Optimization"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "📌 §4.1 Fixed Divergence Objectives"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "🌀 §4.2 Adaptive Divergence Objectives"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "🎮 §4.3 RL-Augmented Objectives"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "🌐 §5 Signal Source and Teacher Architecture"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "🔬 §5.1 White-Box Logit Supervision"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "🕳️ §5.2 Black-Box and API-Constrained"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "🔁 §5.3 Self-Distillation"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "💫 §5.3.1 Privileged Information"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "⚔️ §5.3.2 Pure Self-Distillation"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "📣 §5.3.3 External Feedback"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "⚙️ §6 Training Efficiency and Stabilization"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "🧠 §7 Understanding OPD"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "🎯 §7.1 Success Conditions & Empirical Analyses"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "⚠️ §7.2 Failure Modes & Diagnostics"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "📐 §7.3 Unified Theoretical Perspectives"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "🚀 §8 Applications, Systems, and Emerging Domains"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "🏭 §8.1 Industrial Deployment"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "🌟 §8.2 Emerging Domains"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "🔧 §8.3 System-Level Integration"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "🔮 §9 Open Problems"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "📋 Pending Papers (🟡)"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "📂 Additional Resources"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "📚 Related Surveys"
+    },
+    {
+      "description": "",
+      "items": [],
+      "title": "📝 Blog Posts & External Essays"
+    },
+    {
+      "description": "We welcome contributions! 🎉 Please submit a Pull Request or Issue with:",
+      "items": [],
+      "title": "🤝 Contributing"
+    },
+    {
+      "description": "Use this template in your PR:",
+      "items": [],
+      "title": "📝 Adding a Paper"
+    },
+    {
+      "description": "If you find this collection helpful, please consider citing our survey:\n⭐ If you find this repository useful, please star it! ⭐\nLast updated: June 2026",
+      "items": [],
+      "title": "📄 Citation"
+    }
+  ],
+  "metadata": {
+    "last_updated": "2026-08-13T10:59:58.533Z",
+    "original_repository": "nick7nlp/Awesome-LLM-On-Policy-Distillation",
+    "original_repository_sha": "0222052fd35afd73075bac52b3a868ca6c1b626a",
+    "enhanced_repository": "enhansome/enhansome-Awesome-LLM-On-Policy-Distillation",
+    "enhanced_repository_description": null,
+    "title": "Awesome LLM On Policy Distillation with stars"
+  }
+}
