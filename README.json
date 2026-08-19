@@ -1,8 +1,9 @@
 {
   "items": [],
   "metadata": {
-    "last_updated": "2026-08-19T10:26:22.976Z",
+    "last_updated": "2026-08-19T12:09:52.283Z",
     "original_repository": "nick7nlp/Awesome-LLM-On-Policy-Distillation",
+    "original_repository_id": 1201758422,
     "original_repository_sha": "0222052fd35afd73075bac52b3a868ca6c1b626a",
     "enhanced_repository": "enhansome/enhansome-Awesome-LLM-On-Policy-Distillation",
     "enhanced_repository_description": null,
