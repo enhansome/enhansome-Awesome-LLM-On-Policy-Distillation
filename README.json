@@ -1,7 +1,1070 @@
 {
-  "items": [],
+  "items": [
+    {
+      "description": "🎯 The student generates on-policy rollouts, and the objective function decides what divergence or reward is minimized / maximized on those rollouts. This part of the design space governs the bias-variance trade-off, mode-seeking vs mode-covering behavior, and whether the optimization stays within the KL-constrained RL regime.",
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "🟢 DistiLLM-2: A Contrastive Approach Boosts the Distillation of LLMs",
+              "description": "📐 Qwen2-1.5B / Gemma-2-2B → Qwen2-7B / Gemma-2-9B 2025",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 945843585,
+                "language": "Python",
+                "last_commit": "2025-06-27T12:19:26Z",
+                "owner": "jongwooko",
+                "repo": "distillm-2",
+                "stars": 70
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟢 Distillation of Large Language Models via Concrete Score Matching",
+              "description": "📐 GPT-2 0.1B–0.3B → GPT-2 1.5B / OpenLLaMA-7B 2025",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1169800503,
+                "language": "Python",
+                "last_commit": "2026-06-09T14:14:35Z",
+                "owner": "aailab-kaist",
+                "repo": "CSD",
+                "stars": 7
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟢 DistiLLM: Towards Streamlined Distillation for Large Language Models",
+              "description": "📐 GPT-2 (student) → GPT-2 XL (teacher) 2024",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 753564120,
+                "language": "Python",
+                "last_commit": "2025-03-13T04:00:09Z",
+                "owner": "jongwooko",
+                "repo": "distillm",
+                "stars": 267
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟡 PowerOPD: Stabilizing On-Policy Distillation with Bounded Power Transformation",
+              "description": "📐 Qwen3-4B → Qwen3-0.6B-Base; Bounded power-transformed rewards for on-policy distillation replacing unbounded log-ratio 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1334211813,
+                "language": "Python",
+                "last_commit": "2026-08-14T13:36:15Z",
+                "owner": "EIT-NLP",
+                "repo": "PowerOPD",
+                "stars": 2
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟡 DAPD: Dual-Anchored Policy Distillation",
+              "description": "📐 Qwen3-1.7B (Cross-conditioned) → Qwen3-1.7B; Dual-anchored policy distillation addressing privilege illusion in on-policy self-distillation via matched-information p 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1321161662,
+                "language": "Python",
+                "last_commit": "2026-08-10T16:03:06Z",
+                "owner": "uanu2002",
+                "repo": "DAPD",
+                "stars": 63
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟡 Mismatch Matters: On-Policy Distillation Beyond Token Agreement",
+              "description": "📐 Qwen3-8B → Qwen3-1.7B-Base; TIDE corrects OPD failures via bounded Hellinger suppression of student-excess tokens and analytic teacher top-K recover 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1322601241,
+                "language": "Python",
+                "last_commit": "2026-08-14T04:47:21Z",
+                "owner": "yzc-666",
+                "repo": "TIDE",
+                "stars": 13
+              }
+            }
+          ],
+          "description": "🔒 Methods that fix a divergence (forward/reverse KL, JSD, skew-KL, concrete score) a priori and optimize it on student rollouts. Foundational OPD formulations plus contrastive and score-matching extensions.",
+          "node_type": "group",
+          "title": "📌 §4.1 Fixed Divergence Objectives"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "🟢 Distribution-Aligned Sequence Distillation for Superior Long-CoT Reasoning",
+              "description": "📐 Qwen3-4B → gpt-oss-120b / Qwen3-Next-80B-A3B-Thinking (DASD) 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1133911459,
+                "language": null,
+                "last_commit": "2026-01-27T07:38:08Z",
+                "owner": "D2I-ai",
+                "repo": "dasd-thinking",
+                "stars": 105
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟢 When Are Teacher Tokens Reliable? Position-Weighted On-Policy Self-Distillation for Reasoning",
+              "description": "📐 Qwen3-4B → Self; Position-weighted clipped FKL: later reasoning tokens get higher weight due to accumulated teacher error 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1244210855,
+                "language": "Python",
+                "last_commit": "2026-05-23T22:33:13Z",
+                "owner": "SaFo-Lab",
+                "repo": "PW-OPSD",
+                "stars": 9
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟡 Pass the Baton: Trajectory-Relayed On-Policy Distillation",
+              "description": "📐 Qwen3-4B-Instruct-2507 → Qwen3-1.7B-Non-Thinking; Relay-OPD detects teacher-student reasoning divergence to trigger brief teacher takeovers during on-policy distillation 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1305678381,
+                "language": "Python",
+                "last_commit": "2026-07-29T06:30:19Z",
+                "owner": "ZJU-REAL",
+                "repo": "Relay-OPD",
+                "stars": 45
+              }
+            }
+          ],
+          "description": "🧠 Methods that adapt the divergence or loss weighting during training based on token-level, position-level, or distributional signals.",
+          "node_type": "group",
+          "title": "🌀 §4.2 Adaptive Divergence Objectives"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "🟢 Learning beyond Teacher: Generalized On-Policy Distillation with Reward Extrapolation",
+              "description": "📐 Qwen3-4B-Non-Thinking → Self-RL teachers / Qwen3-30B-A3B (G-OPD) 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1156077864,
+                "language": "Python",
+                "last_commit": "2026-05-28T15:30:35Z",
+                "owner": "RUCBM",
+                "repo": "G-OPD",
+                "stars": 290
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟢 Explain in Your Own Words: Improving Reasoning via Token-Selective Dual Knowledge Distillation",
+              "description": "📐 Qwen2.5-1.5B / Gemma-2-2B / Qwen3-1.7B → Qwen2.5-14B / Gemma-2-9B / Qwen3-8B 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1145221454,
+                "language": "Python",
+                "last_commit": "2026-05-09T02:44:10Z",
+                "owner": "kmswin1",
+                "repo": "TSD-KD",
+                "stars": 13
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟢 MAD-OPD: Breaking the Ceiling in On-Policy Distillation via Multi-Agent Debate",
+              "description": "📐 Qwen3-1.7B/4B/8B/14B → Multi-teacher debate; confidence-weighted token supervision (OPAD) 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1223535200,
+                "language": "Python",
+                "last_commit": "2026-07-31T07:25:43Z",
+                "owner": "chiefovoavicii",
+                "repo": "MAD-OPD",
+                "stars": 36
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟢 AlignDistil: Token-Level Language Model Alignment as Adaptive Policy Distillation",
+              "description": "📐 Qwen2-1.5B / Qwen2.5-1.5B-Instruct → Self (AlignDistil) 2025",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1004979536,
+                "language": "Python",
+                "last_commit": "2025-08-26T13:47:53Z",
+                "owner": "songmzhang",
+                "repo": "AlignDistil",
+                "stars": 4
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟢 RLKD: Distilling LLMs' Reasoning via Reinforcement Learning",
+              "description": "📐 Qwen2.5-Math-7B / R1-Distill-Qwen-7B → DeepSeek-R1 traces (RLKD) 2025",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1096838233,
+                "language": "Python",
+                "last_commit": "2025-12-05T03:51:09Z",
+                "owner": "xsc1234",
+                "repo": "RLKD",
+                "stars": 0
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟡 MemOPD: On-Policy Distillation through Memory State Alignment for Long-Horizon Agents",
+              "description": "📐 Qwen2.5-7B → Qwen2.5-3B; Memory-aligned on-policy distillation reconstructing invocation states for long-horizon agents 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1330916268,
+                "language": "Python",
+                "last_commit": "2026-08-11T14:19:00Z",
+                "owner": "TPssp",
+                "repo": "MemOPD",
+                "stars": 3
+              }
+            }
+          ],
+          "description": "🏆 Methods that combine distillation with reinforcement learning: KL-constrained RL, reward-augmented KD, DPO-based alignment, multi-teacher debate ensembles.",
+          "node_type": "group",
+          "title": "🎮 §4.3 RL-Augmented Objectives"
+        }
+      ],
+      "title": "⚖️ §4 Objective Functions and Optimization"
+    },
+    {
+      "description": "👨‍🏫 Who is the teacher, what can we observe from it, and how is the teacher signal produced? This dimension spans full white-box logit access, API-only black-box access, and the self-distillation regime where the model teaches itself via privileged information, self-play, or external feedback.",
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "🟢 On-Policy Distillation with Best-of-N Teacher Rollout Selection",
+              "description": "📐 DeepSeek-R1-Distill-Qwen-1.5B → JustRL-DeepSeek-1.5B / DeepSeek-R1-Distill-Qwen-7B; samples teacher trajectory pool, selects via correctness-first / alignment-second priority 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1234207967,
+                "language": "Python",
+                "last_commit": "2026-05-13T03:02:43Z",
+                "owner": "BWGZK-keke",
+                "repo": "BRTS",
+                "stars": 8
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟢 A Dual-Space Framework for General Knowledge Distillation of Large Language Models",
+              "description": "📐 GPT-2 120M / TinyLLaMA-1.1B → GPT-2 1.5B / Qwen2-1.5B 2025",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 965900465,
+                "language": "Python",
+                "last_commit": "2026-01-04T11:10:18Z",
+                "owner": "songmzhang",
+                "repo": "DSKDv2",
+                "stars": 18
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟢 PromptKD: Distilling Student-Friendly Knowledge for Generative Language Models via Prompt Tuning",
+              "description": "📐 GPT-2 120M–760M / OPT/Llama-7B → GPT-2 XL / OPT-13B / Llama-13B 2024",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 819213825,
+                "language": "Python",
+                "last_commit": "2024-11-28T07:12:50Z",
+                "owner": "gmkim-ai",
+                "repo": "PromptKD",
+                "stars": 13
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟢 MiniLLM: On-Policy Distillation of Large Language Models",
+              "description": "📐 GPT-2 120M–760M → GPT-2 1.5B / GPT-J 6B / OPT-13B 2023",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 577753426,
+                "language": "Python",
+                "last_commit": "2026-07-25T06:15:21Z",
+                "owner": "microsoft",
+                "repo": "LMOps",
+                "stars": 4465
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟡 The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation",
+              "description": "📐 Domain Expert Teacher (Recipe A) → Student Model (Qwen2.5 architecture, randomly initialized); Systematic study of long-horizon planning across pre-training, OPD, and multi-teacher OPD stages 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1303649436,
+                "language": null,
+                "last_commit": "2026-07-27T17:11:38Z",
+                "owner": "Quester-one",
+                "repo": "PlanPhysCode",
+                "stars": 12
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟡 Weak-to-Strong On-Policy Distillation",
+              "description": "📐 Proxy Teacher (Qwen3-4B-RL + Qwen3-4B + Qwen3-8B base) → Qwen3-8B; On-policy distillation from weak models via contrastive logit directions anchored on student base 2025",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1310495687,
+                "language": null,
+                "last_commit": "2026-08-09T19:37:55Z",
+                "owner": "Yu-Fangxu",
+                "repo": "W2S-OPD",
+                "stars": 28
+              }
+            }
+          ],
+          "description": "💡 Methods that exploit full teacher logit access, including the foundational on-policy KD formulations and cross-tokenizer / dual-space alignment approaches.",
+          "node_type": "group",
+          "title": "🔬 §5.1 White-Box Logit Supervision"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "🟢 Pre-alignment via Black-box On-policy Distillation for Multimodal RL",
+              "description": "📐 Qwen3-VL-8B → Self; PRISM adversarial MoE discriminator, logit-free OPD as pre-alignment before RLVR 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1220106304,
+                "language": "Python",
+                "last_commit": "2026-05-06T05:52:20Z",
+                "owner": "XIAO4579",
+                "repo": "PRISM",
+                "stars": 99
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟢 Rubric-based On-policy Distillation",
+              "description": "📐 GPT-5.2 / Qwen3-30B-A3B → Qwen3-4B / Gemma3-4B; structured semantic rubrics replace teacher logits; 10× sample efficiency 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1232488970,
+                "language": "Python",
+                "last_commit": "2026-05-08T01:35:05Z",
+                "owner": "Peregrine123",
+                "repo": "ROPD_official",
+                "stars": 80
+              }
+            }
+          ],
+          "description": "📡 Methods that operate without teacher logits, using verbal feedback, scores, preferences, or adversarial matching over sampled outputs.",
+          "node_type": "group",
+          "title": "🕳️ §5.2 Black-Box and API-Constrained"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "🟢 Self-Distilled Reasoner: On-Policy Self-Distillation for Large Language Models",
+                  "description": "📐 Qwen3-4B / Qwen3-8B → Self (reasoning distillation) 2026",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1185545777,
+                    "language": "Python",
+                    "last_commit": "2026-05-10T05:46:29Z",
+                    "owner": "siyan-zhao",
+                    "repo": "OPSD",
+                    "stars": 586
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "🟢 On-Policy Context Distillation for Language Models",
+                  "description": "📐 Qwen3-1.7B/4B/8B → Qwen3-8B (thinking, OPCD) 2026",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1173515784,
+                    "language": "Python",
+                    "last_commit": "2026-03-06T08:34:35Z",
+                    "owner": "ZijunSong",
+                    "repo": "On-Policy-Context-Distillation",
+                    "stars": 6
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "🟢 CRISP: Compressed Reasoning via Iterative Self-Policy Distillation",
+                  "description": "📐 Qwen3-VL-8B → Self; GUI-SD: visual privileged context (bounding box + Gaussian soft mask) + entropy-guided token weighting 2026",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1175049141,
+                    "language": "Python",
+                    "last_commit": "2026-07-03T04:30:49Z",
+                    "owner": "HJSang",
+                    "repo": "CRISP_Reasoning_Compression",
+                    "stars": 65
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "🟢 π-Play: Multi-Agent Self-Play via Privileged Self-Distillation without External Data",
+                  "description": "📐 Qwen3-4B / Qwen3-4B-Instruct / Qwen3-8B → Self (QCP as privileged context for dense supervision) 2026",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1241596261,
+                    "language": null,
+                    "last_commit": "2026-05-18T07:01:58Z",
+                    "owner": "zhyaoch",
+                    "repo": "pi-play",
+                    "stars": 4
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "🟢 Crosslingual On-Policy Self-Distillation for Multilingual Reasoning",
+                  "description": "📐 Qwen3-8B → Self; English translation + reference solution as privileged context for 17 low-resource languages 2026",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1234540984,
+                    "language": "Python",
+                    "last_commit": "2026-05-12T07:18:18Z",
+                    "owner": "cisnlp",
+                    "repo": "COPSD",
+                    "stars": 4
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "🟢 Training with Harnesses: On-Policy Harness Self-Distillation for Complex Reasoning",
+                  "description": "📐 Qwen3-8B → Self; harness-augmented model (draft-verify / plan-solve) as teacher; +10.83% over OPSD on HMMT25 (PKU) 2026",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1231018959,
+                    "language": "Python",
+                    "last_commit": "2026-05-06T15:01:57Z",
+                    "owner": "zzy1127",
+                    "repo": "OPHSD-On-Policy-Harness-Self-Distillation",
+                    "stars": 24
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "🟢 AVSD: Adaptive-View Self-Distillation by Balancing Consensus and Teacher-Specific Privileged Signals",
+                  "description": "📐 Self → Self (multi-view PI); Multi-view on-policy self-distillation decomposing privileged teacher signals into geometric consensus + gated residuals 2026",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1235607897,
+                    "language": "Python",
+                    "last_commit": "2026-05-21T14:25:59Z",
+                    "owner": "duykhuongnguyen",
+                    "repo": "AVSD",
+                    "stars": 14
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "🟡 Rethinking Reward Supervision: Rubric-Conditioned Self-Distillation",
+                  "description": "📐 Qwen3-8B (rubric-conditioned) → Qwen3-8B; Rubric-conditioned on-policy self-distillation using criterion-level privileged teacher supervision 2026",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1271624617,
+                    "language": "Python",
+                    "last_commit": "2026-06-18T20:36:57Z",
+                    "owner": "carriegu0818",
+                    "repo": "RCSD",
+                    "stars": 5
+                  }
+                }
+              ],
+              "description": "Self-distillation via privileged context: oracle answers (OPSD), documents (GATES), system prompts (OPCD), long contexts (OPSDL), visual masks (GUI-SD), partial solutions (PAINT), and outcome-conditioned hints (TT-OPD).",
+              "node_type": "group",
+              "title": "💫 §5.3.1 Privileged Information"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "🟢 Multi-Token Prediction via Self-Distillation",
+                  "description": "📐 Llama-3.1-8B → Self (online distillation for 3× faster decoding) 2026",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1150815898,
+                    "language": "Python",
+                    "last_commit": "2026-02-21T04:24:22Z",
+                    "owner": "jwkirchenbauer",
+                    "repo": "mtp-lm",
+                    "stars": 39
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "🟢 UniSD: Towards a Unified Self-Distillation Framework for Large Language Models",
+                  "description": "📐 Llama-3.1/Qwen2.5/Phi-3 families → Self (EMA teacher + multi-teacher agreement + divergence clipping) 2026",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1233349595,
+                    "language": "Python",
+                    "last_commit": "2026-06-13T18:53:52Z",
+                    "owner": "Ahren09",
+                    "repo": "UniSD",
+                    "stars": 632
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "🟢 Vision-OPD: Learning to See Fine Details for Multimodal LLMs via On-Policy Self-Distillation",
+                  "description": "📐 Qwen3.5-4B/9B → Self (crop→full-image); regional-to-global self-distillation with on-policy rollouts + token-level JSD; VLM self-distillation: crop-conditioned teacher distills fine-grained visual details to full-image student via on-policy JSD 2026",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1237274132,
+                    "language": "Python",
+                    "last_commit": "2026-07-17T16:13:56Z",
+                    "owner": "VisionOPD",
+                    "repo": "Vision-OPD",
+                    "stars": 288
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "🟢 ROSD: Reflective On-Policy Self-Distillation for Language Model Reasoning across Domains",
+                  "description": "📐 Qwen3-4B/8B (self-teacher) → Qwen3-4B/8B; Error-focused reflection + quote-localized self-distillation; reflector extracts corrective idea and error span, distillation loss applied only from error onward 2026",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1250957646,
+                    "language": "Python",
+                    "last_commit": "2026-05-28T05:12:11Z",
+                    "owner": "ZiqiZhao1",
+                    "repo": "ROSD",
+                    "stars": 32
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "🟡 Better Starts, Better Ends: Bootstrapped Iterative Self-Reasoning Distillation for Compressed Reasoning",
+                  "description": "📐 Qwen3-1.7B (concise self-teacher) → Qwen3-1.7B; Two-stage self-distillation: SFT bootstrap then on-policy reverse-KL for reasoning compression 2026",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1302827376,
+                    "language": "Python",
+                    "last_commit": "2026-07-23T13:39:34Z",
+                    "owner": "KawhiC",
+                    "repo": "BIRD",
+                    "stars": 2
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "🟡 Self-Improving Large Language Models via Progressive Experience Evolution",
+                  "description": "📐 qwen3-1.7b-base (experience-augmented) → qwen3-1.7b-base; Progressive experience evolution and on-policy self-distillation for LLM self-improvement 2026",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1321809775,
+                    "language": "Python",
+                    "last_commit": "2026-08-03T13:27:46Z",
+                    "owner": "rrrsj",
+                    "repo": "SPEE",
+                    "stars": 1
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "🟡 Trajectory-Relative Hindsight Distillation for Agentic Reinforcement Learning",
+                  "description": "📐 Qwen3-1.7B (frozen hindsight-conditioned snapshot) → Qwen3-1.7B; Trajectory-relative hindsight distillation allocating turn-level supervision via normalized profile 2026",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1326892824,
+                    "language": "Python",
+                    "last_commit": "2026-08-22T08:57:40Z",
+                    "owner": "Chihaya-Anon-chan",
+                    "repo": "TRIAL",
+                    "stars": 5
+                  }
+                }
+              ],
+              "description": "Self-distillation where the teacher signal emerges from self-play dynamics, iterative improvement, or on-policy SFT against the model's own previous generations.",
+              "node_type": "group",
+              "title": "⚔️ §5.3.2 Pure Self-Distillation"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "🟢 Reinforcement Learning via Self-Distillation",
+                  "description": "📐 Qwen3-8B → Self (SDPO, iterative) 2026",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 1141366737,
+                    "language": "Python",
+                    "last_commit": "2026-07-01T13:51:47Z",
+                    "owner": "lasgroup",
+                    "repo": "SDPO",
+                    "stars": 1074
+                  }
+                }
+              ],
+              "description": "Self-distillation augmented by external feedback signals (verifiers, reward models, textual critiques, binary correctness) that shape the self-generated teacher distribution.",
+              "node_type": "group",
+              "title": "📣 §5.3.3 External Feedback"
+            }
+          ],
+          "description": "🤹 The student is also the teacher. Supervision arises not from a distinct model but from privileged context, self-play dynamics, or external correctness feedback.",
+          "node_type": "group",
+          "title": "🔁 §5.3 Self-Distillation"
+        }
+      ],
+      "title": "🌐 §5 Signal Source and Teacher Architecture"
+    },
+    {
+      "description": "📦 Methods targeting the training process itself: token/sample weighting, curriculum and difficulty adaptation, and compute-optimal OPD recipes.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "🟢 SCOPE: Signal-Calibrated On-Policy Distillation Enhancement with Dual-Path Adaptive Weighting",
+          "description": "📐 DeepSeek-R1-Distill-Qwen-1.5B / Qwen3-1.7B → SkyWork-OR1-Math-7B / Qwen3-8B 2026",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1208162710,
+            "language": "Python",
+            "last_commit": "2026-06-22T06:00:20Z",
+            "owner": "machine981",
+            "repo": "SCOPE",
+            "stars": 29
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "🟢 TIP: Token Importance in On-Policy Distillation",
+          "description": "📐 Qwen3-4B / Llama-3.1-8B / Qwen2.5-1.5B → Qwen3-8B / Llama-70B / Qwen2.5-14B 2026",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1202211835,
+            "language": "Python",
+            "last_commit": "2026-05-25T21:26:59Z",
+            "owner": "HJSang",
+            "repo": "OPSD_OnPolicyDistillation",
+            "stars": 97
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "🟢 TCOD: Exploring Temporal Curriculum in On-Policy Distillation for Multi-turn Autonomous Agents",
+          "description": "📐 Qwen2.5-0.5B/1.5B/3B/7B / Qwen3-0.6B/1.7B/4B → Qwen2.5-7B-GRPO / Qwen3-30B-A3B-Instruct; TCOD: temporal curriculum for autonomous agent OPD 2026",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1223492205,
+            "language": "Python",
+            "last_commit": "2026-07-09T07:25:54Z",
+            "owner": "kokolerk",
+            "repo": "TCOD",
+            "stars": 108
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "🟢 Uni-OPD: Unifying On-Policy Distillation with a Dual-Perspective Recipe",
+          "description": "📐 Qwen3-1.7B/4B → Multi-teacher; Uni-OPD: student exploration (difficulty+correctness-aware) + teacher reliability 2026",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1237481249,
+            "language": "Python",
+            "last_commit": "2026-06-10T17:00:35Z",
+            "owner": "WenjinHou",
+            "repo": "Uni-OPD",
+            "stars": 57
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "🟡 AsyncOPD: How Stale Can On-Policy Distillation Be?",
+          "description": "📐 Qwen3-30B-A3B-Instruct-2507 → Qwen3-4B-Base; Systematic study of staleness in asynchronous on-policy distillation with multi-sample MC estimator 2026",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1276546290,
+            "language": "Python",
+            "last_commit": "2026-06-29T00:34:25Z",
+            "owner": "furiosa-ai",
+            "repo": "async-opd",
+            "stars": 34
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "🟡 ShortOPD: Recovering Pruned LLMs with Short-to-Long On-Policy Distillation",
+          "description": "📐 Qwen3-4B-Instruct-2507 → Qwen3-4B-Instruct-2507 (25% pruned); Short-to-long on-policy distillation recovers generation quality of structurally pruned LLMs 2026",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1086325921,
+            "language": "Python",
+            "last_commit": "2025-10-30T11:24:50Z",
+            "owner": "icip-cas",
+            "repo": "ShortX",
+            "stars": 10
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "🟡 Look Ahead Before You Distill: Future Trajectory Validation of Teacher Guidance for Agentic On-Policy Distillation",
+          "description": "📐 Qwen3-32B → Qwen3-1.7B; Future trajectory validation of teacher bridges for agentic on-policy distillation 2026",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1318167762,
+            "language": "Python",
+            "last_commit": "2026-07-31T09:18:56Z",
+            "owner": "ChenChiShui",
+            "repo": "FutureBridge-OPD",
+            "stars": 22
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "🟡 Simple-OPD: Demystifying Warm-up for On-policy Distillation",
+          "description": "📐 Qwen3-8B-Base (DAPO-trained) → Qwen3-1.7B-Base; Systematic study of warm-up for OPD showing LoRA on teacher CoT is optimal initialization 2025",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1331890074,
+            "language": "Python",
+            "last_commit": "2026-08-14T05:35:02Z",
+            "owner": "Utaotao",
+            "repo": "Simple-OPD",
+            "stars": 6
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "🟡 Matching Supervision to the Student's Learning Capacity: A Unified Framework for On-Policy Self-Distillation",
+          "description": "📐 Qwen3-1.7B (privileged) → Qwen3-1.7B; Unified framework jointly optimizing token weighting and PI strength in on-policy self-distillation via single dual vari 2026",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1323970514,
+            "language": "Python",
+            "last_commit": "2026-08-08T06:33:02Z",
+            "owner": "lauvlalala",
+            "repo": "USD",
+            "stars": 0
+          }
+        }
+      ],
+      "title": "⚙️ §6 Training Efficiency and Stabilization"
+    },
+    {
+      "description": "🔍 When and why on-policy distillation works (or fails). Three lenses: conditions for success, failure modes & diagnostics, and unifying theory.",
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "🟢 Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe",
+              "description": "📐 Qwen3-1.7B → DeepSeek-R1-Distill-7B / Qwen3-4B etc. 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1208510936,
+                "language": "Python",
+                "last_commit": "2026-08-20T18:23:50Z",
+                "owner": "thunlp",
+                "repo": "OPD",
+                "stars": 947
+              }
+            }
+          ],
+          "description": "✅ What practical regimes make OPD reliably beat SFT / off-policy KD?",
+          "node_type": "group",
+          "title": "🎯 §7.1 Success Conditions & Empirical Analyses"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "🟢 Why Does Self-Distillation (Sometimes) Degrade the Reasoning Capability of LLMs?",
+              "description": "📐 Qwen3-8B / DeepSeek-Distill-7B / Olmo3-7B → Self 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1186286951,
+                "language": "Python",
+                "last_commit": "2026-04-14T13:34:21Z",
+                "owner": "beanie00",
+                "repo": "self-distillation-analysis",
+                "stars": 75
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟢 The Illusion of Certainty: Decoupling Capability and Calibration in On-Policy Distillation",
+              "description": "📐 Qwen3-0.6B–32B → Self (CaOPD: miscalibration scaling law + calibration-aware OPD) 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1198942525,
+                "language": "Python",
+                "last_commit": "2026-06-02T18:59:49Z",
+                "owner": "SalesforceAIResearch",
+                "repo": "CaOPD",
+                "stars": 17
+              }
+            }
+          ],
+          "description": "Characterizations of OPD pathologies (reasoning degradation, miscalibration, exposure-bias-in-disguise) and simple fixes.",
+          "node_type": "group",
+          "title": "⚠️ §7.2 Failure Modes & Diagnostics"
+        }
+      ],
+      "title": "🧠 §7 Understanding OPD"
+    },
+    {
+      "description": "🌏 How on-policy distillation appears in production-scale systems, across modalities, and as an inference-time system component.",
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "🟢 MiMo-V2-Flash Technical Report",
+              "description": "📐 MiMo-V2-Flash 309B MoE → Self (multi-teacher MOPD) 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1116967234,
+                "language": null,
+                "last_commit": "2026-01-08T04:53:37Z",
+                "owner": "XiaomiMiMo",
+                "repo": "MiMo-V2-Flash",
+                "stars": 1367
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟢 Qwen3 Technical Report",
+              "description": "📐 Qwen3 series → Qwen3 (larger, on-policy logit KD) 2025",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 752925682,
+                "language": "Python",
+                "last_commit": "2026-01-09T03:05:47Z",
+                "owner": "QwenLM",
+                "repo": "Qwen3",
+                "stars": 27553
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟢 Reducing the Safety Tax in LLM Safety Alignment with On-Policy Self-Distillation",
+              "description": "📐 R1-Distill-1.5B / Qwen3-0.6B–8B → Self (OPSA); frozen teacher = same model + safety privileged context; per-token KL on student rollouts; teacher flip rate for context search 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1240213772,
+                "language": "Python",
+                "last_commit": "2026-05-15T22:20:07Z",
+                "owner": "FYYFU",
+                "repo": "OPSA",
+                "stars": 16
+              }
+            }
+          ],
+          "description": "🏆 Large-scale technical reports and production systems that use OPD as a core post-training component.",
+          "node_type": "group",
+          "title": "🏭 §8.1 Industrial Deployment"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "🟢 OpenClaw-RL: Train Any Agent Simply by Talking",
+              "description": "📐 Hindsight-guided OPD for agentic scenarios; task completion reward → policy distillation 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1167576951,
+                "language": "Python",
+                "last_commit": "2026-05-23T04:17:31Z",
+                "owner": "Gen-Verse",
+                "repo": "OpenClaw-RL",
+                "stars": 5652
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟢 HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents",
+              "description": "📐 HY-Embodied-0.5 MoE-A32B (large) → HY-Embodied-0.5 MoT-2B (small) 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1202005530,
+                "language": "Python",
+                "last_commit": "2026-07-15T11:54:12Z",
+                "owner": "Tencent-Hunyuan",
+                "repo": "HY-Embodied",
+                "stars": 855
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟢 HyperEyes: Dual-Grained Efficiency-Aware Reinforcement Learning for Parallel Multimodal Search Agents",
+              "description": "📐 External teacher → HyperEyes-30B (Qwen3-VL-30B); micro-level OPD provides dense token-level supervision on failed rollouts 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1233709504,
+                "language": "Python",
+                "last_commit": "2026-05-23T11:17:58Z",
+                "owner": "DeepExperience",
+                "repo": "HyperEyes",
+                "stars": 74
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟢 ProteinOPD: Towards Effective and Efficient Preference Alignment for Protein Design",
+              "description": "📐 Protein PLM → Multi-teacher; geometric consensus of weighted preference-specific teachers; 8× faster than RL (THU/IDEA) 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1235310073,
+                "language": "Python",
+                "last_commit": "2026-08-04T02:36:54Z",
+                "owner": "THU-AI4S",
+                "repo": "ProteinOPD",
+                "stars": 19
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "🟢 SOD: Step-wise On-policy Distillation for Small Language Model Agents",
+              "description": "📐 Qwen3-0.6B/1.7B → Qwen3-4B; step-wise OPD for agentic tasks; progressive trajectory distillation 2026",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1232776063,
+                "language": "Python",
+                "last_commit": "2026-05-22T05:29:34Z",
+                "owner": "YoungZ365",
+                "repo": "SOD",
+                "stars": 158
+              }
+            }
+          ],
+          "description": "Applications of OPD to non-text and specialized domains: vision-language, audio/speech, video, vision-language-action, embodied, differential privacy, continual learning, scaling laws, autonomous driving.",
+          "node_type": "group",
+          "title": "🌟 §8.2 Emerging Domains"
+        }
+      ],
+      "title": "🚀 §8 Applications, Systems, and Emerging Domains"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "On-Policy Distillation",
+              "description": "(cited in §4) Kevin Lu / Thinking Machines Lab 2025 The most accessible OPD explainer written to date. Proposes per-token reverse KL using RL infrastructure (one-line change from KL-regularized RL), publishes a reference implementation in the Tinker cookbook, and matches Qwen3's RL result at a fraction of the GPU hours. Popularized the \"grandmaster grades each of your moves\" chess analogy that now anchors every OPD intro talk.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1019793048,
+                "language": "Python",
+                "last_commit": "2026-08-24T06:32:00Z",
+                "owner": "thinking-machines-lab",
+                "repo": "tinker-cookbook",
+                "stars": 4048
+              }
+            }
+          ],
+          "description": "Non-paper writings that shaped the OPD community. These sit alongside the formal literature and are often cited in the survey itself.",
+          "node_type": "group",
+          "title": "📝 Blog Posts & External Essays"
+        }
+      ],
+      "title": "📂 Additional Resources"
+    },
+    {
+      "description": "We welcome contributions! 🎉 Please submit a Pull Request or Issue with:",
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "💡 Tip: Use the \"Add Paper\" issue template",
+              "description": "for the easiest contribution path.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1201758422,
+                "language": "Python",
+                "last_commit": "2026-08-12T06:58:26Z",
+                "owner": "nick7nlp",
+                "repo": "Awesome-LLM-On-Policy-Distillation",
+                "stars": 521
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "🌟 Other Contributions"
+        }
+      ],
+      "title": "🤝 Contributing"
+    }
+  ],
   "metadata": {
-    "last_updated": "2026-08-24T10:35:31.099Z",
+    "last_updated": "2026-08-24T14:26:15.211Z",
     "original_repository": "nick7nlp/Awesome-LLM-On-Policy-Distillation",
     "original_repository_id": 1201758422,
     "original_repository_sha": "0222052fd35afd73075bac52b3a868ca6c1b626a",
