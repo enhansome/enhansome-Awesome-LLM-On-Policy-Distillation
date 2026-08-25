@@ -144,7 +144,7 @@
                 "last_commit": "2026-07-29T06:30:19Z",
                 "owner": "ZJU-REAL",
                 "repo": "Relay-OPD",
-                "stars": 45
+                "stars": 46
               }
             }
           ],
@@ -314,7 +314,7 @@
                 "last_commit": "2026-07-25T06:15:21Z",
                 "owner": "microsoft",
                 "repo": "LMOps",
-                "stars": 4465
+                "stars": 4464
               }
             },
             {
@@ -405,7 +405,7 @@
                     "last_commit": "2026-05-10T05:46:29Z",
                     "owner": "siyan-zhao",
                     "repo": "OPSD",
-                    "stars": 586
+                    "stars": 588
                   }
                 },
                 {
@@ -547,7 +547,7 @@
                     "last_commit": "2026-06-13T18:53:52Z",
                     "owner": "Ahren09",
                     "repo": "UniSD",
-                    "stars": 632
+                    "stars": 633
                   }
                 },
                 {
@@ -644,7 +644,7 @@
                     "last_commit": "2026-07-01T13:51:47Z",
                     "owner": "lasgroup",
                     "repo": "SDPO",
-                    "stars": 1074
+                    "stars": 1075
                   }
                 }
               ],
@@ -818,7 +818,7 @@
                 "last_commit": "2026-08-20T18:23:50Z",
                 "owner": "thunlp",
                 "repo": "OPD",
-                "stars": 947
+                "stars": 951
               }
             }
           ],
@@ -898,7 +898,7 @@
                 "last_commit": "2026-01-09T03:05:47Z",
                 "owner": "QwenLM",
                 "repo": "Qwen3",
-                "stars": 27553
+                "stars": 27555
               }
             },
             {
@@ -950,7 +950,7 @@
                 "last_commit": "2026-07-15T11:54:12Z",
                 "owner": "Tencent-Hunyuan",
                 "repo": "HY-Embodied",
-                "stars": 855
+                "stars": 856
               }
             },
             {
@@ -995,7 +995,7 @@
                 "last_commit": "2026-05-22T05:29:34Z",
                 "owner": "YoungZ365",
                 "repo": "SOD",
-                "stars": 158
+                "stars": 159
               }
             }
           ],
@@ -1023,7 +1023,7 @@
                 "last_commit": "2026-08-24T06:32:00Z",
                 "owner": "thinking-machines-lab",
                 "repo": "tinker-cookbook",
-                "stars": 4048
+                "stars": 4051
               }
             }
           ],
@@ -1051,7 +1051,7 @@
                 "last_commit": "2026-08-12T06:58:26Z",
                 "owner": "nick7nlp",
                 "repo": "Awesome-LLM-On-Policy-Distillation",
-                "stars": 521
+                "stars": 522
               }
             }
           ],
@@ -1064,7 +1064,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T14:26:15.211Z",
+    "last_updated": "2026-08-25T06:17:08.570Z",
     "original_repository": "nick7nlp/Awesome-LLM-On-Policy-Distillation",
     "original_repository_id": 1201758422,
     "original_repository_sha": "0222052fd35afd73075bac52b3a868ca6c1b626a",
