@@ -62,7 +62,7 @@
                 "last_commit": "2026-08-14T13:36:15Z",
                 "owner": "EIT-NLP",
                 "repo": "PowerOPD",
-                "stars": 2
+                "stars": 3
               }
             },
             {
@@ -77,7 +77,7 @@
                 "last_commit": "2026-08-10T16:03:06Z",
                 "owner": "uanu2002",
                 "repo": "DAPD",
-                "stars": 65
+                "stars": 66
               }
             },
             {
@@ -92,7 +92,7 @@
                 "last_commit": "2026-08-14T04:47:21Z",
                 "owner": "yzc-666",
                 "repo": "TIDE",
-                "stars": 13
+                "stars": 14
               }
             }
           ],
@@ -166,7 +166,7 @@
                 "last_commit": "2026-05-28T15:30:35Z",
                 "owner": "RUCBM",
                 "repo": "G-OPD",
-                "stars": 290
+                "stars": 291
               }
             },
             {
@@ -314,7 +314,7 @@
                 "last_commit": "2026-07-25T06:15:21Z",
                 "owner": "microsoft",
                 "repo": "LMOps",
-                "stars": 4464
+                "stars": 4465
               }
             },
             {
@@ -329,7 +329,7 @@
                 "last_commit": "2026-07-27T17:11:38Z",
                 "owner": "Quester-one",
                 "repo": "PlanPhysCode",
-                "stars": 12
+                "stars": 13
               }
             },
             {
@@ -405,7 +405,7 @@
                     "last_commit": "2026-05-10T05:46:29Z",
                     "owner": "siyan-zhao",
                     "repo": "OPSD",
-                    "stars": 588
+                    "stars": 591
                   }
                 },
                 {
@@ -547,7 +547,7 @@
                     "last_commit": "2026-06-13T18:53:52Z",
                     "owner": "Ahren09",
                     "repo": "UniSD",
-                    "stars": 633
+                    "stars": 637
                   }
                 },
                 {
@@ -562,7 +562,7 @@
                     "last_commit": "2026-07-17T16:13:56Z",
                     "owner": "VisionOPD",
                     "repo": "Vision-OPD",
-                    "stars": 291
+                    "stars": 292
                   }
                 },
                 {
@@ -577,7 +577,7 @@
                     "last_commit": "2026-05-28T05:12:11Z",
                     "owner": "ZiqiZhao1",
                     "repo": "ROSD",
-                    "stars": 32
+                    "stars": 34
                   }
                 },
                 {
@@ -644,7 +644,7 @@
                     "last_commit": "2026-07-01T13:51:47Z",
                     "owner": "lasgroup",
                     "repo": "SDPO",
-                    "stars": 1074
+                    "stars": 1075
                   }
                 }
               ],
@@ -765,7 +765,7 @@
             "last_commit": "2026-07-31T09:18:56Z",
             "owner": "ChenChiShui",
             "repo": "FutureBridge-OPD",
-            "stars": 22
+            "stars": 23
           }
         },
         {
@@ -818,7 +818,7 @@
                 "last_commit": "2026-08-20T18:23:50Z",
                 "owner": "thunlp",
                 "repo": "OPD",
-                "stars": 951
+                "stars": 958
               }
             }
           ],
@@ -883,7 +883,7 @@
                 "last_commit": "2026-01-08T04:53:37Z",
                 "owner": "XiaomiMiMo",
                 "repo": "MiMo-V2-Flash",
-                "stars": 1367
+                "stars": 1368
               }
             },
             {
@@ -935,7 +935,7 @@
                 "last_commit": "2026-05-23T04:17:31Z",
                 "owner": "Gen-Verse",
                 "repo": "OpenClaw-RL",
-                "stars": 5652
+                "stars": 5654
               }
             },
             {
@@ -1020,10 +1020,10 @@
                 "archived": false,
                 "id": 1019793048,
                 "language": "Python",
-                "last_commit": "2026-08-25T06:26:38Z",
+                "last_commit": "2026-08-26T06:30:36Z",
                 "owner": "thinking-machines-lab",
                 "repo": "tinker-cookbook",
-                "stars": 4052
+                "stars": 4057
               }
             }
           ],
@@ -1064,7 +1064,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T10:30:41.321Z",
+    "last_updated": "2026-08-26T10:32:51.065Z",
     "original_repository": "nick7nlp/Awesome-LLM-On-Policy-Distillation",
     "original_repository_id": 1201758422,
     "original_repository_sha": "0222052fd35afd73075bac52b3a868ca6c1b626a",
