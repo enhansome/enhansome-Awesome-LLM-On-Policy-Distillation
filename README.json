@@ -77,7 +77,7 @@
                 "last_commit": "2026-08-10T16:03:06Z",
                 "owner": "uanu2002",
                 "repo": "DAPD",
-                "stars": 66
+                "stars": 68
               }
             },
             {
@@ -405,7 +405,7 @@
                     "last_commit": "2026-05-10T05:46:29Z",
                     "owner": "siyan-zhao",
                     "repo": "OPSD",
-                    "stars": 596
+                    "stars": 598
                   }
                 },
                 {
@@ -765,7 +765,7 @@
             "last_commit": "2026-07-31T09:18:56Z",
             "owner": "ChenChiShui",
             "repo": "FutureBridge-OPD",
-            "stars": 23
+            "stars": 24
           }
         },
         {
@@ -818,7 +818,7 @@
                 "last_commit": "2026-08-20T18:23:50Z",
                 "owner": "thunlp",
                 "repo": "OPD",
-                "stars": 962
+                "stars": 964
               }
             }
           ],
@@ -883,7 +883,7 @@
                 "last_commit": "2026-01-08T04:53:37Z",
                 "owner": "XiaomiMiMo",
                 "repo": "MiMo-V2-Flash",
-                "stars": 1368
+                "stars": 1369
               }
             },
             {
@@ -898,7 +898,7 @@
                 "last_commit": "2026-01-09T03:05:47Z",
                 "owner": "QwenLM",
                 "repo": "Qwen3",
-                "stars": 27560
+                "stars": 27563
               }
             },
             {
@@ -1051,7 +1051,7 @@
                 "last_commit": "2026-08-12T06:58:26Z",
                 "owner": "nick7nlp",
                 "repo": "Awesome-LLM-On-Policy-Distillation",
-                "stars": 522
+                "stars": 523
               }
             }
           ],
@@ -1064,7 +1064,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T11:25:43.067Z",
+    "last_updated": "2026-08-27T20:08:41.005Z",
     "original_repository_info": {
       "archived": false,
       "id": 1201758422,
@@ -1072,7 +1072,7 @@
       "last_commit": "2026-08-12T06:58:26Z",
       "owner": "nick7nlp",
       "repo": "Awesome-LLM-On-Policy-Distillation",
-      "stars": 522
+      "stars": 523
     },
     "original_repository_sha": "0222052fd35afd73075bac52b3a868ca6c1b626a",
     "enhanced_repository": "enhansome/enhansome-Awesome-LLM-On-Policy-Distillation",
