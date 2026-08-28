@@ -18,7 +18,8 @@
                 "owner": "jongwooko",
                 "repo": "distillm-2",
                 "stars": 70
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -33,7 +34,8 @@
                 "owner": "aailab-kaist",
                 "repo": "CSD",
                 "stars": 7
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -48,7 +50,8 @@
                 "owner": "jongwooko",
                 "repo": "distillm",
                 "stars": 267
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -63,7 +66,8 @@
                 "owner": "EIT-NLP",
                 "repo": "PowerOPD",
                 "stars": 3
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -77,8 +81,9 @@
                 "last_commit": "2026-08-10T16:03:06Z",
                 "owner": "uanu2002",
                 "repo": "DAPD",
-                "stars": 68
-              }
+                "stars": 73
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -93,7 +98,8 @@
                 "owner": "yzc-666",
                 "repo": "TIDE",
                 "stars": 14
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             }
           ],
           "description": "🔒 Methods that fix a divergence (forward/reverse KL, JSD, skew-KL, concrete score) a priori and optimize it on student rollouts. Foundational OPD formulations plus contrastive and score-matching extensions.",
@@ -115,7 +121,8 @@
                 "owner": "D2I-ai",
                 "repo": "dasd-thinking",
                 "stars": 105
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -130,7 +137,8 @@
                 "owner": "SaFo-Lab",
                 "repo": "PW-OPSD",
                 "stars": 9
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -145,7 +153,8 @@
                 "owner": "ZJU-REAL",
                 "repo": "Relay-OPD",
                 "stars": 48
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             }
           ],
           "description": "🧠 Methods that adapt the divergence or loss weighting during training based on token-level, position-level, or distributional signals.",
@@ -167,7 +176,8 @@
                 "owner": "RUCBM",
                 "repo": "G-OPD",
                 "stars": 291
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -182,7 +192,8 @@
                 "owner": "kmswin1",
                 "repo": "TSD-KD",
                 "stars": 13
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -197,7 +208,8 @@
                 "owner": "chiefovoavicii",
                 "repo": "MAD-OPD",
                 "stars": 36
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -212,7 +224,8 @@
                 "owner": "songmzhang",
                 "repo": "AlignDistil",
                 "stars": 4
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -227,7 +240,8 @@
                 "owner": "xsc1234",
                 "repo": "RLKD",
                 "stars": 0
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -242,7 +256,8 @@
                 "owner": "TPssp",
                 "repo": "MemOPD",
                 "stars": 3
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             }
           ],
           "description": "🏆 Methods that combine distillation with reinforcement learning: KL-constrained RL, reward-augmented KD, DPO-based alignment, multi-teacher debate ensembles.",
@@ -270,7 +285,8 @@
                 "owner": "BWGZK-keke",
                 "repo": "BRTS",
                 "stars": 8
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -285,7 +301,8 @@
                 "owner": "songmzhang",
                 "repo": "DSKDv2",
                 "stars": 18
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -300,7 +317,8 @@
                 "owner": "gmkim-ai",
                 "repo": "PromptKD",
                 "stars": 13
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -315,7 +333,8 @@
                 "owner": "microsoft",
                 "repo": "LMOps",
                 "stars": 4465
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -330,7 +349,8 @@
                 "owner": "Quester-one",
                 "repo": "PlanPhysCode",
                 "stars": 13
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -345,7 +365,8 @@
                 "owner": "Yu-Fangxu",
                 "repo": "W2S-OPD",
                 "stars": 28
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             }
           ],
           "description": "💡 Methods that exploit full teacher logit access, including the foundational on-policy KD formulations and cross-tokenizer / dual-space alignment approaches.",
@@ -367,7 +388,8 @@
                 "owner": "XIAO4579",
                 "repo": "PRISM",
                 "stars": 99
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -381,8 +403,9 @@
                 "last_commit": "2026-05-08T01:35:05Z",
                 "owner": "Peregrine123",
                 "repo": "ROPD_official",
-                "stars": 81
-              }
+                "stars": 82
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             }
           ],
           "description": "📡 Methods that operate without teacher logits, using verbal feedback, scores, preferences, or adversarial matching over sampled outputs.",
@@ -402,11 +425,12 @@
                     "archived": false,
                     "id": 1185545777,
                     "language": "Python",
-                    "last_commit": "2026-05-10T05:46:29Z",
+                    "last_commit": "2026-08-28T19:17:36Z",
                     "owner": "siyan-zhao",
                     "repo": "OPSD",
-                    "stars": 598
-                  }
+                    "stars": 603
+                  },
+                  "first_seen": "2026-08-28T21:05:04.438Z"
                 },
                 {
                   "node_type": "item",
@@ -421,7 +445,8 @@
                     "owner": "ZijunSong",
                     "repo": "On-Policy-Context-Distillation",
                     "stars": 6
-                  }
+                  },
+                  "first_seen": "2026-08-28T21:05:04.438Z"
                 },
                 {
                   "node_type": "item",
@@ -436,7 +461,8 @@
                     "owner": "HJSang",
                     "repo": "CRISP_Reasoning_Compression",
                     "stars": 65
-                  }
+                  },
+                  "first_seen": "2026-08-28T21:05:04.438Z"
                 },
                 {
                   "node_type": "item",
@@ -451,7 +477,8 @@
                     "owner": "zhyaoch",
                     "repo": "pi-play",
                     "stars": 4
-                  }
+                  },
+                  "first_seen": "2026-08-28T21:05:04.438Z"
                 },
                 {
                   "node_type": "item",
@@ -466,7 +493,8 @@
                     "owner": "cisnlp",
                     "repo": "COPSD",
                     "stars": 4
-                  }
+                  },
+                  "first_seen": "2026-08-28T21:05:04.438Z"
                 },
                 {
                   "node_type": "item",
@@ -481,7 +509,8 @@
                     "owner": "zzy1127",
                     "repo": "OPHSD-On-Policy-Harness-Self-Distillation",
                     "stars": 24
-                  }
+                  },
+                  "first_seen": "2026-08-28T21:05:04.438Z"
                 },
                 {
                   "node_type": "item",
@@ -496,7 +525,8 @@
                     "owner": "duykhuongnguyen",
                     "repo": "AVSD",
                     "stars": 14
-                  }
+                  },
+                  "first_seen": "2026-08-28T21:05:04.438Z"
                 },
                 {
                   "node_type": "item",
@@ -511,7 +541,8 @@
                     "owner": "carriegu0818",
                     "repo": "RCSD",
                     "stars": 5
-                  }
+                  },
+                  "first_seen": "2026-08-28T21:05:04.438Z"
                 }
               ],
               "description": "Self-distillation via privileged context: oracle answers (OPSD), documents (GATES), system prompts (OPCD), long contexts (OPSDL), visual masks (GUI-SD), partial solutions (PAINT), and outcome-conditioned hints (TT-OPD).",
@@ -533,7 +564,8 @@
                     "owner": "jwkirchenbauer",
                     "repo": "mtp-lm",
                     "stars": 39
-                  }
+                  },
+                  "first_seen": "2026-08-28T21:05:04.438Z"
                 },
                 {
                   "node_type": "item",
@@ -547,8 +579,9 @@
                     "last_commit": "2026-06-13T18:53:52Z",
                     "owner": "Ahren09",
                     "repo": "UniSD",
-                    "stars": 641
-                  }
+                    "stars": 645
+                  },
+                  "first_seen": "2026-08-28T21:05:04.438Z"
                 },
                 {
                   "node_type": "item",
@@ -562,8 +595,9 @@
                     "last_commit": "2026-07-17T16:13:56Z",
                     "owner": "VisionOPD",
                     "repo": "Vision-OPD",
-                    "stars": 292
-                  }
+                    "stars": 294
+                  },
+                  "first_seen": "2026-08-28T21:05:04.438Z"
                 },
                 {
                   "node_type": "item",
@@ -577,8 +611,9 @@
                     "last_commit": "2026-05-28T05:12:11Z",
                     "owner": "ZiqiZhao1",
                     "repo": "ROSD",
-                    "stars": 35
-                  }
+                    "stars": 36
+                  },
+                  "first_seen": "2026-08-28T21:05:04.438Z"
                 },
                 {
                   "node_type": "item",
@@ -593,7 +628,8 @@
                     "owner": "KawhiC",
                     "repo": "BIRD",
                     "stars": 2
-                  }
+                  },
+                  "first_seen": "2026-08-28T21:05:04.438Z"
                 },
                 {
                   "node_type": "item",
@@ -608,7 +644,8 @@
                     "owner": "rrrsj",
                     "repo": "SPEE",
                     "stars": 1
-                  }
+                  },
+                  "first_seen": "2026-08-28T21:05:04.438Z"
                 },
                 {
                   "node_type": "item",
@@ -623,7 +660,8 @@
                     "owner": "Chihaya-Anon-chan",
                     "repo": "TRIAL",
                     "stars": 5
-                  }
+                  },
+                  "first_seen": "2026-08-28T21:05:04.438Z"
                 }
               ],
               "description": "Self-distillation where the teacher signal emerges from self-play dynamics, iterative improvement, or on-policy SFT against the model's own previous generations.",
@@ -644,8 +682,9 @@
                     "last_commit": "2026-07-01T13:51:47Z",
                     "owner": "lasgroup",
                     "repo": "SDPO",
-                    "stars": 1076
-                  }
+                    "stars": 1077
+                  },
+                  "first_seen": "2026-08-28T21:05:04.438Z"
                 }
               ],
               "description": "Self-distillation augmented by external feedback signals (verifiers, reward models, textual critiques, binary correctness) that shape the self-generated teacher distribution.",
@@ -676,7 +715,8 @@
             "owner": "machine981",
             "repo": "SCOPE",
             "stars": 29
-          }
+          },
+          "first_seen": "2026-08-28T21:05:04.438Z"
         },
         {
           "node_type": "item",
@@ -691,7 +731,8 @@
             "owner": "HJSang",
             "repo": "OPSD_OnPolicyDistillation",
             "stars": 97
-          }
+          },
+          "first_seen": "2026-08-28T21:05:04.438Z"
         },
         {
           "node_type": "item",
@@ -706,7 +747,8 @@
             "owner": "kokolerk",
             "repo": "TCOD",
             "stars": 108
-          }
+          },
+          "first_seen": "2026-08-28T21:05:04.438Z"
         },
         {
           "node_type": "item",
@@ -721,7 +763,8 @@
             "owner": "WenjinHou",
             "repo": "Uni-OPD",
             "stars": 57
-          }
+          },
+          "first_seen": "2026-08-28T21:05:04.438Z"
         },
         {
           "node_type": "item",
@@ -736,7 +779,8 @@
             "owner": "furiosa-ai",
             "repo": "async-opd",
             "stars": 34
-          }
+          },
+          "first_seen": "2026-08-28T21:05:04.438Z"
         },
         {
           "node_type": "item",
@@ -751,7 +795,8 @@
             "owner": "icip-cas",
             "repo": "ShortX",
             "stars": 10
-          }
+          },
+          "first_seen": "2026-08-28T21:05:04.438Z"
         },
         {
           "node_type": "item",
@@ -766,7 +811,8 @@
             "owner": "ChenChiShui",
             "repo": "FutureBridge-OPD",
             "stars": 24
-          }
+          },
+          "first_seen": "2026-08-28T21:05:04.438Z"
         },
         {
           "node_type": "item",
@@ -781,7 +827,8 @@
             "owner": "Utaotao",
             "repo": "Simple-OPD",
             "stars": 6
-          }
+          },
+          "first_seen": "2026-08-28T21:05:04.438Z"
         },
         {
           "node_type": "item",
@@ -796,7 +843,8 @@
             "owner": "lauvlalala",
             "repo": "USD",
             "stars": 0
-          }
+          },
+          "first_seen": "2026-08-28T21:05:04.438Z"
         }
       ],
       "title": "⚙️ §6 Training Efficiency and Stabilization"
@@ -818,8 +866,9 @@
                 "last_commit": "2026-08-20T18:23:50Z",
                 "owner": "thunlp",
                 "repo": "OPD",
-                "stars": 964
-              }
+                "stars": 969
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             }
           ],
           "description": "✅ What practical regimes make OPD reliably beat SFT / off-policy KD?",
@@ -841,7 +890,8 @@
                 "owner": "beanie00",
                 "repo": "self-distillation-analysis",
                 "stars": 75
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -856,7 +906,8 @@
                 "owner": "SalesforceAIResearch",
                 "repo": "CaOPD",
                 "stars": 17
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             }
           ],
           "description": "Characterizations of OPD pathologies (reasoning degradation, miscalibration, exposure-bias-in-disguise) and simple fixes.",
@@ -884,7 +935,8 @@
                 "owner": "XiaomiMiMo",
                 "repo": "MiMo-V2-Flash",
                 "stars": 1369
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -898,8 +950,9 @@
                 "last_commit": "2026-01-09T03:05:47Z",
                 "owner": "QwenLM",
                 "repo": "Qwen3",
-                "stars": 27563
-              }
+                "stars": 27565
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -914,7 +967,8 @@
                 "owner": "FYYFU",
                 "repo": "OPSA",
                 "stars": 16
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             }
           ],
           "description": "🏆 Large-scale technical reports and production systems that use OPD as a core post-training component.",
@@ -935,8 +989,9 @@
                 "last_commit": "2026-05-23T04:17:31Z",
                 "owner": "Gen-Verse",
                 "repo": "OpenClaw-RL",
-                "stars": 5657
-              }
+                "stars": 5658
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -950,8 +1005,9 @@
                 "last_commit": "2026-07-15T11:54:12Z",
                 "owner": "Tencent-Hunyuan",
                 "repo": "HY-Embodied",
-                "stars": 858
-              }
+                "stars": 861
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -966,7 +1022,8 @@
                 "owner": "DeepExperience",
                 "repo": "HyperEyes",
                 "stars": 74
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -981,7 +1038,8 @@
                 "owner": "THU-AI4S",
                 "repo": "ProteinOPD",
                 "stars": 19
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -996,7 +1054,8 @@
                 "owner": "YoungZ365",
                 "repo": "SOD",
                 "stars": 159
-              }
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             }
           ],
           "description": "Applications of OPD to non-text and specialized domains: vision-language, audio/speech, video, vision-language-action, embodied, differential privacy, continual learning, scaling laws, autonomous driving.",
@@ -1020,11 +1079,12 @@
                 "archived": false,
                 "id": 1019793048,
                 "language": "Python",
-                "last_commit": "2026-08-27T09:25:56Z",
+                "last_commit": "2026-08-28T20:56:44Z",
                 "owner": "thinking-machines-lab",
                 "repo": "tinker-cookbook",
-                "stars": 4060
-              }
+                "stars": 4061
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             }
           ],
           "description": "Non-paper writings that shaped the OPD community. These sit alongside the formal literature and are often cited in the survey itself.",
@@ -1051,8 +1111,9 @@
                 "last_commit": "2026-08-12T06:58:26Z",
                 "owner": "nick7nlp",
                 "repo": "Awesome-LLM-On-Policy-Distillation",
-                "stars": 523
-              }
+                "stars": 524
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
             }
           ],
           "description": null,
@@ -1064,7 +1125,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T20:08:41.005Z",
+    "last_updated": "2026-08-28T21:05:04.438Z",
     "original_repository_info": {
       "archived": false,
       "id": 1201758422,
@@ -1072,7 +1133,7 @@
       "last_commit": "2026-08-12T06:58:26Z",
       "owner": "nick7nlp",
       "repo": "Awesome-LLM-On-Policy-Distillation",
-      "stars": 523
+      "stars": 524
     },
     "original_repository_sha": "0222052fd35afd73075bac52b3a868ca6c1b626a",
     "enhanced_repository": "enhansome/enhansome-Awesome-LLM-On-Policy-Distillation",
