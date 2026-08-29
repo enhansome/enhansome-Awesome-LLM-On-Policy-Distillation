@@ -12,12 +12,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Official PyTorch implementation of DistiLLM-2: A Contrastive Approach Boosts the Distillation of LLMs (ICML 2025 Oral)",
+                "homepage": "https://arxiv.org/abs/2503.07067",
                 "id": 945843585,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2025-06-27T12:19:26Z",
+                "open_issues": 6,
                 "owner": "jongwooko",
                 "repo": "distillm-2",
-                "stars": 70
+                "stars": 70,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -28,12 +33,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Official repo for Distillation of Large Language Models via Concrete Score Matching  (ICLR 26)",
+                "homepage": null,
                 "id": 1169800503,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-06-09T14:14:35Z",
+                "open_issues": 1,
                 "owner": "aailab-kaist",
                 "repo": "CSD",
-                "stars": 7
+                "stars": 7,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -44,12 +54,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Official PyTorch implementation of DistiLLM: Towards Streamlined Distillation for Large Language Models (ICML 2024)",
+                "homepage": "https://arxiv.org/abs/2402.03898",
                 "id": 753564120,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2025-03-13T04:00:09Z",
+                "open_issues": 7,
                 "owner": "jongwooko",
                 "repo": "distillm",
-                "stars": 267
+                "stars": 267,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -60,12 +75,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 1334211813,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2026-08-14T13:36:15Z",
+                "open_issues": 0,
                 "owner": "EIT-NLP",
                 "repo": "PowerOPD",
-                "stars": 3
+                "stars": 3,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -76,12 +96,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "DAPD: Dual-Anchored Policy Distillation",
+                "homepage": null,
                 "id": 1321161662,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2026-08-10T16:03:06Z",
+                "open_issues": 0,
                 "owner": "uanu2002",
                 "repo": "DAPD",
-                "stars": 73
+                "stars": 73,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -92,12 +117,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 1322601241,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2026-08-14T04:47:21Z",
+                "open_issues": 0,
                 "owner": "yzc-666",
                 "repo": "TIDE",
-                "stars": 14
+                "stars": 14,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             }
@@ -115,12 +145,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 1133911459,
                 "language": null,
+                "license": null,
                 "last_commit": "2026-01-27T07:38:08Z",
+                "open_issues": 4,
                 "owner": "D2I-ai",
                 "repo": "dasd-thinking",
-                "stars": 105
+                "stars": 105,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -131,12 +166,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The official implementation of our preprint paper \"When Are Teacher Tokens Reliable? Position-Weighted On-Policy Self-Distillation for Reasoning\"",
+                "homepage": null,
                 "id": 1244210855,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-05-23T22:33:13Z",
+                "open_issues": 0,
                 "owner": "SaFo-Lab",
                 "repo": "PW-OPSD",
-                "stars": 9
+                "stars": 9,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -147,12 +187,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 1305678381,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2026-07-29T06:30:19Z",
+                "open_issues": 0,
                 "owner": "ZJU-REAL",
                 "repo": "Relay-OPD",
-                "stars": 48
+                "stars": 48,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             }
@@ -170,12 +215,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Official repository for the paper \"Learning beyond Teacher: Generalized On-Policy Distillation with Reward Extrapolation\"",
+                "homepage": null,
                 "id": 1156077864,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-05-28T15:30:35Z",
+                "open_issues": 2,
                 "owner": "RUCBM",
                 "repo": "G-OPD",
-                "stars": 291
+                "stars": 291,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -186,12 +236,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Explain in Your Own Words: Improving Reasoning via Token-Selective Dual Knowledge Distillation, The Fourteenth International Conference on Learning Representations (ICLR) 2026, Accepted",
+                "homepage": null,
                 "id": 1145221454,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-05-09T02:44:10Z",
+                "open_issues": 1,
                 "owner": "kmswin1",
                 "repo": "TSD-KD",
-                "stars": 13
+                "stars": 13,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -202,12 +257,22 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Official code for \"Breaking the Ceiling in On-Policy Distillation   via Multi-Agent Debate\" (arXiv:2605.01347). ",
+                "homepage": null,
                 "id": 1223535200,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-07-31T07:25:43Z",
+                "open_issues": 0,
                 "owner": "chiefovoavicii",
                 "repo": "MAD-OPD",
-                "stars": 36
+                "stars": 36,
+                "topics": [
+                  "agentic-ai",
+                  "multi-agent-systems",
+                  "multi-teacher-kd",
+                  "on-policy-distillation"
+                ]
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -218,12 +283,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Code for ACL 2025 Paper \"AlignDistil: Token-Level Language Model Alignment as Adaptive Policy Distillation\"",
+                "homepage": null,
                 "id": 1004979536,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2025-08-26T13:47:53Z",
+                "open_issues": 0,
                 "owner": "songmzhang",
                 "repo": "AlignDistil",
-                "stars": 4
+                "stars": 4,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -234,12 +304,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Code for the paper \"Distilling the Implicit Multi-Branch Structure in LLMs' Reasoning via Reinforcement Learning\" (AAAI-2026)",
+                "homepage": null,
                 "id": 1096838233,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2025-12-05T03:51:09Z",
+                "open_issues": 1,
                 "owner": "xsc1234",
                 "repo": "RLKD",
-                "stars": 0
+                "stars": 0,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -250,12 +325,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Official PyTorch implementation of the paper \"MemOPD: On-Policy Distillation through Memory State Alignment for Long-Horizon Agents\" (MemOPD).",
+                "homepage": null,
                 "id": 1330916268,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-08-11T14:19:00Z",
+                "open_issues": 0,
                 "owner": "TPssp",
                 "repo": "MemOPD",
-                "stars": 3
+                "stars": 3,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             }
@@ -279,12 +359,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "code for our paper Best of N teacher rollouts for on-policy distillation",
+                "homepage": null,
                 "id": 1234207967,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2026-05-13T03:02:43Z",
+                "open_issues": 0,
                 "owner": "BWGZK-keke",
                 "repo": "BRTS",
-                "stars": 8
+                "stars": 8,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -295,12 +380,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "The official implementation of the paper \"A Dual-Space Framework for General Knowledge Distillation of Large Language Models\".",
+                "homepage": null,
                 "id": 965900465,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2026-01-04T11:10:18Z",
+                "open_issues": 0,
                 "owner": "songmzhang",
                 "repo": "DSKDv2",
-                "stars": 18
+                "stars": 18,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -311,12 +401,23 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "An official implementation of \"PromptKD: Distilling Student-Friendly Knowledge for Generative Language Models via Prompt Tuning\" (EMNLP 2024 Findings) in PyTorch.",
+                "homepage": "https://promptkd.github.io",
                 "id": 819213825,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2024-11-28T07:12:50Z",
+                "open_issues": 2,
                 "owner": "gmkim-ai",
                 "repo": "PromptKD",
-                "stars": 13
+                "stars": 13,
+                "topics": [
+                  "deep-learning",
+                  "emnlp2024",
+                  "knowledge-distillation",
+                  "llms",
+                  "nlp"
+                ]
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -327,12 +428,29 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "General technology for enabling AI capabilities w/ LLMs and MLLMs",
+                "homepage": "https://aka.ms/GeneralAI",
                 "id": 577753426,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-07-25T06:15:21Z",
+                "open_issues": 119,
                 "owner": "microsoft",
                 "repo": "LMOps",
-                "stars": 4465
+                "stars": 4465,
+                "topics": [
+                  "agi",
+                  "gpt",
+                  "language-model",
+                  "llm",
+                  "lm",
+                  "lmops",
+                  "nlp",
+                  "pretraining",
+                  "prompt",
+                  "promptist",
+                  "x-prompt"
+                ]
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -343,12 +461,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Agentic Long-Horizon Planning",
+                "homepage": null,
                 "id": 1303649436,
                 "language": null,
+                "license": "Apache-2.0",
                 "last_commit": "2026-07-27T17:11:38Z",
+                "open_issues": 0,
                 "owner": "Quester-one",
                 "repo": "PlanPhysCode",
-                "stars": 13
+                "stars": 13,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -359,12 +482,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Weak-to-Strong On-Policy Distillation",
+                "homepage": null,
                 "id": 1310495687,
                 "language": null,
+                "license": null,
                 "last_commit": "2026-08-09T19:37:55Z",
+                "open_issues": 2,
                 "owner": "Yu-Fangxu",
                 "repo": "W2S-OPD",
-                "stars": 28
+                "stars": 28,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             }
@@ -382,12 +510,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Beyond SFT-to-RL: Pre-alignment via Black-BoxOn-Policy Distillation for Multimodal RL",
+                "homepage": null,
                 "id": 1220106304,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-05-06T05:52:20Z",
+                "open_issues": 2,
                 "owner": "XIAO4579",
                 "repo": "PRISM",
-                "stars": 99
+                "stars": 99,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -398,12 +531,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 1232488970,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-05-08T01:35:05Z",
+                "open_issues": 4,
                 "owner": "Peregrine123",
                 "repo": "ROPD_official",
-                "stars": 82
+                "stars": 82,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             }
@@ -423,12 +561,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": null,
+                    "homepage": null,
                     "id": 1185545777,
                     "language": "Python",
+                    "license": null,
                     "last_commit": "2026-08-28T19:17:36Z",
+                    "open_issues": 8,
                     "owner": "siyan-zhao",
                     "repo": "OPSD",
-                    "stars": 603
+                    "stars": 603,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
                 },
@@ -439,12 +582,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Personal realization of paper \"On-Policy Context Distillation for Language Models\" via Cursor",
+                    "homepage": null,
                     "id": 1173515784,
                     "language": "Python",
+                    "license": null,
                     "last_commit": "2026-03-06T08:34:35Z",
+                    "open_issues": 0,
                     "owner": "ZijunSong",
                     "repo": "On-Policy-Context-Distillation",
-                    "stars": 6
+                    "stars": 6,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
                 },
@@ -455,12 +603,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": null,
+                    "homepage": null,
                     "id": 1175049141,
                     "language": "Python",
+                    "license": null,
                     "last_commit": "2026-07-03T04:30:49Z",
+                    "open_issues": 5,
                     "owner": "HJSang",
                     "repo": "CRISP_Reasoning_Compression",
-                    "stars": 65
+                    "stars": 65,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
                 },
@@ -471,12 +624,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": null,
+                    "homepage": null,
                     "id": 1241596261,
                     "language": null,
+                    "license": null,
                     "last_commit": "2026-05-18T07:01:58Z",
+                    "open_issues": 1,
                     "owner": "zhyaoch",
                     "repo": "pi-play",
-                    "stars": 4
+                    "stars": 4,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
                 },
@@ -487,12 +645,23 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Crosslingual On-Policy Self-Distillation for Multilingual Reasoning",
+                    "homepage": null,
                     "id": 1234540984,
                     "language": "Python",
+                    "license": null,
                     "last_commit": "2026-05-12T07:18:18Z",
+                    "open_issues": 1,
                     "owner": "cisnlp",
                     "repo": "COPSD",
-                    "stars": 4
+                    "stars": 4,
+                    "topics": [
+                      "low-resource-languages",
+                      "multilingual",
+                      "multilingual-reasoning",
+                      "on-policy-distillation",
+                      "self-distillation"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
                 },
@@ -503,12 +672,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": null,
+                    "homepage": null,
                     "id": 1231018959,
                     "language": "Python",
+                    "license": null,
                     "last_commit": "2026-05-06T15:01:57Z",
+                    "open_issues": 2,
                     "owner": "zzy1127",
                     "repo": "OPHSD-On-Policy-Harness-Self-Distillation",
-                    "stars": 24
+                    "stars": 24,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
                 },
@@ -519,12 +693,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": null,
+                    "homepage": null,
                     "id": 1235607897,
                     "language": "Python",
+                    "license": "Apache-2.0",
                     "last_commit": "2026-05-21T14:25:59Z",
+                    "open_issues": 0,
                     "owner": "duykhuongnguyen",
                     "repo": "AVSD",
-                    "stars": 14
+                    "stars": 14,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
                 },
@@ -535,12 +714,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": null,
+                    "homepage": null,
                     "id": 1271624617,
                     "language": "Python",
+                    "license": null,
                     "last_commit": "2026-06-18T20:36:57Z",
+                    "open_issues": 0,
                     "owner": "carriegu0818",
                     "repo": "RCSD",
-                    "stars": 5
+                    "stars": 6,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
                 }
@@ -558,12 +742,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Source code to accompany research paper on training multi token prediction language models using self-distillation.",
+                    "homepage": null,
                     "id": 1150815898,
                     "language": "Python",
+                    "license": "Apache-2.0",
                     "last_commit": "2026-02-21T04:24:22Z",
+                    "open_issues": 1,
                     "owner": "jwkirchenbauer",
                     "repo": "mtp-lm",
-                    "stars": 39
+                    "stars": 39,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
                 },
@@ -574,12 +763,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Official implementation for \"Towards a Unified Self-Distillation Framework for Large Language Models\" (https://arxiv.org/abs/2605.06597).",
+                    "homepage": null,
                     "id": 1233349595,
                     "language": "Python",
+                    "license": "Apache-2.0",
                     "last_commit": "2026-06-13T18:53:52Z",
+                    "open_issues": 1,
                     "owner": "Ahren09",
                     "repo": "UniSD",
-                    "stars": 645
+                    "stars": 645,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
                 },
@@ -590,12 +784,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Vision-OPD is a regional-to-global on-policy self-distillation framework that transfers a model's own privileged crop-conditioned perception to its full-image policy, enabling fine-grained visual understanding in a single forward pass without external teachers, labels, or verifiers.",
+                    "homepage": null,
                     "id": 1237274132,
                     "language": "Python",
+                    "license": "Apache-2.0",
                     "last_commit": "2026-07-17T16:13:56Z",
+                    "open_issues": 7,
                     "owner": "VisionOPD",
                     "repo": "Vision-OPD",
-                    "stars": 294
+                    "stars": 294,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
                 },
@@ -606,12 +805,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": null,
+                    "homepage": null,
                     "id": 1250957646,
                     "language": "Python",
+                    "license": "Apache-2.0",
                     "last_commit": "2026-05-28T05:12:11Z",
+                    "open_issues": 0,
                     "owner": "ZiqiZhao1",
                     "repo": "ROSD",
-                    "stars": 36
+                    "stars": 36,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
                 },
@@ -622,12 +826,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Official implementation of “Better Starts, Better Ends: Bootstrapped Iterative Self-Reasoning Distillation for Compressed Reasoning.”",
+                    "homepage": null,
                     "id": 1302827376,
                     "language": "Python",
+                    "license": "MIT",
                     "last_commit": "2026-07-23T13:39:34Z",
+                    "open_issues": 0,
                     "owner": "KawhiC",
                     "repo": "BIRD",
-                    "stars": 2
+                    "stars": 2,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
                 },
@@ -638,12 +847,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": null,
+                    "homepage": null,
                     "id": 1321809775,
                     "language": "Python",
+                    "license": "Apache-2.0",
                     "last_commit": "2026-08-03T13:27:46Z",
+                    "open_issues": 1,
                     "owner": "rrrsj",
                     "repo": "SPEE",
-                    "stars": 1
+                    "stars": 1,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
                 },
@@ -654,12 +868,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Official code for Trajectory-Relative Hindsight Distillation for Agentic Reinforcement Learning.",
+                    "homepage": "https://arxiv.org/abs/2608.07371",
                     "id": 1326892824,
                     "language": "Python",
+                    "license": "MIT",
                     "last_commit": "2026-08-22T08:57:40Z",
+                    "open_issues": 0,
                     "owner": "Chihaya-Anon-chan",
                     "repo": "TRIAL",
-                    "stars": 5
+                    "stars": 5,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
                 }
@@ -677,12 +896,22 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Reinforcement Learning via Self-Distillation (SDPO)",
+                    "homepage": "https://self-distillation.github.io/SDPO",
                     "id": 1141366737,
                     "language": "Python",
+                    "license": "Apache-2.0",
                     "last_commit": "2026-07-01T13:51:47Z",
+                    "open_issues": 10,
                     "owner": "lasgroup",
                     "repo": "SDPO",
-                    "stars": 1077
+                    "stars": 1077,
+                    "topics": [
+                      "distillation",
+                      "llm",
+                      "reasoning",
+                      "rl"
+                    ]
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
                 }
@@ -709,12 +938,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "SCOPE: Signal-Calibrated On-Policy Distillation Enhancement with Dual-Path Adaptive Weighting",
+            "homepage": null,
             "id": 1208162710,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-06-22T06:00:20Z",
+            "open_issues": 7,
             "owner": "machine981",
             "repo": "SCOPE",
-            "stars": 29
+            "stars": 29,
+            "topics": []
           },
           "first_seen": "2026-08-28T21:05:04.438Z"
         },
@@ -725,12 +959,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "On Policy Distillation Build on top of Verl",
+            "homepage": null,
             "id": 1202211835,
             "language": "Python",
+            "license": null,
             "last_commit": "2026-05-25T21:26:59Z",
+            "open_issues": 3,
             "owner": "HJSang",
             "repo": "OPSD_OnPolicyDistillation",
-            "stars": 97
+            "stars": 97,
+            "topics": []
           },
           "first_seen": "2026-08-28T21:05:04.438Z"
         },
@@ -741,12 +980,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "[COLM 2026]TCOD: Exploring Temporal Curriculum in On-Policy Distillation for Multi-turn Autonomous Agents",
+            "homepage": null,
             "id": 1223492205,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-07-09T07:25:54Z",
+            "open_issues": 1,
             "owner": "kokolerk",
             "repo": "TCOD",
-            "stars": 108
+            "stars": 108,
+            "topics": []
           },
           "first_seen": "2026-08-28T21:05:04.438Z"
         },
@@ -757,12 +1001,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Uni-OPD: Unifying On-Policy Distillation with a Dual-Perspective Recipe",
+            "homepage": null,
             "id": 1237481249,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-06-10T17:00:35Z",
+            "open_issues": 5,
             "owner": "WenjinHou",
             "repo": "Uni-OPD",
-            "stars": 57
+            "stars": 57,
+            "topics": []
           },
           "first_seen": "2026-08-28T21:05:04.438Z"
         },
@@ -773,12 +1022,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": null,
+            "homepage": null,
             "id": 1276546290,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-06-29T00:34:25Z",
+            "open_issues": 0,
             "owner": "furiosa-ai",
             "repo": "async-opd",
-            "stars": 34
+            "stars": 34,
+            "topics": []
           },
           "first_seen": "2026-08-28T21:05:04.438Z"
         },
@@ -789,12 +1043,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A unified toolkit for pruning in AI model compression research.",
+            "homepage": null,
             "id": 1086325921,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2025-10-30T11:24:50Z",
+            "open_issues": 0,
             "owner": "icip-cas",
             "repo": "ShortX",
-            "stars": 10
+            "stars": 10,
+            "topics": []
           },
           "first_seen": "2026-08-28T21:05:04.438Z"
         },
@@ -805,12 +1064,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Official code for FutureBridge-OPD",
+            "homepage": null,
             "id": 1318167762,
             "language": "Python",
+            "license": "Apache-2.0",
             "last_commit": "2026-07-31T09:18:56Z",
+            "open_issues": 0,
             "owner": "ChenChiShui",
             "repo": "FutureBridge-OPD",
-            "stars": 24
+            "stars": 24,
+            "topics": []
           },
           "first_seen": "2026-08-28T21:05:04.438Z"
         },
@@ -821,12 +1085,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": null,
+            "homepage": null,
             "id": 1331890074,
             "language": "Python",
+            "license": "MIT",
             "last_commit": "2026-08-14T05:35:02Z",
+            "open_issues": 0,
             "owner": "Utaotao",
             "repo": "Simple-OPD",
-            "stars": 6
+            "stars": 6,
+            "topics": []
           },
           "first_seen": "2026-08-28T21:05:04.438Z"
         },
@@ -837,12 +1106,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "USD: Unified On-Policy Self-Distillation — jointly adapts soft token weighting and privileged-information strength under a shared learning-capacity budget.",
+            "homepage": null,
             "id": 1323970514,
             "language": "Python",
+            "license": null,
             "last_commit": "2026-08-08T06:33:02Z",
+            "open_issues": 0,
             "owner": "lauvlalala",
             "repo": "USD",
-            "stars": 0
+            "stars": 0,
+            "topics": []
           },
           "first_seen": "2026-08-28T21:05:04.438Z"
         }
@@ -861,12 +1135,21 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe",
+                "homepage": null,
                 "id": 1208510936,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2026-08-20T18:23:50Z",
+                "open_issues": 2,
                 "owner": "thunlp",
                 "repo": "OPD",
-                "stars": 969
+                "stars": 969,
+                "topics": [
+                  "llms",
+                  "mechanism",
+                  "on-policy-distillation"
+                ]
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             }
@@ -884,12 +1167,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Codebase for the work “Why Does Self-Distillation (Sometimes) Degrade the Reasoning Capability of LLMs?”",
+                "homepage": "https://beanie00.notion.site/why-does-self-distillation-degrade-reasoning?source=copy_link",
                 "id": 1186286951,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-04-14T13:34:21Z",
+                "open_issues": 1,
                 "owner": "beanie00",
                 "repo": "self-distillation-analysis",
-                "stars": 75
+                "stars": 75,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -900,12 +1188,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "CaOPD: Calibration-Aware On-Policy Distillation",
+                "homepage": null,
                 "id": 1198942525,
                 "language": "Python",
+                "license": "NOASSERTION",
                 "last_commit": "2026-06-02T18:59:49Z",
+                "open_issues": 1,
                 "owner": "SalesforceAIResearch",
                 "repo": "CaOPD",
-                "stars": 17
+                "stars": 17,
+                "topics": [
+                  "agent",
+                  "calibration",
+                  "confidence-estimation",
+                  "llm",
+                  "on-policy-distillation",
+                  "post-training",
+                  "uncertainty-quantification"
+                ]
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             }
@@ -929,12 +1230,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "MiMo-V2-Flash: Efficient Reasoning, Coding, and Agentic Foundation Model",
+                "homepage": null,
                 "id": 1116967234,
                 "language": null,
+                "license": "Apache-2.0",
                 "last_commit": "2026-01-08T04:53:37Z",
+                "open_issues": 22,
                 "owner": "XiaomiMiMo",
                 "repo": "MiMo-V2-Flash",
-                "stars": 1369
+                "stars": 1369,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -945,12 +1251,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Qwen3 is the large language model series developed by Qwen team, Alibaba Cloud.",
+                "homepage": null,
                 "id": 752925682,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2026-01-09T03:05:47Z",
+                "open_issues": 66,
                 "owner": "QwenLM",
                 "repo": "Qwen3",
-                "stars": 27565
+                "stars": 27566,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -961,12 +1272,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 1240213772,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-05-15T22:20:07Z",
+                "open_issues": 0,
                 "owner": "FYYFU",
                 "repo": "OPSA",
-                "stars": 16
+                "stars": 16,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             }
@@ -984,12 +1300,31 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "OpenClaw-RL: Train any agent simply by talking",
+                "homepage": "https://arxiv.org/abs/2603.10165",
                 "id": 1167576951,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-05-23T04:17:31Z",
+                "open_issues": 75,
                 "owner": "Gen-Verse",
                 "repo": "OpenClaw-RL",
-                "stars": 5658
+                "stars": 5658,
+                "topics": [
+                  "async",
+                  "coding",
+                  "grpo",
+                  "gui-application",
+                  "memory-systems",
+                  "on-policy-distillation",
+                  "open-claw",
+                  "openclaw-skills",
+                  "rlhf",
+                  "sglang",
+                  "skill-learning",
+                  "slime",
+                  "tinker"
+                ]
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -1000,12 +1335,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "HY-Embodied: Embodied Foundation Models for Real-World Agents",
+                "homepage": null,
                 "id": 1202005530,
                 "language": "Python",
+                "license": "NOASSERTION",
                 "last_commit": "2026-07-15T11:54:12Z",
+                "open_issues": 12,
                 "owner": "Tencent-Hunyuan",
                 "repo": "HY-Embodied",
-                "stars": 861
+                "stars": 861,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -1016,12 +1356,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "HyperEyes is a parallel multimodal search agent that fuses visual grounding and retrieval into a single atomic action, enabling concurrent search across multiple entities while treating inference efficiency as a first-class training objective.",
+                "homepage": null,
                 "id": 1233709504,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2026-05-23T11:17:58Z",
+                "open_issues": 1,
                 "owner": "DeepExperience",
                 "repo": "HyperEyes",
-                "stars": 74
+                "stars": 74,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -1032,12 +1377,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 1235310073,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2026-08-04T02:36:54Z",
+                "open_issues": 2,
                 "owner": "THU-AI4S",
                 "repo": "ProteinOPD",
-                "stars": 19
+                "stars": 19,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             },
@@ -1048,12 +1398,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "PyTorch-based open-source code for paper \"SOD: Step-wise On-policy Distillation for Small Language Model Agents\"",
+                "homepage": null,
                 "id": 1232776063,
                 "language": "Python",
+                "license": "Apache-2.0",
                 "last_commit": "2026-05-22T05:29:34Z",
+                "open_issues": 10,
                 "owner": "YoungZ365",
                 "repo": "SOD",
-                "stars": 159
+                "stars": 159,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             }
@@ -1077,12 +1432,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Post-training with Tinker",
+                "homepage": null,
                 "id": 1019793048,
                 "language": "Python",
-                "last_commit": "2026-08-28T20:56:44Z",
+                "license": "Apache-2.0",
+                "last_commit": "2026-08-29T00:03:44Z",
+                "open_issues": 112,
                 "owner": "thinking-machines-lab",
                 "repo": "tinker-cookbook",
-                "stars": 4061
+                "stars": 4063,
+                "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             }
@@ -1106,12 +1466,31 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A curated collection of papers and resources on On-Policy Distillation for Large Language Models.",
+                "homepage": null,
                 "id": 1201758422,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2026-08-12T06:58:26Z",
+                "open_issues": 4,
                 "owner": "nick7nlp",
                 "repo": "Awesome-LLM-On-Policy-Distillation",
-                "stars": 524
+                "stars": 524,
+                "topics": [
+                  "awesome-list",
+                  "awesome-opd",
+                  "awesomeopd",
+                  "github-pages",
+                  "knowledge-distillation",
+                  "large-language-models",
+                  "llm",
+                  "on-policy-distillation",
+                  "opd",
+                  "opd-survey",
+                  "opdhub",
+                  "rlhf",
+                  "survey"
+                ]
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
             }
@@ -1125,15 +1504,34 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-28T21:05:04.438Z",
+    "last_updated": "2026-08-29T04:40:58.009Z",
     "original_repository_info": {
       "archived": false,
+      "description": "A curated collection of papers and resources on On-Policy Distillation for Large Language Models.",
+      "homepage": null,
       "id": 1201758422,
       "language": "Python",
+      "license": "MIT",
       "last_commit": "2026-08-12T06:58:26Z",
+      "open_issues": 4,
       "owner": "nick7nlp",
       "repo": "Awesome-LLM-On-Policy-Distillation",
-      "stars": 524
+      "stars": 524,
+      "topics": [
+        "awesome-list",
+        "awesome-opd",
+        "awesomeopd",
+        "github-pages",
+        "knowledge-distillation",
+        "large-language-models",
+        "llm",
+        "on-policy-distillation",
+        "opd",
+        "opd-survey",
+        "opdhub",
+        "rlhf",
+        "survey"
+      ]
     },
     "original_repository_sha": "0222052fd35afd73075bac52b3a868ca6c1b626a",
     "enhanced_repository": "enhansome/enhansome-Awesome-LLM-On-Policy-Distillation",
