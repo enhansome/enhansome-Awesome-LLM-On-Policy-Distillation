@@ -105,7 +105,7 @@
                 "open_issues": 0,
                 "owner": "uanu2002",
                 "repo": "DAPD",
-                "stars": 74,
+                "stars": 76,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -221,7 +221,7 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-05-28T15:30:35Z",
-                "open_issues": 2,
+                "open_issues": 0,
                 "owner": "RUCBM",
                 "repo": "G-OPD",
                 "stars": 291,
@@ -437,7 +437,7 @@
                 "open_issues": 119,
                 "owner": "microsoft",
                 "repo": "LMOps",
-                "stars": 4466,
+                "stars": 4465,
                 "topics": [
                   "agi",
                   "gpt",
@@ -470,7 +470,7 @@
                 "open_issues": 0,
                 "owner": "Quester-one",
                 "repo": "PlanPhysCode",
-                "stars": 13,
+                "stars": 14,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -570,7 +570,7 @@
                     "open_issues": 8,
                     "owner": "siyan-zhao",
                     "repo": "OPSD",
-                    "stars": 601,
+                    "stars": 602,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
@@ -751,7 +751,7 @@
                     "open_issues": 1,
                     "owner": "jwkirchenbauer",
                     "repo": "mtp-lm",
-                    "stars": 39,
+                    "stars": 40,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
@@ -772,7 +772,7 @@
                     "open_issues": 1,
                     "owner": "Ahren09",
                     "repo": "UniSD",
-                    "stars": 648,
+                    "stars": 654,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
@@ -814,7 +814,7 @@
                     "open_issues": 0,
                     "owner": "ZiqiZhao1",
                     "repo": "ROSD",
-                    "stars": 37,
+                    "stars": 38,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
@@ -905,7 +905,7 @@
                     "open_issues": 10,
                     "owner": "lasgroup",
                     "repo": "SDPO",
-                    "stars": 1077,
+                    "stars": 1080,
                     "topics": [
                       "distillation",
                       "llm",
@@ -1144,7 +1144,7 @@
                 "open_issues": 2,
                 "owner": "thunlp",
                 "repo": "OPD",
-                "stars": 970,
+                "stars": 971,
                 "topics": [
                   "llms",
                   "mechanism",
@@ -1260,7 +1260,7 @@
                 "open_issues": 66,
                 "owner": "QwenLM",
                 "repo": "Qwen3",
-                "stars": 27568,
+                "stars": 27571,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1309,7 +1309,7 @@
                 "open_issues": 75,
                 "owner": "Gen-Verse",
                 "repo": "OpenClaw-RL",
-                "stars": 5658,
+                "stars": 5660,
                 "topics": [
                   "async",
                   "coding",
@@ -1344,7 +1344,7 @@
                 "open_issues": 12,
                 "owner": "Tencent-Hunyuan",
                 "repo": "HY-Embodied",
-                "stars": 862,
+                "stars": 863,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1437,11 +1437,11 @@
                 "id": 1019793048,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-08-29T06:32:43Z",
+                "last_commit": "2026-08-30T06:33:29Z",
                 "open_issues": 112,
                 "owner": "thinking-machines-lab",
                 "repo": "tinker-cookbook",
-                "stars": 4065,
+                "stars": 4067,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1475,7 +1475,7 @@
                 "open_issues": 4,
                 "owner": "nick7nlp",
                 "repo": "Awesome-LLM-On-Policy-Distillation",
-                "stars": 524,
+                "stars": 525,
                 "topics": [
                   "awesome-list",
                   "awesome-opd",
@@ -1504,7 +1504,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-29T14:55:32.280Z",
+    "last_updated": "2026-08-30T14:40:48.048Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated collection of papers and resources on On-Policy Distillation for Large Language Models.",
@@ -1516,7 +1516,7 @@
       "open_issues": 4,
       "owner": "nick7nlp",
       "repo": "Awesome-LLM-On-Policy-Distillation",
-      "stars": 524,
+      "stars": 525,
       "topics": [
         "awesome-list",
         "awesome-opd",
