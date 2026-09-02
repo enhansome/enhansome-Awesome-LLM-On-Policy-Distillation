@@ -196,7 +196,7 @@
                 "open_issues": 0,
                 "owner": "ZJU-REAL",
                 "repo": "Relay-OPD",
-                "stars": 49,
+                "stars": 52,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -224,7 +224,7 @@
                 "open_issues": 0,
                 "owner": "RUCBM",
                 "repo": "G-OPD",
-                "stars": 291,
+                "stars": 293,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -570,7 +570,7 @@
                     "open_issues": 8,
                     "owner": "siyan-zhao",
                     "repo": "OPSD",
-                    "stars": 605,
+                    "stars": 610,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
@@ -702,7 +702,7 @@
                     "open_issues": 0,
                     "owner": "duykhuongnguyen",
                     "repo": "AVSD",
-                    "stars": 14,
+                    "stars": 16,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
@@ -772,7 +772,7 @@
                     "open_issues": 1,
                     "owner": "Ahren09",
                     "repo": "UniSD",
-                    "stars": 664,
+                    "stars": 666,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
@@ -793,7 +793,7 @@
                     "open_issues": 7,
                     "owner": "VisionOPD",
                     "repo": "Vision-OPD",
-                    "stars": 297,
+                    "stars": 300,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
@@ -814,7 +814,7 @@
                     "open_issues": 0,
                     "owner": "ZiqiZhao1",
                     "repo": "ROSD",
-                    "stars": 40,
+                    "stars": 41,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1059,27 +1059,6 @@
         },
         {
           "node_type": "item",
-          "title": "🟡 Look Ahead Before You Distill: Future Trajectory Validation of Teacher Guidance for Agentic On-Policy Distillation",
-          "description": "📐 Qwen3-32B → Qwen3-1.7B; Future trajectory validation of teacher bridges for agentic on-policy distillation 2026",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "Official code for FutureBridge-OPD",
-            "homepage": null,
-            "id": 1318167762,
-            "language": "Python",
-            "license": "Apache-2.0",
-            "last_commit": "2026-07-31T09:18:56Z",
-            "open_issues": 0,
-            "owner": "ChenChiShui",
-            "repo": "FutureBridge-OPD",
-            "stars": 24,
-            "topics": []
-          },
-          "first_seen": "2026-08-28T21:05:04.438Z"
-        },
-        {
-          "node_type": "item",
           "title": "🟡 Simple-OPD: Demystifying Warm-up for On-policy Distillation",
           "description": "📐 Qwen3-8B-Base (DAPO-trained) → Qwen3-1.7B-Base; Systematic study of warm-up for OPD showing LoRA on teacher CoT is optimal initialization 2025",
           "children": [],
@@ -1094,7 +1073,7 @@
             "open_issues": 0,
             "owner": "Utaotao",
             "repo": "Simple-OPD",
-            "stars": 6,
+            "stars": 7,
             "topics": []
           },
           "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1144,7 +1123,7 @@
                 "open_issues": 2,
                 "owner": "thunlp",
                 "repo": "OPD",
-                "stars": 974,
+                "stars": 976,
                 "topics": [
                   "llms",
                   "mechanism",
@@ -1260,7 +1239,7 @@
                 "open_issues": 66,
                 "owner": "QwenLM",
                 "repo": "Qwen3",
-                "stars": 27585,
+                "stars": 27584,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1309,7 +1288,7 @@
                 "open_issues": 75,
                 "owner": "Gen-Verse",
                 "repo": "OpenClaw-RL",
-                "stars": 5663,
+                "stars": 5665,
                 "topics": [
                   "async",
                   "coding",
@@ -1437,11 +1416,11 @@
                 "id": 1019793048,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-01T10:46:31Z",
-                "open_issues": 112,
+                "last_commit": "2026-09-01T22:49:54Z",
+                "open_issues": 113,
                 "owner": "thinking-machines-lab",
                 "repo": "tinker-cookbook",
-                "stars": 4078,
+                "stars": 4081,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1475,7 +1454,7 @@
                 "open_issues": 4,
                 "owner": "nick7nlp",
                 "repo": "Awesome-LLM-On-Policy-Distillation",
-                "stars": 525,
+                "stars": 527,
                 "topics": [
                   "awesome-list",
                   "awesome-opd",
@@ -1504,7 +1483,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-01T14:30:58.418Z",
+    "last_updated": "2026-09-02T14:04:57.541Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated collection of papers and resources on On-Policy Distillation for Large Language Models.",
@@ -1516,7 +1495,7 @@
       "open_issues": 4,
       "owner": "nick7nlp",
       "repo": "Awesome-LLM-On-Policy-Distillation",
-      "stars": 525,
+      "stars": 527,
       "topics": [
         "awesome-list",
         "awesome-opd",
