@@ -105,7 +105,7 @@
                 "open_issues": 0,
                 "owner": "uanu2002",
                 "repo": "DAPD",
-                "stars": 84,
+                "stars": 86,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -224,7 +224,7 @@
                 "open_issues": 0,
                 "owner": "RUCBM",
                 "repo": "G-OPD",
-                "stars": 294,
+                "stars": 295,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -491,7 +491,7 @@
                 "open_issues": 2,
                 "owner": "Yu-Fangxu",
                 "repo": "W2S-OPD",
-                "stars": 30,
+                "stars": 31,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -570,7 +570,7 @@
                     "open_issues": 8,
                     "owner": "siyan-zhao",
                     "repo": "OPSD",
-                    "stars": 630,
+                    "stars": 632,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
@@ -772,7 +772,7 @@
                     "open_issues": 1,
                     "owner": "Ahren09",
                     "repo": "UniSD",
-                    "stars": 703,
+                    "stars": 707,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
@@ -905,7 +905,7 @@
                     "open_issues": 10,
                     "owner": "lasgroup",
                     "repo": "SDPO",
-                    "stars": 1094,
+                    "stars": 1096,
                     "topics": [
                       "distillation",
                       "llm",
@@ -1123,7 +1123,7 @@
                 "open_issues": 2,
                 "owner": "Thinking-Space",
                 "repo": "Rethinking-OPD",
-                "stars": 1003,
+                "stars": 1007,
                 "topics": [
                   "llms",
                   "mechanism",
@@ -1288,7 +1288,7 @@
                 "open_issues": 75,
                 "owner": "Gen-Verse",
                 "repo": "OpenClaw-RL",
-                "stars": 5675,
+                "stars": 5677,
                 "topics": [
                   "async",
                   "coding",
@@ -1323,7 +1323,7 @@
                 "open_issues": 12,
                 "owner": "Tencent-Hunyuan",
                 "repo": "HY-Embodied",
-                "stars": 866,
+                "stars": 868,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1416,11 +1416,11 @@
                 "id": 1019793048,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-12T06:31:45Z",
-                "open_issues": 123,
+                "last_commit": "2026-09-13T06:41:31Z",
+                "open_issues": 125,
                 "owner": "thinking-machines-lab",
                 "repo": "tinker-cookbook",
-                "stars": 4116,
+                "stars": 4120,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1483,7 +1483,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-12T13:21:06.802Z",
+    "last_updated": "2026-09-13T14:03:44.778Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated collection of papers and resources on On-Policy Distillation for Large Language Models.",
