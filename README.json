@@ -224,7 +224,7 @@
                 "open_issues": 1,
                 "owner": "RUCBM",
                 "repo": "G-OPD",
-                "stars": 298,
+                "stars": 297,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -434,10 +434,10 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-09-15T03:52:32Z",
-                "open_issues": 119,
+                "open_issues": 120,
                 "owner": "microsoft",
                 "repo": "LMOps",
-                "stars": 4475,
+                "stars": 4476,
                 "topics": [
                   "agi",
                   "gpt",
@@ -570,7 +570,7 @@
                     "open_issues": 7,
                     "owner": "siyan-zhao",
                     "repo": "OPSD",
-                    "stars": 651,
+                    "stars": 653,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
@@ -772,7 +772,7 @@
                     "open_issues": 1,
                     "owner": "Ahren09",
                     "repo": "UniSD",
-                    "stars": 743,
+                    "stars": 750,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
@@ -793,7 +793,7 @@
                     "open_issues": 7,
                     "owner": "VisionOPD",
                     "repo": "Vision-OPD",
-                    "stars": 319,
+                    "stars": 320,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
@@ -905,7 +905,7 @@
                     "open_issues": 11,
                     "owner": "lasgroup",
                     "repo": "SDPO",
-                    "stars": 1103,
+                    "stars": 1104,
                     "topics": [
                       "distillation",
                       "llm",
@@ -1239,7 +1239,7 @@
                 "open_issues": 22,
                 "owner": "XiaomiMiMo",
                 "repo": "MiMo-V2-Flash",
-                "stars": 1378,
+                "stars": 1381,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1260,7 +1260,7 @@
                 "open_issues": 68,
                 "owner": "QwenLM",
                 "repo": "Qwen3",
-                "stars": 27653,
+                "stars": 27657,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1407,7 +1407,7 @@
                 "open_issues": 10,
                 "owner": "YoungZ365",
                 "repo": "SOD",
-                "stars": 166,
+                "stars": 165,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1437,11 +1437,11 @@
                 "id": 1019793048,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-23T06:29:56Z",
-                "open_issues": 127,
+                "last_commit": "2026-09-24T06:29:40Z",
+                "open_issues": 128,
                 "owner": "thinking-machines-lab",
                 "repo": "tinker-cookbook",
-                "stars": 4144,
+                "stars": 4146,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1504,7 +1504,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-23T14:40:54.653Z",
+    "last_updated": "2026-09-24T14:37:53.937Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated collection of papers and resources on On-Policy Distillation for Large Language Models.",
