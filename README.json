@@ -166,12 +166,12 @@
               "children": [],
               "repo_info": {
                 "archived": false,
-                "description": "The official implementation of our preprint paper \"When Are Teacher Tokens Reliable? Position-Weighted On-Policy Self-Distillation for Reasoning\"",
+                "description": "[NeurIPS 2026] The official implementation of our preprint paper \"When Are Teacher Tokens Reliable? Position-Weighted On-Policy Self-Distillation for Reasoning\"",
                 "homepage": null,
                 "id": 1244210855,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-05-23T22:33:13Z",
+                "last_commit": "2026-09-25T06:01:32Z",
                 "open_issues": 0,
                 "owner": "SaFo-Lab",
                 "repo": "PW-OPSD",
@@ -224,7 +224,7 @@
                 "open_issues": 1,
                 "owner": "RUCBM",
                 "repo": "G-OPD",
-                "stars": 297,
+                "stars": 296,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -437,7 +437,7 @@
                 "open_issues": 120,
                 "owner": "microsoft",
                 "repo": "LMOps",
-                "stars": 4476,
+                "stars": 4475,
                 "topics": [
                   "agi",
                   "gpt",
@@ -772,7 +772,7 @@
                     "open_issues": 1,
                     "owner": "Ahren09",
                     "repo": "UniSD",
-                    "stars": 750,
+                    "stars": 753,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1239,7 +1239,7 @@
                 "open_issues": 22,
                 "owner": "XiaomiMiMo",
                 "repo": "MiMo-V2-Flash",
-                "stars": 1381,
+                "stars": 1384,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1260,7 +1260,7 @@
                 "open_issues": 68,
                 "owner": "QwenLM",
                 "repo": "Qwen3",
-                "stars": 27657,
+                "stars": 27656,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1309,7 +1309,7 @@
                 "open_issues": 75,
                 "owner": "Gen-Verse",
                 "repo": "OpenClaw-RL",
-                "stars": 5698,
+                "stars": 5700,
                 "topics": [
                   "async",
                   "coding",
@@ -1437,11 +1437,11 @@
                 "id": 1019793048,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-09-24T06:29:40Z",
-                "open_issues": 128,
+                "last_commit": "2026-09-24T15:39:24Z",
+                "open_issues": 127,
                 "owner": "thinking-machines-lab",
                 "repo": "tinker-cookbook",
-                "stars": 4146,
+                "stars": 4150,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1504,7 +1504,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-24T14:37:53.937Z",
+    "last_updated": "2026-09-25T14:59:31.213Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated collection of papers and resources on On-Policy Distillation for Large Language Models.",
