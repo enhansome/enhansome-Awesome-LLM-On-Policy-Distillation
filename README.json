@@ -132,7 +132,7 @@
         {
           "node_type": "item",
           "title": "When Top-K Misses the Decision: Tool-Call Drift in Multi-Teacher On-Policy Distillation",
-          "description": "This study audits truncated teacher-logit support in routed tool-use distillation. High retained teacher mass can omit a tool-entry token important to student updates. Restoring student-relevant support improves agreement with full-vocabulary descent, but reduced over-calling is accompanied by lower call recall. 2026-07-08 Analysis Repository",
+          "description": "The study diagnoses decision-critical coordinates omitted by teacher-only top-K support and compares support restoration with loss shaping. In the reported Qwen setting, Soft Clamp lowers over-calling from 14.2% to 9.0% while lowering required-call recall from 91.5% to 86.5%. 2026-07-08 Analysis Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -173,58 +173,8 @@
         },
         {
           "node_type": "item",
-          "title": "RLCSD: Reinforcement Learning with Contrastive On-Policy Self-Distillation",
-          "description": "RLCSD contrasts a self-teacher conditioned on correct versus incorrect same-query rollouts to reduce hint-induced style drift in sampled-token guidance. It uses that guidance to modulate a verifier-derived advantage in a clipped policy update, rather than directly minimizing contrastive reverse KL. 2026-06-10 Hybrid OPD Repository",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "Source code of paper \"RLCSD: Reinforcement Learning with Contrastive On-Policy Self-Distillation\"",
-            "homepage": "https://arxiv.org/abs/2606.11709",
-            "id": 1260025410,
-            "language": "Python",
-            "license": "MIT",
-            "last_commit": "2026-09-14T04:37:03Z",
-            "open_issues": 1,
-            "owner": "THU-BPM",
-            "repo": "RLCSD",
-            "stars": 113,
-            "topics": [
-              "large-language-models",
-              "llm",
-              "on-policy-distillation",
-              "opd",
-              "opsd",
-              "reinforcement-learning",
-              "self-distillation"
-            ]
-          },
-          "first_seen": "2026-10-05T19:03:38.723Z"
-        },
-        {
-          "node_type": "item",
-          "title": "Reinforcement Learning from Rich Feedback with Distributional DAgger",
-          "description": "DistIL queries a feedback-conditioned expert at prefixes visited by the student and minimizes forward cross-entropy, retaining a gradient term that credits earlier decisions for later disagreement. Its monotonic-improvement result concerns a better teacher and an idealized local update under stated assumptions. 2026-06-03 Interactive imitation Repository",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": null,
-            "homepage": null,
-            "id": 1248670614,
-            "language": "Python",
-            "license": null,
-            "last_commit": "2026-05-24T23:56:26Z",
-            "open_issues": 1,
-            "owner": "rishabh-1086",
-            "repo": "distIL",
-            "stars": 16,
-            "topics": []
-          },
-          "first_seen": "2026-10-05T19:03:38.723Z"
-        },
-        {
-          "node_type": "item",
           "title": "Self-Distilled Policy Gradient",
-          "description": "SDPG combines group-normalized verifier advantages with full-vocabulary reverse-KL self-distillation on student prefixes, using a detached, privileged-context branch of the same model. Distillation is gated to positive-advantage rollouts and accompanied by fixed-reference regularization; its policy-gradient identity applies locally at a sampled prefix. 2026-06-02 Hybrid OPD Repository",
+          "description": "SDPG combines outcome optimization, full-vocabulary reverse-KL matching to a privileged self-teacher, and fixed-reference regularization. Removing the teacher or reference component produces different accuracy, length, and entropy behavior in its mathematical-reasoning experiments. 2026-06-02 Hybrid OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -237,49 +187,7 @@
             "open_issues": 2,
             "owner": "lauyikfung",
             "repo": "SDPG",
-            "stars": 55,
-            "topics": []
-          },
-          "first_seen": "2026-10-05T19:03:38.723Z"
-        },
-        {
-          "node_type": "item",
-          "title": "Decomposed On-Policy Distillation for Vision-Language Reasoning: Steering Gradients for Visual Grounding",
-          "description": "For vision-language OPD, this work separates language-prior matching from visual grounding and examines their gradient directions. Its update adds visual-target distillation to standard reverse KL, with selective language preservation; the visual signal depends on differences between the teacher’s image-conditioned and text-only predictions. 2026-05-30 Direct OPD Repository",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": null,
-            "homepage": null,
-            "id": 1252040225,
-            "language": null,
-            "license": null,
-            "last_commit": "2026-05-28T06:17:55Z",
-            "open_issues": 4,
-            "owner": "hee-suk-yoon",
-            "repo": "Decomposed_OPD",
-            "stars": 7,
-            "topics": []
-          },
-          "first_seen": "2026-10-05T19:03:38.723Z"
-        },
-        {
-          "node_type": "item",
-          "title": "Not All Disagreement Is Learnable: Token Teachability in On-Policy Distillation",
-          "description": "A fixed-context diagnostic tests whether teacher–student disagreement predicts local KL reduction, separating teacher corrections on the student’s top candidates from largely off-support disagreement. The resulting selector applies reverse-KL distillation only at high-teachability positions on student rollouts; teachability measures local compatibility, not teacher reliability or answer-level success. 2026-05-26 Direct OPD Repository",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "The implementation of Teachability-Aware On-Policy Distillation (TA-OPD), the method introduced in Not All Disagreement Is Learnable: Token Teachability in On-Policy Distillation. ",
-            "homepage": null,
-            "id": 1245485177,
-            "language": "Python",
-            "license": null,
-            "last_commit": "2026-05-25T15:57:42Z",
-            "open_issues": 1,
-            "owner": "wyy-code",
-            "repo": "TA-OPD",
-            "stars": 19,
+            "stars": 56,
             "topics": []
           },
           "first_seen": "2026-10-05T19:03:38.723Z"
@@ -304,27 +212,6 @@
             "topics": []
           },
           "first_seen": "2026-08-28T21:05:04.438Z"
-        },
-        {
-          "node_type": "item",
-          "title": "Anti-Self-Distillation for Reasoning RL via Pointwise Mutual Information",
-          "description": "For student-sampled reasoning trajectories, this method adds a self-teacher signal to a verifiable-reward policy update, ascending Jensen–Shannon divergence to favor deliberative tokens disfavored by solution-conditioned predictions. Teacher-entropy gating suspends that term when its signal degrades; the induced token advantage is capped only on one side. 2026-05-12 Hybrid OPD Repository",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "Anti-Self-Distillation for Reasoning RL via Pointwise Mutual Information",
-            "homepage": null,
-            "id": 1235318463,
-            "language": "Python",
-            "license": "Apache-2.0",
-            "last_commit": "2026-05-14T06:39:00Z",
-            "open_issues": 2,
-            "owner": "FloyedShen",
-            "repo": "AntiSD",
-            "stars": 35,
-            "topics": []
-          },
-          "first_seen": "2026-10-05T19:03:38.723Z"
         },
         {
           "node_type": "item",
@@ -392,7 +279,7 @@
         {
           "node_type": "item",
           "title": "Distillation of Large Language Models via Concrete Score Matching",
-          "description": "Concrete Score Distillation matches weighted teacher–student logit differences across vocabulary pairs, allowing additive logit shifts. Factorized weights make gradient computation linear in vocabulary size. The objective requires a shared vocabulary and can complement on-policy training without itself requiring student rollouts. 2025-09-30 Offline comparator Repository",
+          "description": "Concrete Score Distillation matches weighted teacher–student logit differences across vocabulary pairs, allowing additive logit shifts. Factorized weights make gradient computation linear in vocabulary size. The objective requires a shared vocabulary and can complement on-policy training without itself requiring student rollouts. 2025-09-30 Direct OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -413,7 +300,7 @@
         {
           "node_type": "item",
           "title": "DistiLLM-2: A Contrastive Approach Boosts the Distillation of LLMs",
-          "description": "DistiLLM-2 applies skewed forward divergence to teacher-generated responses and skewed reverse divergence to student-generated responses, while adapting the skew and loss balance during training. Student responses are generated in batches before each epoch, rather than freshly for every update. 2025-03-10 Hybrid OPD Repository",
+          "description": "DistiLLM-2 applies skewed forward divergence to teacher-generated responses and skewed reverse divergence to student-generated responses. The paper proposes adaptive skew and loss weighting; student responses are generated before each epoch and reused within it. 2025-03-10 Direct OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -515,7 +402,7 @@
         {
           "node_type": "item",
           "title": "LastOPD: Taming Collapse in Latent On-Policy Distillation",
-          "description": "LastOPD aligns the student’s final pre-head representation with the teacher’s on student-generated responses, then fades that latent loss into token-level distillation. The crossfade is motivated by observed collapse under continued latent supervision in the tested cross-size model pairs. 2026-09-23 Hybrid OPD Repository",
+          "description": "LastOPD aligns the student’s final pre-head representation with the teacher’s on student-generated responses, then fades that latent loss into token-level distillation. The crossfade is motivated by observed collapse under continued latent supervision in the tested cross-size model pairs. 2026-09-23 Direct OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -577,6 +464,27 @@
         },
         {
           "node_type": "item",
+          "title": "Lightning Weave: Improving the Accuracy-Efficiency Frontier of Reasoning Models through Capability Composition",
+          "description": "Lightning Weave combines aligned policy shifts into an explicit target on cached student states and fits a finite-support log-residual loss. Its composition comparisons favor joint target construction over data mixing and sequential application, while full-vocabulary KL identities do not transfer unchanged to the implemented surrogate. 2026-09-13 Hybrid OPD Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1372301793,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-09-16T00:18:02Z",
+            "open_issues": 0,
+            "owner": "jet-ai-projects",
+            "repo": "Lightning-Weave",
+            "stars": 4,
+            "topics": []
+          },
+          "first_seen": "2026-10-06T16:29:51.331Z"
+        },
+        {
+          "node_type": "item",
           "title": "Learn from Whoever Is Right: Answer-Verified Multi-Teacher Distillation for Multi-Domain LLMs",
           "description": "MT-SDPO uses correct student peers as anchors and admits frozen teachers whose cached answers pass verification. Sanitized critiques condition a privileged moving-average self-teacher that supervises student tokens. The answer check does not certify subsequent critiques; evaluation uses multiple-choice science questions. 2026-09-02 Direct OPD Repository",
           "children": [],
@@ -608,7 +516,7 @@
         {
           "node_type": "item",
           "title": "OPD-V: Visual On-Policy Self-Distillation with Modality Balance",
-          "description": "OPD-V compares how zoomed and masked image views score tokens from the student’s original-image rollout. Positive score margins select and weight tokens for Jensen–Shannon matching to the zoomed-view self-teacher; training requires a task-relevant zoomed view from the data. 2026-08-05 Direct OPD Repository",
+          "description": "OPD-V uses an EMA self-teacher on an evidence-centered crop to supervise student rollouts from the original image. A positive log-probability margin over a masked-crop teacher both gates and weights Jensen–Shannon matching. The margin is a relative visual-context proxy, not a certificate of correctness or modality balance. 2026-08-05 Direct OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -625,6 +533,27 @@
             "topics": []
           },
           "first_seen": "2026-10-05T19:03:38.723Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Self-Improving Large Language Models via Progressive Experience Evolution",
+          "description": "SPEE consolidates experience from successful and failed trajectories into privileged self-teacher context for distillation on student-generated prefixes, followed by GRPO. Its reported single-round results support the combined experience-distillation recipe without establishing sustained improvement across repeated training cycles. 2026-08-03 Hybrid OPD Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1321809775,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-03T13:27:46Z",
+            "open_issues": 1,
+            "owner": "rrrsj",
+            "repo": "SPEE",
+            "stars": 1,
+            "topics": []
+          },
+          "first_seen": "2026-10-06T16:29:51.331Z"
         },
         {
           "node_type": "item",
@@ -670,29 +599,37 @@
         },
         {
           "node_type": "item",
-          "title": "Rethinking Reward Supervision: Rubric-Conditioned Self-Distillation",
-          "description": "This two-stage self-distillation pipeline first learns question-specific rubrics, then conditions a privileged teacher on them to guide the student at its own generated prefixes. The reasoner uses token-level forward KL rather than a scalar rubric reward; evaluation emphasizes scientific reasoning. 2026-06-17 Direct OPD Repository",
+          "title": "RLCSD: Reinforcement Learning with Contrastive On-Policy Self-Distillation",
+          "description": "RLCSD separately tests contrastive teacher targets within an OPSD plugin, using helpful and incorrect contexts to alter student-prefix supervision. That distillation experiment is distinct from the paper's main verifier-advantage modulation algorithm. 2026-06-10 Hybrid OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
-            "description": null,
-            "homepage": null,
-            "id": 1271624617,
+            "description": "Source code of paper \"RLCSD: Reinforcement Learning with Contrastive On-Policy Self-Distillation\"",
+            "homepage": "https://arxiv.org/abs/2606.11709",
+            "id": 1260025410,
             "language": "Python",
-            "license": null,
-            "last_commit": "2026-06-18T20:36:57Z",
-            "open_issues": 0,
-            "owner": "carriegu0818",
-            "repo": "RCSD",
-            "stars": 7,
-            "topics": []
+            "license": "MIT",
+            "last_commit": "2026-09-14T04:37:03Z",
+            "open_issues": 1,
+            "owner": "THU-BPM",
+            "repo": "RLCSD",
+            "stars": 113,
+            "topics": [
+              "large-language-models",
+              "llm",
+              "on-policy-distillation",
+              "opd",
+              "opsd",
+              "reinforcement-learning",
+              "self-distillation"
+            ]
           },
-          "first_seen": "2026-08-28T21:05:04.438Z"
+          "first_seen": "2026-10-05T19:03:38.723Z"
         },
         {
           "node_type": "item",
           "title": "Breaking the Tokenizer Barrier: On-Policy Distillation across Model Families",
-          "description": "Cross-tokenizer OPD aligns student rollouts and teacher retokenizations into minimal matching text chunks, then allocates teacher chunk log-likelihood across student tokens using their prior log-probabilities. The resulting advantages drive clipped policy updates; supervision relies on aligned text chunks rather than shared vocabulary coordinates. 2026-06-08 Direct OPD Repository",
+          "description": "This cross-tokenizer method aligns student responses and teacher retokenizations into synchronized text chunks, then distributes teacher path likelihoods across student tokens. Two post-SFT comparisons evaluate the full recipe; they do not prove optimal allocation or lossless vocabulary mapping. 2026-06-08 Direct OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -712,29 +649,8 @@
         },
         {
           "node_type": "item",
-          "title": "Teaching the Way, Not the Answer: Privileged Tutoring Distillation for Multimodal Policy Optimization",
-          "description": "For multimodal reasoning with verifiable rewards, a frozen, hint-conditioned self-teacher guides failed student rollouts through token-distribution matching while the student sees only the original question. Spatial and intermediate reasoning hints are prepared offline using answers, but are intended not to reveal them. 2026-06-05 Hybrid OPD Repository",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "The source code of PTD-PO",
-            "homepage": null,
-            "id": 1258897265,
-            "language": "Python",
-            "license": "Apache-2.0",
-            "last_commit": "2026-06-10T02:55:34Z",
-            "open_issues": 0,
-            "owner": "XszNeverSleep",
-            "repo": "PTD-PO",
-            "stars": 7,
-            "topics": []
-          },
-          "first_seen": "2026-10-05T19:03:38.723Z"
-        },
-        {
-          "node_type": "item",
           "title": "Data-Efficient Autoregressive-to-Diffusion Language Models via On-Policy Distillation",
-          "description": "A converted diffusion student samples its own reverse-denoising trajectory, then matches the frozen source autoregressive model’s token distributions at masked positions using causal prefixes from the completed student sequence. This addresses diffusion inference states, not ordinary autoregressive prefixes or agent turns. 2026-06-04 Direct OPD Repository",
+          "description": "OPDLM converts an autoregressive model into a diffusion language model by matching a frozen AR teacher at masked positions on student-generated denoising states. A block-size-four ablation finds comparable performance with random remasking of student completions, separating completion source from state selection. 2026-06-04 Direct OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -751,6 +667,69 @@
             "topics": []
           },
           "first_seen": "2026-10-05T19:03:38.723Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Learning Visual Spatial Planning from Symbolic State via Modality-Gap-Aware Self-Distillation",
+          "description": "MGSD supervises visual student rollouts with a frozen self-teacher that receives privileged symbolic states and reference plans. Ablations distinguish the roles of perceptual preparation, symbolic information, reference plans, and teacher stability in the tested spatial-planning tasks. 2026-06-04 Direct OPD Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Official code repository for MGSD: Learning Visual Spatial Planning from Symbolic State via Modality-Gap-Aware Self-Distillation.",
+            "homepage": null,
+            "id": 1258946398,
+            "language": "Python",
+            "license": "MIT",
+            "last_commit": "2026-06-05T03:14:56Z",
+            "open_issues": 1,
+            "owner": "Oranger-l",
+            "repo": "MGSD",
+            "stars": 22,
+            "topics": []
+          },
+          "first_seen": "2026-10-06T16:29:51.331Z"
+        },
+        {
+          "node_type": "item",
+          "title": "OPRD: On-Policy Representation Distillation",
+          "description": "OPRD matches teacher hidden states on student-generated responses, with an optional frozen low-rank bridge for different architectures. Same-architecture comparisons support representation supervision and measured resource benefits, while heterogeneous transfer does not uniformly outperform output-space OPD. 2026-06-04 Direct OPD Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "OPRD: On-Policy Representation Distillation (https://arxiv.org/abs/2606.06021)",
+            "homepage": null,
+            "id": 1259183090,
+            "language": "Python",
+            "license": null,
+            "last_commit": "2026-09-09T05:36:37Z",
+            "open_issues": 3,
+            "owner": "ShenzhiYang2000",
+            "repo": "OPRD",
+            "stars": 78,
+            "topics": []
+          },
+          "first_seen": "2026-10-06T16:29:51.331Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Weak Critics Make Strong Learners: On-Policy Critique Distillation for Scalable Oversight",
+          "description": "On-Policy Critique Distillation uses a weaker critic to condition a frozen view of the stronger student, which supplies token targets on filtered student answers. The alignment results support the complete filtering-and-distillation recipe, while the reasoning experiment's loss description remains unresolved. 2026-05-29 Direct OPD Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Weak Critics Make Strong Learners: On-Policy Critique Distillation (OPCD) for scalable oversight [ICML2026' at ai4math]",
+            "homepage": null,
+            "id": 1344343623,
+            "language": "Python",
+            "license": null,
+            "last_commit": "2026-08-24T00:18:27Z",
+            "open_issues": 0,
+            "owner": "jiakanglee",
+            "repo": "OPCD-Weak_critiques_strong",
+            "stars": 8,
+            "topics": []
+          },
+          "first_seen": "2026-10-06T16:29:51.331Z"
         },
         {
           "node_type": "item",
@@ -839,7 +818,7 @@
         {
           "node_type": "item",
           "title": "Vision-OPD: Learning to See Fine Details for Multimodal LLMs via On-Policy Self-Distillation",
-          "description": "A full-image student generates responses while a crop-conditioned self-teacher scores the same prefixes, and training minimizes token-level Jensen–Shannon divergence through the student alone. The method requires paired evidence-centered crops and fine-grained questions prepared for training, rather than discovering target regions at inference. 2026-05-18 Direct OPD Repository",
+          "description": "Vision-OPD uses an EMA teacher conditioned on a regional crop to supervise student rollouts from the full image with bounding-box and spatial-prompt guidance during training. Its default Jensen–Shannon objective uses student top-100 tokens plus a residual tail; comparisons evaluate the regional-to-global recipe. 2026-05-18 Direct OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -881,7 +860,7 @@
         {
           "node_type": "item",
           "title": "Multi-Rollout On-Policy Distillation via Peer Successes and Failures",
-          "description": "For each prompt, the student generates multiple rollouts that a verifier divides into successes and failures. A teacher uses other rollouts from the group to supervise each target rollout through token-level divergence; the approach depends on reliable success labels and available peers. 2026-05-12 Direct OPD Repository",
+          "description": "For each prompt, the student generates multiple rollouts that a verifier divides into successes and failures. A teacher uses other rollouts from the group to supervise each target rollout through token-level divergence; the approach depends on reliable success labels and available peers. 2026-05-12 Hybrid OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -929,7 +908,7 @@
         {
           "node_type": "item",
           "title": "Training with Harnesses: On-Policy Harness Self-Distillation for Complex Reasoning",
-          "description": "OPHSD trains on direct student rollouts while a teacher conditioned on a harness-produced terminal context supplies distillation targets. The harness can use privileged training information; evidence that the student works without it comes from the tested draft–verify and plan–solve settings, not arbitrary workflows. 2026-05-09 Direct OPD Repository",
+          "description": "OPHSD prepares teacher context through a dynamic reasoning harness and supervises direct student rollouts with a frozen initial teacher. Comparisons with static privileged context evaluate the complete preparation recipe, including additional harness computation. 2026-05-09 Direct OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -971,7 +950,7 @@
         {
           "node_type": "item",
           "title": "UniSD: Towards a Unified Self-Distillation Framework for Large Language Models",
-          "description": "On student-generated completions, UniSD studies reliability weighting across self-derived teacher views alongside EMA targets, token-level distribution matching, contrastive learning, representation matching, and divergence clipping. Its agreement views share one teacher model and require additional scoring rather than external verification. 2026-05-07 Direct OPD Repository",
+          "description": "UniSD compares self-distillation variants using EMA targets, contrastive supervision, representation matching, and divergence clipping. Task-dependent results inform comparison of these components; they do not establish a benefit from the sequence-agreement scalar that cancels under the stated normalization. 2026-05-07 Analysis Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -984,7 +963,7 @@
             "open_issues": 1,
             "owner": "Ahren09",
             "repo": "UniSD",
-            "stars": 792,
+            "stars": 794,
             "topics": []
           },
           "first_seen": "2026-08-28T21:05:04.438Z"
@@ -992,7 +971,7 @@
         {
           "node_type": "item",
           "title": "MAD-OPD: Breaking the Ceiling in On-Policy Distillation via Multi-Agent Debate",
-          "description": "MAD-OPD has teachers debate a student-visited state, then score the sampled student action with privileged debate context. Confidence-weighted token losses use symmetric Jensen–Shannon divergence for agent tasks and reverse KL for code; training depends on teacher deliberation and confidence estimates. 2026-05-02 Direct OPD Repository",
+          "description": "MAD-OPD uses a confidence-weighted sum of losses to debate-conditioned teachers. Agent training uses sampled actions on ToolACE step instances; complete histories need not come from the current student. Debate alone helps code but slightly lowers the agentic ablation average, while confidence weighting helps both. 2026-05-02 Direct OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1014,6 +993,48 @@
             ]
           },
           "first_seen": "2026-08-28T21:05:04.438Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Learn where to Click from Yourself: On-Policy Self-Distillation for GUI Grounding",
+          "description": "GUI-SD compares privileged visual interfaces for GUI grounding. Its box-and-hint condition yields higher student grounding accuracy than textual coordinates despite lower teacher accuracy, showing that teacher accuracy alone does not determine transfer utility in the tested setting. 2026-05-01 Analysis Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1228512152,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-09-25T07:21:50Z",
+            "open_issues": 0,
+            "owner": "zhangyan-ucas",
+            "repo": "GUI-SD-code",
+            "stars": 15,
+            "topics": []
+          },
+          "first_seen": "2026-10-06T16:29:51.331Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Beyond SFT-to-RL: Pre-alignment via Black-Box On-Policy Distillation for Multimodal RL",
+          "description": "PRISM inserts an adversarial pre-alignment stage between multimodal SFT and verifiable-reward RL, using separate perception and reasoning discriminators. Stage and discriminator comparisons support this teacher-mediated training recipe without establishing exact distribution matching or complete correction of rollout shift. 2026-04-30 Teacher-mediated RL Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "[NeurIPS 2026] Beyond SFT-to-RL: Pre-alignment via Black-BoxOn-Policy Distillation for Multimodal RL",
+            "homepage": null,
+            "id": 1220106304,
+            "language": "Python",
+            "license": "MIT",
+            "last_commit": "2026-05-06T05:52:20Z",
+            "open_issues": 1,
+            "owner": "XIAO4579",
+            "repo": "PRISM",
+            "stars": 101,
+            "topics": []
+          },
+          "first_seen": "2026-10-06T16:29:51.331Z"
         },
         {
           "node_type": "item",
@@ -1094,7 +1115,7 @@
             "open_issues": 11,
             "owner": "lasgroup",
             "repo": "SDPO",
-            "stars": 1109,
+            "stars": 1110,
             "topics": [
               "distillation",
               "llm",
@@ -1107,7 +1128,7 @@
         {
           "node_type": "item",
           "title": "Self-Distilled Reasoner: On-Policy Self-Distillation for Large Language Models",
-          "description": "OPSD compares next-token distributions on a problem-only student’s own rollouts with those of the same model given a reference solution, updating only the student side. Its reasoning experiments use a frozen initial teacher target and show weaker results at the smallest tested scale. 2026-01-26 Direct OPD Repository",
+          "description": "OPSD distills a reference-solution-conditioned teacher into a problem-only student on the student’s rollout prefixes. Its main experiments freeze the initial teacher and use full-vocabulary forward KL with pointwise clipping; the reported selected-checkpoint comparisons favor OPSD over GRPO at 1.7B, 4B, and 8B. 2026-01-26 Direct OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1148,8 +1169,41 @@
         },
         {
           "node_type": "item",
+          "title": "Black-Box On-Policy Distillation of Large Language Models",
+          "description": "GAD trains a discriminator to score teacher responses above current student responses, then uses its scalar score as reinforcement-learning feedback for student rollouts. This permits black-box teacher access, but the feedback is a learned response-level proxy, not teacher token probabilities. 2025-11-13 Teacher-mediated RL Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "General technology for enabling AI capabilities w/ LLMs and MLLMs",
+            "homepage": "https://aka.ms/GeneralAI",
+            "id": 577753426,
+            "language": "Python",
+            "license": "MIT",
+            "last_commit": "2026-09-15T03:52:32Z",
+            "open_issues": 120,
+            "owner": "microsoft",
+            "repo": "LMOps",
+            "stars": 4476,
+            "topics": [
+              "agi",
+              "gpt",
+              "language-model",
+              "llm",
+              "lm",
+              "lmops",
+              "nlp",
+              "pretraining",
+              "prompt",
+              "promptist",
+              "x-prompt"
+            ]
+          },
+          "first_seen": "2026-08-28T21:05:04.438Z"
+        },
+        {
+          "node_type": "item",
           "title": "A Dual-Space Framework for General Knowledge Distillation of Large Language Models",
-          "description": "DSKD projects teacher and student hidden states into each other’s representation spaces so distributions compared in each space share a prediction head; it also trains one projector with cross-entropy. It supports student-generated training, but cross-tokenizer distillation uses only exactly aligned token positions. 2025-04-15 Hybrid OPD Repository",
+          "description": "DSKD constructs comparable teacher and student output spaces through learned projections. Cross-tokenizer losses use exactly aligned positions; the student-space term also masks positions where the projected teacher fails to reproduce its top prediction. The method does not provide a lossless mapping between arbitrary tokenizers. 2025-04-15 Direct OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1202,6 +1256,48 @@
       "items": [
         {
           "node_type": "item",
+          "title": "Miles v0.1: Production-Level Post-Training",
+          "description": "Miles integrates teacher log-probability scoring with configurable advantage estimators through served and in-process deployment paths. Its OPD contribution is the scoring and routing interface with explicit tokenizer and architecture constraints, while a five-step example demonstrates use without establishing a system speedup. 2026-09-08 Direct OPD Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Miles is an enterprise-facing reinforcement learning framework for LLM and VLM post-training, forked from and co-evolving with slime.",
+            "homepage": "https://miles.radixark.com",
+            "id": 1072725553,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-10-06T10:31:45Z",
+            "open_issues": 1045,
+            "owner": "radixark",
+            "repo": "miles",
+            "stars": 3051,
+            "topics": []
+          },
+          "first_seen": "2026-10-06T16:29:51.331Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Revisiting Complete Reasoning Traces for Post-Training",
+          "description": "A small OPD comparison tests masking the middle 20% of tokens or reasoning steps against unmasked supervision. Step masking gives the highest reported average, while MATH-500 declines, illustrating a setting-dependent tradeoff in supervision coverage. 2026-09-07 Analysis Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "EMNLP 2026 Findings",
+            "homepage": null,
+            "id": 1351996666,
+            "language": null,
+            "license": null,
+            "last_commit": "2026-08-31T04:41:59Z",
+            "open_issues": 1,
+            "owner": "naver-ai",
+            "repo": "revisiting-trace",
+            "stars": 3,
+            "topics": []
+          },
+          "first_seen": "2026-10-05T19:03:38.723Z"
+        },
+        {
+          "node_type": "item",
           "title": "Sequential Beats Joint: On the Interplay between On-Policy Distillation and RLVR",
           "description": "This study compares distillation followed by verifier-reward reinforcement learning with joint updates. On logic and mathematics tasks, reverse-KL distillation expands coverage of teacher-supported solutions and subsequent reinforcement learning sharpens that support; this explanation is based on the evaluated training settings. 2026-09-03 Hybrid OPD Repository",
           "children": [],
@@ -1244,6 +1340,27 @@
         },
         {
           "node_type": "item",
+          "title": "Better Starts, Better Ends: Bootstrapped Iterative Self-Reasoning Distillation for Compressed Reasoning",
+          "description": "BIRD first learns verified concise self-generated traces, then performs on-policy matching to a conciseness-conditioned self-teacher. Stage and order comparisons favor this warm start under the reported accuracy-length metric, without isolating prefix quality as the causal mediator. 2026-07-17 Direct OPD Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Official implementation of “Better Starts, Better Ends: Bootstrapped Iterative Self-Reasoning Distillation for Compressed Reasoning.”",
+            "homepage": null,
+            "id": 1302827376,
+            "language": "Python",
+            "license": "MIT",
+            "last_commit": "2026-07-23T13:39:34Z",
+            "open_issues": 0,
+            "owner": "KawhiC",
+            "repo": "BIRD",
+            "stars": 2,
+            "topics": []
+          },
+          "first_seen": "2026-10-06T16:29:51.331Z"
+        },
+        {
+          "node_type": "item",
           "title": "ShortOPD: Recovering Pruned LLMs with Short-to-Long On-Policy Distillation",
           "description": "ShortOPD recovers a structurally pruned student by distilling its pre-pruning self on student-generated rollouts. A controller shortens future rollout horizons when terminal repetition is high and grows them when clean rollouts hit the limit; detected suffixes do not mask the current batch’s loss. 2026-07-14 Direct OPD Repository 1Repository 2",
           "children": [],
@@ -1266,7 +1383,7 @@
         {
           "node_type": "item",
           "title": "AsyncOPD: How Stale Can On-Policy Distillation Be?",
-          "description": "AsyncOPD studies stale student rollouts when teacher scores are cached for limited token sets, then overlaps rollout, teacher scoring and learning. For reverse-KL updates it refreshes the student-dependent advantage and averages importance-weighted local token samples; this addresses sampled actions at fixed prefixes, not stale prefixes. 2026-06-23 Hybrid OPD Repository",
+          "description": "AsyncOPD studies stale student rollouts when teacher scores are cached for limited token sets, then overlaps rollout, teacher scoring and learning. For reverse-KL updates it refreshes the student-dependent advantage and averages importance-weighted local token samples; this addresses sampled actions at fixed prefixes, not stale prefixes. 2026-06-23 Direct OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1287,7 +1404,7 @@
         {
           "node_type": "item",
           "title": "Filter, Then Reweight: Rethinking Optimization Granularity in On-Policy Distillation",
-          "description": "FiRe-OPD discards student-generated trajectories with low average teacher likelihood, then softly reweights token updates in retained trajectories using teacher confidence and student uncertainty. Its PPO-style clipped update uses teacher–old-policy token log-likelihood differences; the filtering does not avoid generating the discarded trajectories. 2026-06-01 Direct OPD Repository",
+          "description": "FiRe-OPD filters student trajectories by mean teacher likelihood, then reweights retained token updates using teacher confidence and student uncertainty. Component and filtering-rate comparisons evaluate the two-level recipe; increasing the filtering rate does not monotonically improve results. 2026-06-01 Direct OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1307,8 +1424,92 @@
         },
         {
           "node_type": "item",
+          "title": "Not All Disagreement Is Learnable: Token Teachability in On-Policy Distillation",
+          "description": "Teachability-Aware OPD weights disagreement by teacher mass on student candidate support to select supervision positions. Fixed-token-budget benchmark comparisons test the resulting allocation rule; its diagnostic gain conventions and one appendix setting label require care. 2026-05-26 Analysis Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "The implementation of Teachability-Aware On-Policy Distillation (TA-OPD), the method introduced in Not All Disagreement Is Learnable: Token Teachability in On-Policy Distillation. ",
+            "homepage": null,
+            "id": 1245485177,
+            "language": "Python",
+            "license": null,
+            "last_commit": "2026-05-25T15:57:42Z",
+            "open_issues": 1,
+            "owner": "wyy-code",
+            "repo": "TA-OPD",
+            "stars": 19,
+            "topics": []
+          },
+          "first_seen": "2026-10-05T19:03:38.723Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Backtracking When It Strays: Mitigating Dual Exposure Biases in LLM Reasoning Distillation",
+          "description": "MOTAB monitors student reasoning, backtracks when teacher likelihood crosses an adaptive boundary, and generates a corrective continuation from an earlier prefix. Training retains the student's deviation before the correction, and module ablations support backtracking and stitching without proving that the boundary certifies logical validity. 2026-05-19 Hybrid OPD Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1224191601,
+            "language": "Python",
+            "license": null,
+            "last_commit": "2026-04-29T03:35:57Z",
+            "open_issues": 0,
+            "owner": "wangbing1416",
+            "repo": "MOTAB",
+            "stars": 2,
+            "topics": []
+          },
+          "first_seen": "2026-10-06T16:29:51.331Z"
+        },
+        {
+          "node_type": "item",
+          "title": "MixSD: Mixed Contextual Self-Distillation for Knowledge Injection",
+          "description": "MixSD constructs a single offline collection of shared-prefix targets by mixing the initial model's factual-context and prompt-only conditionals, then fits the retained targets with NLL. Independent OPSD diagnostics examine memorization and capability retention, with MIXSD-KL underfitting kept distinct from OPSD results. 2026-05-16 Hybrid OPD Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1245320778,
+            "language": "Python",
+            "license": "MIT",
+            "last_commit": "2026-06-30T20:26:34Z",
+            "open_issues": 0,
+            "owner": "jiarui-liu",
+            "repo": "MixSD",
+            "stars": 8,
+            "topics": []
+          },
+          "first_seen": "2026-10-06T16:29:51.331Z"
+        },
+        {
+          "node_type": "item",
+          "title": "On-Policy Distillation with Best-of-N Teacher Rollout Selection",
+          "description": "BRTS supplements student-prefix distillation with a teacher-prefix branch selected for answer correctness and compatibility with the student. A recovery comparison supports answer-guided teacher resampling on difficult prompts, while the independent value of the compatibility tie-breaker remains unisolated. 2026-05-10 Hybrid OPD Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "code for our paper Best of N teacher rollouts for on-policy distillation",
+            "homepage": null,
+            "id": 1234207967,
+            "language": "Python",
+            "license": null,
+            "last_commit": "2026-05-13T03:02:43Z",
+            "open_issues": 0,
+            "owner": "BWGZK-keke",
+            "repo": "BRTS",
+            "stars": 8,
+            "topics": []
+          },
+          "first_seen": "2026-10-06T16:29:51.331Z"
+        },
+        {
+          "node_type": "item",
           "title": "Uni-OPD: Unifying On-Policy Distillation with a Dual-Perspective Recipe",
-          "description": "Uni-OPD trains on student rollouts, balances prompt difficulty and correct versus incorrect outcomes, then calibrates teacher–student log-probability returns against correctness before policy-gradient updates. Outcome labels are part of the update, so this is not solely token-level teacher matching. 2026-05-05 Hybrid OPD Repository",
+          "description": "Uni-OPD combines offline difficulty balancing and batch-level correctness balancing with outcome calibration of trajectory-average teacher–student log-ratio returns. Each calibrated return is broadcast to the trajectory’s token advantages; component ablations examine the combined recipe. 2026-05-05 Hybrid OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1325,6 +1526,27 @@
             "topics": []
           },
           "first_seen": "2026-08-28T21:05:04.438Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Hybrid Policy Distillation for LLMs",
+          "description": "HPD is evaluated as offline-prefix initialization for a later rollout-based OPD stage. The study compares HPD and SFT starts and reports stronger subsequent OPD results from HPD, without making the offline HPD procedure itself an on-policy trajectory method. 2026-04-22 Analysis Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "[ICML 2026] Hybrid Policy Distillation (HPD) is a practical distillation framework for reasoning-oriented language models. This repository contains the code, configurations, and experiment assets for the project.",
+            "homepage": null,
+            "id": 1187797943,
+            "language": "Python",
+            "license": null,
+            "last_commit": "2026-04-24T08:20:47Z",
+            "open_issues": 1,
+            "owner": "zwhong714",
+            "repo": "Hybrid-Policy-Distillation",
+            "stars": 24,
+            "topics": []
+          },
+          "first_seen": "2026-10-06T16:29:51.331Z"
         },
         {
           "node_type": "item",
@@ -1350,7 +1572,7 @@
         {
           "node_type": "item",
           "title": "Lightning OPD: Efficient Post-Training for Large Reasoning Models with Offline On-Policy Distillation",
-          "description": "Lightning OPD reuses fixed rollouts from a supervised-fine-tuned reference and cached teacher log-probabilities, updating the student without live teacher scoring. Its offline approximation uses the same teacher for fine-tuning data and scoring; rollouts are not refreshed from the evolving student. 2026-04-14 Offline comparator Repository",
+          "description": "Lightning OPD caches teacher scores on initial-student rollouts and reuses them during student-only optimization. Its experiments compare refresh costs and cross-stage teacher pairings, without establishing that arbitrary cached supervision is equivalent to fresh OPD. 2026-04-14 Hybrid OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1370,50 +1592,87 @@
         },
         {
           "node_type": "item",
-          "title": "SCOPE: Signal-Calibrated On-Policy Distillation Enhancement with Dual-Path Adaptive Weighting",
-          "description": "This method routes verified student rollouts by correctness: incorrect responses receive teacher-perplexity-weighted token distillation, while correct responses receive student-perplexity-weighted likelihood training. Weights are normalized within each prompt group; the reported diversity evidence comes from sampled mathematical reasoning evaluations, not a general guarantee against collapse. 2026-04-12 Hybrid OPD Repository",
+          "title": "Towards On-Policy SFT: Distribution Discriminant Theory and its Applications in LLM Training",
+          "description": "Hinted Decoding constructs training traces by mixing answer-conditioned and question-only predictions from the same model at shared prefixes. Adaptive mixing and an answer-region switch improve the tested supervised-training recipe, but the traces are collected before optimization rather than refreshed throughout training. 2026-02-12 Hybrid OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
-            "description": "SCOPE: Signal-Calibrated On-Policy Distillation Enhancement with Dual-Path Adaptive Weighting",
+            "description": null,
             "homepage": null,
-            "id": 1208162710,
+            "id": 1149456710,
             "language": "Python",
-            "license": "Apache-2.0",
-            "last_commit": "2026-06-22T06:00:20Z",
-            "open_issues": 7,
-            "owner": "machine981",
-            "repo": "SCOPE",
-            "stars": 29,
+            "license": null,
+            "last_commit": "2026-03-26T05:35:50Z",
+            "open_issues": 4,
+            "owner": "zhangmiaosen2000",
+            "repo": "Towards-On-Policy-SFT",
+            "stars": 27,
             "topics": []
           },
-          "first_seen": "2026-08-28T21:05:04.438Z"
+          "first_seen": "2026-10-06T16:29:51.331Z"
         },
         {
           "node_type": "item",
-          "title": "Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models",
-          "description": "SPIN repeatedly generates responses from a previous version of a supervised fine-tuned model and trains the next version to favor existing human demonstrations over those responses. Its comparison target is a fixed demonstration dataset, not a teacher’s token distributions on current student rollouts. 2024-01-02 Background Repository",
+          "title": "Making Expert Reasoning Learnable with Self-Distillation",
+          "description": "DAIL uses an expert-solution-conditioned self-teacher to accept or replace student proposals and then trains on the collected prefixes with a negative-reference contrast. Its sampling and objective comparisons support the tested construction, with mixed generation helping long-reasoning models more consistently than shorter-reasoning variants. 2026-02-02 Hybrid OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
-            "description": "The official implementation of Self-Play Fine-Tuning (SPIN)",
-            "homepage": "https://uclaml.github.io/SPIN/",
-            "id": 752815135,
+            "description": null,
+            "homepage": null,
+            "id": 1148146082,
             "language": "Python",
-            "license": "Apache-2.0",
-            "last_commit": "2024-05-08T05:59:37Z",
-            "open_issues": 24,
-            "owner": "uclaml",
-            "repo": "SPIN",
-            "stars": 1253,
-            "topics": [
-              "deep-learning",
-              "fine-tuning",
-              "large-language-models",
-              "self-play"
-            ]
+            "license": "MIT",
+            "last_commit": "2026-06-09T05:59:19Z",
+            "open_issues": 2,
+            "owner": "ethanm88",
+            "repo": "DAIL",
+            "stars": 1,
+            "topics": []
           },
-          "first_seen": "2026-10-05T19:03:38.723Z"
+          "first_seen": "2026-10-06T16:29:51.331Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Self-Distillation Enables Continual Learning",
+          "description": "SDFT distills a demonstration-conditioned EMA teacher on fresh student rollouts. Its practical experiments use full-vocabulary forward KL despite the paper’s reverse-KL motivation; they study continual skill and knowledge adaptation, rely on effective in-context learning, and reduce rather than eliminate forgetting. 2026-01-27 Direct OPD Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1144658404,
+            "language": "Python",
+            "license": null,
+            "last_commit": "2026-04-07T20:14:25Z",
+            "open_issues": 7,
+            "owner": "idanshen",
+            "repo": "Self-Distillation",
+            "stars": 714,
+            "topics": []
+          },
+          "first_seen": "2026-10-06T16:29:51.331Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Distribution-Aligned Sequence Distillation for Superior Long-CoT Reasoning",
+          "description": "DASD includes a mixed-policy stage in which a teacher completes retained prefixes from student-generated reasoning traces. Its masking comparison studies whether retaining the student segment helps subsequent fine-tuning, alongside substantial offline sequence-distillation stages. 2026-01-14 Hybrid OPD Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1133911459,
+            "language": null,
+            "license": null,
+            "last_commit": "2026-01-27T07:38:08Z",
+            "open_issues": 4,
+            "owner": "D2I-ai",
+            "repo": "dasd-thinking",
+            "stars": 105,
+            "topics": []
+          },
+          "first_seen": "2026-10-06T16:29:51.331Z"
         }
       ],
       "title": "Data and training dynamics"
@@ -1507,8 +1766,29 @@
         },
         {
           "node_type": "item",
+          "title": "UI-MOPD: Multi-Platform On-Policy Distillation for Unified GUI Agents",
+          "description": "UI-MOPD routes desktop and mobile student rollouts to platform-specialized teachers and combines sampled-token guidance with task rewards. Routing and reward-conditioned masking improve balanced performance over the tested unified-teacher, random-routing, and unmasked alternatives. 2026-07-05 Hybrid OPD Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "UI-MOPD Official Implementation",
+            "homepage": "https://elispectre.github.io/UI-MOPD/",
+            "id": 1281996945,
+            "language": "Python",
+            "license": null,
+            "last_commit": "2026-08-10T10:13:54Z",
+            "open_issues": 3,
+            "owner": "EliSpectre",
+            "repo": "UI-MOPD",
+            "stars": 60,
+            "topics": []
+          },
+          "first_seen": "2026-10-06T16:29:51.331Z"
+        },
+        {
+          "node_type": "item",
           "title": "UCOB: Learning to Utilize and Evolve Agentic Skills via Credit-Aware On-Policy Bidirectional Self-Distillation",
-          "description": "UCOB collects skill-conditioned and unconditioned on-policy agent rollouts, compares return-to-go at matched task and anchor states, and distills the higher-return view’s stopped token distribution into the other alongside RL. The teacher direction can reverse; comparisons depend on matching states. 2026-06-28 Hybrid OPD Repository",
+          "description": "UCOB collects skill-conditioned and no-skill agent rollouts and groups records by task and anchor state. The highest-return sampled record selects a reference view, whose stopped token distribution supervises the opposite view on the winning response’s prefixes, alongside RL and skill-memory updates. Teacher direction can reverse. 2026-06-28 Hybrid OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1529,7 +1809,7 @@
         {
           "node_type": "item",
           "title": "World Models Meet Language Models: On the Complementarity of Concrete and Abstract Reasoning",
-          "description": "PF-OPSD trains a student to invoke, check, and use world-model simulations for visual future prediction. A privileged evaluator scores student trajectories using true future videos and answers; those scores supervise decisions and text, while the evaluator and true futures remain unavailable at deployment. 2026-06-02 Teacher-mediated RL Repository",
+          "description": "An external privileged evaluator sees future video and answers when scoring candidate actions at student-visited decision states. Discrete nodes match a stopped target distribution; text nodes use weighted likelihood. Deployment excludes the privileged future observations. 2026-06-02 Direct OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1550,7 +1830,7 @@
         {
           "node_type": "item",
           "title": "CoMAP: Co-Evolving World Models and Agent Policies for LLM Agents",
-          "description": "COMAP uses a textual world model’s predicted next state to help an agent decide whether to revise a draft action. Executed transitions then train the world model with observed-state supervision and on-policy self-distillation from a privileged teacher mode; the setting assumes text-representable states and outcomes. 2026-06-01 Direct OPD Repository",
+          "description": "CoMAP combines agent improvement with textual world-model self-distillation. A teacher view receives the observed next state and supervises the student world model’s generated prefixes. World-state prediction and component-removal experiments evaluate the combined recipe. 2026-06-01 Hybrid OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1573,8 +1853,29 @@
         },
         {
           "node_type": "item",
+          "title": "What and When to Distill: Selective Hindsight Distillation for Multi-Turn Agents",
+          "description": "SERL combines hindsight-conditioned action-token matching with teacher-informed reweighting of outcome advantages. Experiments varying feedback source and placement show that richer context and coarser placement are not uniformly better, while the independent action-only forward-KL term distinguishes the method from reward modulation alone. 2026-05-19 Hybrid OPD Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Official implement on 'What and When to Distill: Selective Hindsight Distillation for Multi-Turn Agents'",
+            "homepage": null,
+            "id": 1235150265,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-06-29T21:35:47Z",
+            "open_issues": 5,
+            "owner": "OliverLeeXZ",
+            "repo": "SERL",
+            "stars": 76,
+            "topics": []
+          },
+          "first_seen": "2026-10-06T16:29:51.331Z"
+        },
+        {
+          "node_type": "item",
           "title": "HINT-SD: Targeted Hindsight Self-Distillation for Long-Horizon Agents",
-          "description": "HINT-SD analyzes failed agent rollouts to identify relevant actions and generate local corrections. A hindsight-conditioned self-teacher supervises the student through reverse token KL only at selected action spans; effectiveness depends on feedback that identifies actionable failures. 2026-05-18 Direct OPD Repository",
+          "description": "HINT-SD selects up to three failure-relevant turns and constructs local feedback for an EMA self-teacher. Reverse KL supervises the original student action spans; feedback-source and placement comparisons support the tested selective-guidance recipe. 2026-05-18 Direct OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1599,6 +1900,33 @@
         },
         {
           "node_type": "item",
+          "title": "Self-Distilled Agentic Reinforcement Learning",
+          "description": "SDAR combines agentic RL with an independent, skill-conditioned auxiliary update whose token weights depend on teacher-student probability gaps. Within-recipe comparisons support gap gating over alternative gates, while the published frozen-reference baseline does not isolate gating alone. 2026-05-14 Hybrid OPD Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Official code for \"Self-Distilled Agentic Reinforcement Learning\"",
+            "homepage": "https://arxiv.org/abs/2605.15155",
+            "id": 1238996909,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-10-06T09:23:56Z",
+            "open_issues": 8,
+            "owner": "ZJU-REAL",
+            "repo": "SDAR",
+            "stars": 403,
+            "topics": [
+              "agentic-ai",
+              "agentic-skill",
+              "opsd",
+              "rl",
+              "skill"
+            ]
+          },
+          "first_seen": "2026-10-06T16:29:51.331Z"
+        },
+        {
+          "node_type": "item",
           "title": "SOD: Step-wise On-policy Distillation for Small Language Model Agents",
           "description": "SOD addresses tool-call errors that shift later reasoning contexts by weighting each step’s sampled-token teacher–student log-likelihood signal according to changes in their discrepancy, alongside outcome-based reinforcement learning. Tool observations are excluded from the distillation loss; the discrepancy score is a proxy, not full token KL. 2026-05-08 Hybrid OPD Repository",
           "children": [],
@@ -1620,8 +1948,29 @@
         },
         {
           "node_type": "item",
+          "title": "Healthcare AI GYM for Medical Agents",
+          "description": "TT-OPD combines GRPO with turn-normalized reverse-KL supervision from an outcome-conditioned EMA teacher on student-generated medical-agent trajectories. Component comparisons examine teacher updates, privileged hints, and length control, while reporting inconsistencies limit quantitative stability claims. 2026-05-01 Hybrid OPD Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "[Preprint] Healthcare AI Agent GYM for Medical Agents",
+            "homepage": null,
+            "id": 1155840784,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-08-18T11:06:31Z",
+            "open_issues": 1,
+            "owner": "minstar",
+            "repo": "Healthcare_GYM",
+            "stars": 10,
+            "topics": []
+          },
+          "first_seen": "2026-10-06T16:29:51.331Z"
+        },
+        {
+          "node_type": "item",
           "title": "TCOD: Exploring Temporal Curriculum in On-Policy Distillation for Multi-turn Autonomous Agents",
-          "description": "TCOD addresses rising divergence across turns in interactive distillation by gradually extending the student’s training horizon. One variant lengthens student-generated prefixes; another starts student suffixes after successful teacher-executed prefixes, which require pre-collected trajectories and do not contribute gradients. 2026-04-27 Hybrid OPD Repository",
+          "description": "TCOD addresses rising divergence across turns in interactive distillation by gradually extending the student’s training horizon. One variant lengthens student-generated prefixes; another starts student suffixes after successful teacher-executed prefixes, which require pre-collected trajectories and do not contribute gradients. 2026-04-27 Direct OPD Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1703,29 +2052,8 @@
         },
         {
           "node_type": "item",
-          "title": "Revisiting Complete Reasoning Traces for Post-Training",
-          "description": "The paper tests whether complete reasoning traces are needed, primarily by training on pre-collected traces with their middle spans removed while retaining both ends. Its OPD extension masks middle-position loss on student rollouts rather than shortening generation; the findings concern tested reasoning settings. 2026-09-07 Analysis Repository",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "EMNLP 2026 Findings",
-            "homepage": null,
-            "id": 1351996666,
-            "language": null,
-            "license": null,
-            "last_commit": "2026-08-31T04:41:59Z",
-            "open_issues": 1,
-            "owner": "naver-ai",
-            "repo": "revisiting-trace",
-            "stars": 3,
-            "topics": []
-          },
-          "first_seen": "2026-10-05T19:03:38.723Z"
-        },
-        {
-          "node_type": "item",
           "title": "Rethinking On-Policy Distillation of Large Language Models II: One Training Example",
-          "description": "This study repeatedly distills on fresh student rollouts from a single query and compares semantic-cluster coverage of visited prefixes with full-data training. It finds broad early coverage but slower teacher alignment; cluster coverage does not measure every state's instructional value. 2026-09-03 Analysis Repository",
+          "description": "This study compares repeated distillation from very few queries with full-data training. A top-k configuration tests task performance; separate sampled-token runs measure semantic-cluster coverage and alignment rates. The coverage proxy does not measure visitation frequency or instructional value. 2026-09-03 Analysis Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1767,7 +2095,7 @@
         {
           "node_type": "item",
           "title": "The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation",
-          "description": "In controlled multi-turn planning environments, this study compares on-policy teacher supervision with reward-based updates and examines sequential distillation from multiple teachers. Its findings depend on data quality, planning horizon, and shared patterns; mismatched procedural knowledge or conflicting patterns can impair transfer. 2026-07-27 Analysis Repository",
+          "description": "This synthetic-planning study compares OPD and outcome-reward training across data quality and horizon. Its idealized teacher’s described training source includes evaluation instantiations, whereas the student uses separate pools. The evidence concerns this oracle-teacher setting. 2026-07-27 Analysis Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1809,7 +2137,7 @@
         {
           "node_type": "item",
           "title": "Dense Supervision, Sparse Updates: On the Sparsity and Geometry of On-Policy Distillation",
-          "description": "This analysis measures checkpoint updates after on-policy distillation, finding coordinate-sparse changes distributed across modules and numerically full-rank matrices with concentrated spectra. The visible changes favor low-magnitude, nonprincipal source coordinates; these are observations across studied model pairs, not a new training objective. 2026-06-11 Analysis Repository",
+          "description": "This study measures coordinate-sparse and spectrally concentrated updates at checkpoint precision. Visible updates span layers and modules. Retraining on support identified from completed OPD runs nearly recovers full performance and outperforms density-matched random masks in the tested settings. 2026-06-11 Analysis Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1829,8 +2157,50 @@
         },
         {
           "node_type": "item",
+          "title": "Trajectory-Refined Distillation",
+          "description": "TRD reports low teacher–student KL even on incorrect student trajectories and compares these diagnostics with teacher-refined prefixes. Its proposed training method uses teacher-rewritten offline trajectories, so the retained contribution is the diagnostic comparison rather than a new core OPD algorithm. 2026-06-07 Analysis Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Official Implementation of Trajectory-Refined Distillation",
+            "homepage": null,
+            "id": 1260931078,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-06-09T04:12:01Z",
+            "open_issues": 1,
+            "owner": "louieworth",
+            "repo": "trd",
+            "stars": 37,
+            "topics": []
+          },
+          "first_seen": "2026-10-06T16:29:51.331Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Reinforcement Learning from Rich Feedback with Distributional DAgger",
+          "description": "Distributional DAgger gives finite-state counterexamples separating teacher quality from the effect of a distillation update: a higher-reward teacher need not yield a reward-improving reverse-KL natural-gradient step, and local prefix updates can miss consequential early decisions in a restricted policy class. 2026-06-03 Analysis Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1248670614,
+            "language": "Python",
+            "license": null,
+            "last_commit": "2026-05-24T23:56:26Z",
+            "open_issues": 1,
+            "owner": "rishabh-1086",
+            "repo": "distIL",
+            "stars": 16,
+            "topics": []
+          },
+          "first_seen": "2026-10-05T19:03:38.723Z"
+        },
+        {
+          "node_type": "item",
           "title": "Rethinking Continual Experience Internalization for Self-Evolving LLM Agents",
-          "description": "This study asks whether repeated internalization of experience-aware behavior sustains gains in web agents, comparing experience granularity, injection timing, and trajectory source. In its tested setting, filtered teacher trajectories provide more stable training than repeated distillation on student-induced states. 2026-06-03 Analysis Repository",
+          "description": "This web-agent study compares repeated experience internalization, including global versus step-wise context injection and later use of new experience. Degradation varies by task and recipe; its student-rollout versus filtered-teacher-rollout comparison also changes the KL direction and success filtering. 2026-06-03 Analysis Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1850,6 +2220,27 @@
         },
         {
           "node_type": "item",
+          "title": "Your Teacher Can't Help You Here: Combating Supervision Fidelity Decay in On-Policy Distillation",
+          "description": "This study hands reasoning prefixes of different lengths from a student to a fixed teacher and measures teacher continuation performance. The reported decline on longer student prefixes motivates state-dependent supervision assessment, independently of the paper's unresolved lookahead-loss formulation. 2026-05-29 Analysis Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": null,
+            "homepage": null,
+            "id": 1252996341,
+            "language": "Python",
+            "license": "MIT",
+            "last_commit": "2026-06-01T10:00:59Z",
+            "open_issues": 0,
+            "owner": "zui-jiang",
+            "repo": "LGR",
+            "stars": 2,
+            "topics": []
+          },
+          "first_seen": "2026-10-06T16:29:51.331Z"
+        },
+        {
+          "node_type": "item",
           "title": "Learning to Foresee: Unveiling the Unlocking Efficiency of On-Policy Distillation",
           "description": "This parameter-dynamics study compares where on-policy distillation and reinforcement learning place updates and how early update subspaces align with final directions. An accompanying accelerator validates extrapolations of recent parameter displacements; its studied distillation typically uses a separate stronger teacher, not necessarily a self-teacher. 2026-05-12 Analysis Repository",
           "children": [],
@@ -1865,6 +2256,27 @@
             "owner": "caiyuchen-ustc",
             "repo": "EffOPD",
             "stars": 78,
+            "topics": []
+          },
+          "first_seen": "2026-10-05T19:03:38.723Z"
+        },
+        {
+          "node_type": "item",
+          "title": "Anti-Self-Distillation for Reasoning RL via Pointwise Mutual Information",
+          "description": "AntiSD's analysis examines how solution-conditioned self-teachers suppress deliberative tokens and compares standard self-distillation with reward-only training. These diagnostics identify a setting-dependent failure pattern rather than a proved cause of all OPD failures. 2026-05-12 Analysis Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "Anti-Self-Distillation for Reasoning RL via Pointwise Mutual Information",
+            "homepage": null,
+            "id": 1235318463,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-05-14T06:39:00Z",
+            "open_issues": 2,
+            "owner": "FloyedShen",
+            "repo": "AntiSD",
+            "stars": 35,
             "topics": []
           },
           "first_seen": "2026-10-05T19:03:38.723Z"
@@ -1901,7 +2313,7 @@
         {
           "node_type": "item",
           "title": "Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe",
-          "description": "This study examines why distillation on student rollouts succeeds or fails in mathematical reasoning, linking gains to compatible reasoning patterns and teacher knowledge new to the student. It analyzes high-probability token overlap and tests cold starts and prompt selection, not universal success criteria. 2026-04-14 Analysis Repository",
+          "description": "This study compares teacher preparation, supervised cold starts, and prompt formats in mathematical-reasoning distillation. Its cold-start control fixes the subsequent teacher and prompt set; a separate experiment changes only the prompt template. Token overlap is a diagnostic rather than a universal test of transferable capability. 2026-04-14 Analysis Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -1914,7 +2326,7 @@
             "open_issues": 0,
             "owner": "Thinking-Space",
             "repo": "Rethinking-OPD",
-            "stars": 1032,
+            "stars": 1033,
             "topics": [
               "llms",
               "mechanism",
@@ -1925,8 +2337,29 @@
         },
         {
           "node_type": "item",
+          "title": "SCOPE: Signal-Calibrated On-Policy Distillation Enhancement with Dual-Path Adaptive Weighting",
+          "description": "SCOPE includes a diagnostic that groups erroneous student responses by teacher perplexity and tests teacher recovery after prefix truncation. Lower perplexity is associated with higher recovery in its mathematical-reasoning setting. This supports a bounded diagnostic comparison, without certifying each teacher token target or the effect of the proposed weighting implementation. 2026-04-12 Analysis Repository",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "description": "SCOPE: Signal-Calibrated On-Policy Distillation Enhancement with Dual-Path Adaptive Weighting",
+            "homepage": null,
+            "id": 1208162710,
+            "language": "Python",
+            "license": "Apache-2.0",
+            "last_commit": "2026-06-22T06:00:20Z",
+            "open_issues": 7,
+            "owner": "machine981",
+            "repo": "SCOPE",
+            "stars": 29,
+            "topics": []
+          },
+          "first_seen": "2026-08-28T21:05:04.438Z"
+        },
+        {
+          "node_type": "item",
           "title": "Why Does Self-Distillation (Sometimes) Degrade the Reasoning Capability of LLMs?",
-          "description": "This analysis tests why solution-conditioned self-distillation can shorten mathematical reasoning yet harm performance: richer teacher context suppresses expressed uncertainty that may help on unseen problems. Its evidence concerns the studied math settings and a limited set of English uncertainty markers. 2026-03-25 Analysis Repository",
+          "description": "In the studied mathematical-reasoning settings, solution-conditioned self-distillation is associated with shorter responses, reduced uncertainty expression, and poorer OOD performance. 2026-03-25 Analysis Repository",
           "children": [],
           "repo_info": {
             "archived": false,
@@ -2071,7 +2504,7 @@
             "open_issues": 68,
             "owner": "QwenLM",
             "repo": "Qwen3",
-            "stars": 27659,
+            "stars": 27660,
             "topics": []
           },
           "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2098,7 +2531,7 @@
             "open_issues": 131,
             "owner": "thinking-machines-lab",
             "repo": "tinker-cookbook",
-            "stars": 4178,
+            "stars": 4179,
             "topics": []
           },
           "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2164,41 +2597,11 @@
             "language": "Python",
             "license": "Apache-2.0",
             "last_commit": "2026-10-05T19:09:19Z",
-            "open_issues": 1327,
+            "open_issues": 1329,
             "owner": "verl-project",
             "repo": "verl",
-            "stars": 23754,
+            "stars": 23760,
             "topics": []
-          },
-          "first_seen": "2026-10-05T19:03:38.723Z"
-        },
-        {
-          "node_type": "item",
-          "title": "OpenRLHF: An Easy-to-use, Scalable and High-performance RLHF Framework",
-          "description": "OpenRLHF is infrastructure for reinforcement-learning fine-tuning: it coordinates response generation, scoring, and learner updates across distributed engines, with asynchronous dataflow and separate generation and training roles. It does not itself define a teacher-distribution distillation objective or its synchronization policy. 2024-05-20 Background Repository",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": "An Easy-to-use, Scalable and High-performance Agentic RL Framework based on Ray (PPO & DAPO & REINFORCE++ &  VLM & TIS & vLLM & Ray & Async  RL)",
-            "homepage": "https://openrlhf.readthedocs.io/",
-            "id": 672415139,
-            "language": "Python",
-            "license": "Apache-2.0",
-            "last_commit": "2026-10-05T17:33:02Z",
-            "open_issues": 393,
-            "owner": "OpenRLHF",
-            "repo": "OpenRLHF",
-            "stars": 10067,
-            "topics": [
-              "large-language-models",
-              "proximal-policy-optimization",
-              "raylib",
-              "reinforcement-learning",
-              "reinforcement-learning-from-human-feedback",
-              "transformers",
-              "visual-language-models",
-              "vllm"
-            ]
           },
           "first_seen": "2026-10-05T19:03:38.723Z"
         },
@@ -2262,27 +2665,26 @@
         },
         {
           "node_type": "item",
-          "title": "TensorRT-LLM: High-Performance Inference Framework for Large Language Models",
-          "description": "TensorRT LLM accelerates inference on NVIDIA GPUs through specialized kernels, runtime optimizations, and Python interfaces for deploying language models. It provides inference infrastructure relevant to generation workloads; the framework itself does not define an on-policy distillation objective. 2024 Background Repository",
+          "title": "Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models",
+          "description": "SPIN repeatedly generates responses from a previous version of a supervised fine-tuned model and trains the next version to favor existing human demonstrations over those responses. Its comparison target is a fixed demonstration dataset, not a teacher’s token distributions on current student rollouts. 2024-01-02 Background Repository",
           "children": [],
           "repo_info": {
             "archived": false,
-            "description": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT LLM also contains components to create Python and C++ runtimes that orchestrate the inference execution in a performant way.",
-            "homepage": "https://nvidia.github.io/TensorRT-LLM",
-            "id": 679366051,
+            "description": "The official implementation of Self-Play Fine-Tuning (SPIN)",
+            "homepage": "https://uclaml.github.io/SPIN/",
+            "id": 752815135,
             "language": "Python",
-            "license": "NOASSERTION",
-            "last_commit": "2026-10-06T10:19:01Z",
-            "open_issues": 1585,
-            "owner": "NVIDIA",
-            "repo": "TensorRT-LLM",
-            "stars": 14765,
+            "license": "Apache-2.0",
+            "last_commit": "2024-05-08T05:59:37Z",
+            "open_issues": 24,
+            "owner": "uclaml",
+            "repo": "SPIN",
+            "stars": 1253,
             "topics": [
-              "blackwell",
-              "cuda",
-              "llm-serving",
-              "moe",
-              "pytorch"
+              "deep-learning",
+              "fine-tuning",
+              "large-language-models",
+              "self-play"
             ]
           },
           "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2299,11 +2701,11 @@
             "id": 599547518,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-06T10:19:55Z",
-            "open_issues": 8490,
+            "last_commit": "2026-10-06T16:26:39Z",
+            "open_issues": 8496,
             "owner": "vllm-project",
             "repo": "vllm",
-            "stars": 93254,
+            "stars": 93276,
             "topics": [
               "amd",
               "blackwell",
@@ -2397,7 +2799,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-06T10:34:54.809Z",
+    "last_updated": "2026-10-06T16:29:51.331Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated collection of papers and resources on On-Policy Distillation for Large Language Models.",
@@ -2405,11 +2807,11 @@
       "id": 1201758422,
       "language": "Python",
       "license": "MIT",
-      "last_commit": "2026-10-06T02:46:46Z",
+      "last_commit": "2026-10-06T15:07:47Z",
       "open_issues": 6,
       "owner": "nick7nlp",
       "repo": "Awesome-LLM-On-Policy-Distillation",
-      "stars": 568,
+      "stars": 569,
       "topics": [
         "awesome-list",
         "awesome-opd",
@@ -2426,7 +2828,7 @@
         "survey"
       ]
     },
-    "original_repository_sha": "3854ca6690d7060f4fbe6ad19bea6a2dabbbf145",
+    "original_repository_sha": "43447660668d4df5cc2c1e9776db491afdcbe11f",
     "enhanced_repository": "enhansome/enhansome-Awesome-LLM-On-Policy-Distillation",
     "enhanced_repository_description": null,
     "title": "Awesome LLM On-Policy Distillation with stars"
