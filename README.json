@@ -187,7 +187,7 @@
             "open_issues": 1,
             "owner": "THU-BPM",
             "repo": "RLCSD",
-            "stars": 112,
+            "stars": 113,
             "topics": [
               "large-language-models",
               "llm",
@@ -300,7 +300,7 @@
             "open_issues": 0,
             "owner": "SaFo-Lab",
             "repo": "PW-OPSD",
-            "stars": 11,
+            "stars": 12,
             "topics": []
           },
           "first_seen": "2026-08-28T21:05:04.438Z"
@@ -984,7 +984,7 @@
             "open_issues": 1,
             "owner": "Ahren09",
             "repo": "UniSD",
-            "stars": 789,
+            "stars": 792,
             "topics": []
           },
           "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1094,7 +1094,7 @@
             "open_issues": 11,
             "owner": "lasgroup",
             "repo": "SDPO",
-            "stars": 1108,
+            "stars": 1109,
             "topics": [
               "distillation",
               "llm",
@@ -1587,7 +1587,7 @@
             "open_issues": 0,
             "owner": "wgcyeo",
             "repo": "HINT-SD",
-            "stars": 1,
+            "stars": 2,
             "topics": [
               "llm",
               "long-horizon-agents",
@@ -1680,27 +1680,6 @@
     {
       "description": null,
       "items": [
-        {
-          "node_type": "item",
-          "title": "ACLArena: Agent Continue Learning in Multi-stage Post-training",
-          "description": "ACLArena examines forgetting and transfer across sequential agent post-training stages, comparing multi-teacher on-policy distillation with offline self-distillation and model merging. Its proposed retention recipe instead replays specialist trajectories and trains routed reinforcement-learning adapters; the reported study chiefly uses one backbone and a fixed stage order. 2026-09-21 Analysis Repository",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "description": null,
-            "homepage": null,
-            "id": 1308157283,
-            "language": "Python",
-            "license": null,
-            "last_commit": "2026-08-01T01:50:17Z",
-            "open_issues": 1,
-            "owner": "WillDreamer",
-            "repo": "ACLArena",
-            "stars": 7,
-            "topics": []
-          },
-          "first_seen": "2026-10-05T19:03:38.723Z"
-        },
         {
           "node_type": "item",
           "title": "When EOS Tokens Disagree: Understanding Length Inflation in On-Policy Distillation",
@@ -2119,7 +2098,7 @@
             "open_issues": 131,
             "owner": "thinking-machines-lab",
             "repo": "tinker-cookbook",
-            "stars": 4174,
+            "stars": 4178,
             "topics": []
           },
           "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2184,11 +2163,11 @@
             "id": 881221486,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-05T19:03:01Z",
+            "last_commit": "2026-10-05T19:09:19Z",
             "open_issues": 1327,
             "owner": "verl-project",
             "repo": "verl",
-            "stars": 23749,
+            "stars": 23754,
             "topics": []
           },
           "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2293,11 +2272,11 @@
             "id": 679366051,
             "language": "Python",
             "license": "NOASSERTION",
-            "last_commit": "2026-10-05T18:09:52Z",
-            "open_issues": 1573,
+            "last_commit": "2026-10-06T10:19:01Z",
+            "open_issues": 1585,
             "owner": "NVIDIA",
             "repo": "TensorRT-LLM",
-            "stars": 14763,
+            "stars": 14765,
             "topics": [
               "blackwell",
               "cuda",
@@ -2320,11 +2299,11 @@
             "id": 599547518,
             "language": "Python",
             "license": "Apache-2.0",
-            "last_commit": "2026-10-05T18:54:14Z",
-            "open_issues": 8468,
+            "last_commit": "2026-10-06T10:19:55Z",
+            "open_issues": 8490,
             "owner": "vllm-project",
             "repo": "vllm",
-            "stars": 93220,
+            "stars": 93254,
             "topics": [
               "amd",
               "blackwell",
@@ -2418,7 +2397,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-05T19:03:38.723Z",
+    "last_updated": "2026-10-06T10:34:54.809Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated collection of papers and resources on On-Policy Distillation for Large Language Models.",
@@ -2426,7 +2405,7 @@
       "id": 1201758422,
       "language": "Python",
       "license": "MIT",
-      "last_commit": "2026-10-05T17:10:08Z",
+      "last_commit": "2026-10-06T02:46:46Z",
       "open_issues": 6,
       "owner": "nick7nlp",
       "repo": "Awesome-LLM-On-Policy-Distillation",
@@ -2447,7 +2426,7 @@
         "survey"
       ]
     },
-    "original_repository_sha": "d50f622c84c7e8740c39e483f9a1750767a0df00",
+    "original_repository_sha": "3854ca6690d7060f4fbe6ad19bea6a2dabbbf145",
     "enhanced_repository": "enhansome/enhansome-Awesome-LLM-On-Policy-Distillation",
     "enhanced_repository_description": null,
     "title": "Awesome LLM On-Policy Distillation with stars"
