@@ -54,7 +54,7 @@
                 "open_issues": 1,
                 "owner": "RUCBM",
                 "repo": "G-OPD",
-                "stars": 298,
+                "stars": 299,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -96,7 +96,7 @@
                 "open_issues": 0,
                 "owner": "uanu2002",
                 "repo": "DAPD",
-                "stars": 80,
+                "stars": 81,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -292,6 +292,27 @@
             },
             {
               "node_type": "item",
+              "title": "1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation",
+              "description": "2026-09-21 · Direct OPD · CodeThis study separates useful teacher corrections from the reliability of estimating their gradients from sampled tokens. It approximates a fixed-prefix signal-to-noise measure to select positions in student rollouts, alone or with usefulness scores; sparse supervision still requires generating and scoring complete trajectories in its implementation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Code for 1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation",
+                "homepage": null,
+                "id": 1379477859,
+                "language": "Python",
+                "license": null,
+                "last_commit": "2026-09-21T10:46:01Z",
+                "open_issues": 0,
+                "owner": "BruceSheng1202",
+                "repo": "IER-OPD",
+                "stars": 5,
+                "topics": []
+              },
+              "first_seen": "2026-10-05T19:03:38.723Z"
+            },
+            {
+              "node_type": "item",
               "title": "KL for a KL: On-Policy Distillation with Control Variate Baseline",
               "description": "2026-05-08 · Direct OPD · CodevOPD subtracts a detached, action-independent estimate of the per-token negative reverse KL as a baseline for the sampled-token policy-gradient update. Its top-k variant approximates the baseline rather than truncating the distillation objective; the study evaluates token-level reasoning distillation, not sequence-level objectives.",
               "children": [],
@@ -307,27 +328,6 @@
                 "owner": "holi-lab",
                 "repo": "vOPD",
                 "stars": 5,
-                "topics": []
-              },
-              "first_seen": "2026-10-05T19:03:38.723Z"
-            },
-            {
-              "node_type": "item",
-              "title": "1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation",
-              "description": "2026-09-21 · Direct OPD · CodeThis study separates useful teacher corrections from the reliability of estimating their gradients from sampled tokens. It approximates a fixed-prefix signal-to-noise measure to select positions in student rollouts, alone or with usefulness scores; sparse supervision still requires generating and scoring complete trajectories in its implementation.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Code for 1% of Tokens Can Be Enough: On Gradient Estimation in On-Policy Distillation",
-                "homepage": null,
-                "id": 1379477859,
-                "language": "Python",
-                "license": null,
-                "last_commit": "2026-09-21T10:46:01Z",
-                "open_issues": 0,
-                "owner": "BruceSheng1202",
-                "repo": "IER-OPD",
-                "stars": 4,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -472,7 +472,7 @@
                 "open_issues": 11,
                 "owner": "lasgroup",
                 "repo": "SDPO",
-                "stars": 1125,
+                "stars": 1126,
                 "topics": [
                   "distillation",
                   "llm",
@@ -498,7 +498,7 @@
                 "open_issues": 1,
                 "owner": "Ahren09",
                 "repo": "UniSD",
-                "stars": 836,
+                "stars": 842,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -519,7 +519,7 @@
                 "open_issues": 8,
                 "owner": "siyan-zhao",
                 "repo": "OPSD",
-                "stars": 683,
+                "stars": 684,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -632,7 +632,7 @@
                 "open_issues": 5,
                 "owner": "HJSang",
                 "repo": "CRISP_Reasoning_Compression",
-                "stars": 68,
+                "stars": 69,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -754,12 +754,12 @@
               "children": [],
               "repo_info": {
                 "archived": false,
-                "description": "[NeurlPS 2026] Training with Harnesses: On-Policy Harness Self-Distillation for Complex Reasoning",
-                "homepage": null,
+                "description": "Training with Harnesses: On-Policy Harness Self-Distillation for Complex Reasoning (NeurIPS 2026)",
+                "homepage": "https://arxiv.org/abs/2605.08741",
                 "id": 1231018959,
                 "language": "Python",
                 "license": null,
-                "last_commit": "2026-09-28T09:13:31Z",
+                "last_commit": "2026-10-19T06:56:45Z",
                 "open_issues": 2,
                 "owner": "zzy1127",
                 "repo": "OPHSD-On-Policy-Harness-Self-Distillation",
@@ -791,6 +791,27 @@
             },
             {
               "node_type": "item",
+              "title": "Data-Efficient Autoregressive-to-Diffusion Language Models via On-Policy Distillation",
+              "description": "2026-06-04 · Direct OPD · CodeOPDLM converts an autoregressive model into a diffusion language model by matching a frozen AR teacher at masked positions on student-generated denoising states. A block-size-four ablation finds comparable performance with random remasking of student completions, separating completion source from state selection.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 1257886535,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-08-19T22:06:15Z",
+                "open_issues": 1,
+                "owner": "divelab",
+                "repo": "OPDLM",
+                "stars": 26,
+                "topics": []
+              },
+              "first_seen": "2026-10-05T19:03:38.723Z"
+            },
+            {
+              "node_type": "item",
               "title": "SimCT: Recovering Lost Supervision for Cross-Tokenizer On-Policy Distillation",
               "description": "2026-05-08 · Direct OPD · CodeSimCT compares teacher and student on shared tokens plus short text continuations jointly expressible under different tokenizers, using student-generated prefixes and retaining the reverse-KL OPD loss. Its normalized candidate scores are not a probability-preserving mapping of all continuations.",
               "children": [],
@@ -806,27 +827,6 @@
                 "owner": "sunjie279",
                 "repo": "SimCT-",
                 "stars": 26,
-                "topics": []
-              },
-              "first_seen": "2026-10-05T19:03:38.723Z"
-            },
-            {
-              "node_type": "item",
-              "title": "Data-Efficient Autoregressive-to-Diffusion Language Models via On-Policy Distillation",
-              "description": "2026-06-04 · Direct OPD · CodeOPDLM converts an autoregressive model into a diffusion language model by matching a frozen AR teacher at masked positions on student-generated denoising states. A block-size-four ablation finds comparable performance with random remasking of student completions, separating completion source from state selection.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": null,
-                "homepage": null,
-                "id": 1257886535,
-                "language": "Python",
-                "license": "MIT",
-                "last_commit": "2026-08-19T22:06:15Z",
-                "open_issues": 1,
-                "owner": "divelab",
-                "repo": "OPDLM",
-                "stars": 25,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -1063,7 +1063,7 @@
                 "open_issues": 1,
                 "owner": "ZJU-REAL",
                 "repo": "GPD",
-                "stars": 8,
+                "stars": 9,
                 "topics": []
               },
               "first_seen": "2026-10-13T17:21:28.335Z"
@@ -1333,11 +1333,11 @@
                 "id": 1072725553,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-18T13:44:10Z",
-                "open_issues": 1021,
+                "last_commit": "2026-10-19T15:58:19Z",
+                "open_issues": 919,
                 "owner": "radixark",
                 "repo": "miles",
-                "stars": 3158,
+                "stars": 3166,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -1358,7 +1358,7 @@
                 "open_issues": 7,
                 "owner": "idanshen",
                 "repo": "Self-Distillation",
-                "stars": 719,
+                "stars": 720,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -1505,7 +1505,7 @@
                 "open_issues": 0,
                 "owner": "furiosa-ai",
                 "repo": "async-opd",
-                "stars": 36,
+                "stars": 37,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1785,7 +1785,7 @@
                 "open_issues": 77,
                 "owner": "Gen-Verse",
                 "repo": "OpenClaw-RL",
-                "stars": 5724,
+                "stars": 5725,
                 "topics": [
                   "async",
                   "coding",
@@ -1820,7 +1820,7 @@
                 "open_issues": 10,
                 "owner": "ZJU-REAL",
                 "repo": "SDAR",
-                "stars": 367,
+                "stars": 369,
                 "topics": [
                   "agentic-ai",
                   "agentic-skill",
@@ -1847,7 +1847,7 @@
                 "open_issues": 10,
                 "owner": "YoungZ365",
                 "repo": "SOD",
-                "stars": 140,
+                "stars": 141,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1868,10 +1868,31 @@
                 "open_issues": 2,
                 "owner": "kokolerk",
                 "repo": "TCOD",
-                "stars": 114,
+                "stars": 115,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Language Models that Play Chess and Explain Their Moves",
+              "description": "2026-10-02 · Hybrid OPD · CodeQUEEN iteratively distills engine-checked, consolidated analyses of candidate successor positions into a chess-language model, using a mixture of model-play and external root positions. Its reported playing-strength gains support the full training recipe, while weaker conceptual coherence and the absence of component-isolating controls limit stronger claims.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Codebase for \"Language Models that Play Chess and Explain their Moves\"",
+                "homepage": "https://queen-project.github.io/",
+                "id": 1402094472,
+                "language": "Python",
+                "license": "Apache-2.0",
+                "last_commit": "2026-10-05T00:16:36Z",
+                "open_issues": 1,
+                "owner": "queen-project",
+                "repo": "queen",
+                "stars": 63,
+                "topics": []
+              },
+              "first_seen": "2026-10-13T17:21:28.335Z"
             },
             {
               "node_type": "item",
@@ -1893,27 +1914,6 @@
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
-            },
-            {
-              "node_type": "item",
-              "title": "Language Models that Play Chess and Explain Their Moves",
-              "description": "2026-10-02 · Hybrid OPD · CodeQUEEN iteratively distills engine-checked, consolidated analyses of candidate successor positions into a chess-language model, using a mixture of model-play and external root positions. Its reported playing-strength gains support the full training recipe, while weaker conceptual coherence and the absence of component-isolating controls limit stronger claims.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Codebase for \"Language Models that Play Chess and Explain their Moves\"",
-                "homepage": "https://queen-project.github.io/",
-                "id": 1402094472,
-                "language": "Python",
-                "license": "Apache-2.0",
-                "last_commit": "2026-10-05T00:16:36Z",
-                "open_issues": 1,
-                "owner": "queen-project",
-                "repo": "queen",
-                "stars": 60,
-                "topics": []
-              },
-              "first_seen": "2026-10-13T17:21:28.335Z"
             },
             {
               "node_type": "item",
@@ -2219,7 +2219,7 @@
                 "id": 1236352182,
                 "language": "Python",
                 "license": null,
-                "last_commit": "2026-10-18T13:45:27Z",
+                "last_commit": "2026-10-18T13:57:58Z",
                 "open_issues": 1,
                 "owner": "caiyuchen-ustc",
                 "repo": "EffOPD",
@@ -2604,7 +2604,7 @@
                 "open_issues": 69,
                 "owner": "QwenLM",
                 "repo": "Qwen3",
-                "stars": 27678,
+                "stars": 27677,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2625,7 +2625,7 @@
                 "open_issues": 23,
                 "owner": "XiaomiMiMo",
                 "repo": "MiMo-V2-Flash",
-                "stars": 1397,
+                "stars": 1398,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2646,7 +2646,7 @@
                 "open_issues": 0,
                 "owner": "ZinYY",
                 "repo": "AdaFlash",
-                "stars": 128,
+                "stars": 132,
                 "topics": [
                   "diffusion-language-models",
                   "efficient-inference",
@@ -2736,7 +2736,7 @@
                 "open_issues": 1,
                 "owner": "pppyb",
                 "repo": "SecOPD",
-                "stars": 10,
+                "stars": 11,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2760,11 +2760,11 @@
                 "id": 599547518,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-18T13:11:45Z",
-                "open_issues": 9019,
+                "last_commit": "2026-10-19T16:13:56Z",
+                "open_issues": 9068,
                 "owner": "vllm-project",
                 "repo": "vllm",
-                "stars": 94055,
+                "stars": 94140,
                 "topics": [
                   "amd",
                   "blackwell",
@@ -2802,11 +2802,11 @@
                 "id": 881221486,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-18T04:36:44Z",
-                "open_issues": 1372,
+                "last_commit": "2026-10-19T14:01:44Z",
+                "open_issues": 1375,
                 "owner": "verl-project",
                 "repo": "verl",
-                "stars": 23914,
+                "stars": 23930,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2827,7 +2827,7 @@
                 "open_issues": 148,
                 "owner": "thinking-machines-lab",
                 "repo": "tinker-cookbook",
-                "stars": 4202,
+                "stars": 4203,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2848,7 +2848,7 @@
                 "open_issues": 117,
                 "owner": "stanford-crfm",
                 "repo": "helm",
-                "stars": 2949,
+                "stars": 2951,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -3037,7 +3037,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-18T13:46:07.159Z",
+    "last_updated": "2026-10-19T16:47:39.914Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated collection of papers and resources on On-Policy Distillation for Large Language Models.",
@@ -3046,10 +3046,10 @@
       "language": "Python",
       "license": "MIT",
       "last_commit": "2026-10-13T09:11:43Z",
-      "open_issues": 7,
+      "open_issues": 8,
       "owner": "nick7nlp",
       "repo": "Awesome-LLM-On-Policy-Distillation",
-      "stars": 581,
+      "stars": 583,
       "topics": [
         "awesome-list",
         "awesome-opd",
