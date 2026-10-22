@@ -472,7 +472,7 @@
                 "open_issues": 11,
                 "owner": "lasgroup",
                 "repo": "SDPO",
-                "stars": 1128,
+                "stars": 1130,
                 "topics": [
                   "distillation",
                   "llm",
@@ -519,7 +519,7 @@
                 "open_issues": 8,
                 "owner": "siyan-zhao",
                 "repo": "OPSD",
-                "stars": 684,
+                "stars": 686,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -540,7 +540,7 @@
                 "open_issues": 8,
                 "owner": "VisionOPD",
                 "repo": "Vision-OPD",
-                "stars": 340,
+                "stars": 342,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1001,6 +1001,27 @@
             },
             {
               "node_type": "item",
+              "title": "OPD-Aha: From Linguistic Momentum to Visual Reflection in Multimodal On-Policy Distillation",
+              "description": "2026-09-15 · Direct OPD · CodeThe method contrasts one privileged-vision teacher's predictions with a real image and a visual null under the same student-generated prefix, then distills a reconstructed target on that rollout. It addresses erroneous prefixes that can obscure visual correction; reflection tokens are an observed effect, not an explicit target.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Official implementation of OPD-Aha for fine-grained visual perception and multimodal reasoning",
+                "homepage": null,
+                "id": 1349855386,
+                "language": "Python",
+                "license": "Apache-2.0",
+                "last_commit": "2026-09-16T03:08:45Z",
+                "open_issues": 0,
+                "owner": "Echochef",
+                "repo": "OPD-Aha",
+                "stars": 13,
+                "topics": []
+              },
+              "first_seen": "2026-10-05T19:03:38.723Z"
+            },
+            {
+              "node_type": "item",
               "title": "PromptKD: Distilling Student-Friendly Knowledge for Generative Language Models via Prompt Tuning",
               "description": "2024-02-20 · Direct OPD · CodeOn student-generated responses, PromptKD alternates student-guided tuning of soft teacher prompts with reverse-KL updates of the student toward the prompted teacher. Teacher weights stay fixed, while an early, decaying regularizer limits how far the prompted teacher departs from its unprompted distribution.",
               "children": [],
@@ -1025,27 +1046,6 @@
                 ]
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
-            },
-            {
-              "node_type": "item",
-              "title": "OPD-Aha: From Linguistic Momentum to Visual Reflection in Multimodal On-Policy Distillation",
-              "description": "2026-09-15 · Direct OPD · CodeThe method contrasts one privileged-vision teacher's predictions with a real image and a visual null under the same student-generated prefix, then distills a reconstructed target on that rollout. It addresses erroneous prefixes that can obscure visual correction; reflection tokens are an observed effect, not an explicit target.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Official implementation of OPD-Aha for fine-grained visual perception and multimodal reasoning",
-                "homepage": null,
-                "id": 1349855386,
-                "language": "Python",
-                "license": "Apache-2.0",
-                "last_commit": "2026-09-16T03:08:45Z",
-                "open_issues": 0,
-                "owner": "Echochef",
-                "repo": "OPD-Aha",
-                "stars": 12,
-                "topics": []
-              },
-              "first_seen": "2026-10-05T19:03:38.723Z"
             },
             {
               "node_type": "item",
@@ -1333,11 +1333,11 @@
                 "id": 1072725553,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-21T14:45:22Z",
-                "open_issues": 944,
+                "last_commit": "2026-10-22T11:02:32Z",
+                "open_issues": 961,
                 "owner": "radixark",
                 "repo": "miles",
-                "stars": 3182,
+                "stars": 3186,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -1379,7 +1379,7 @@
                 "open_issues": 8,
                 "owner": "VisionOPD",
                 "repo": "Vision-OPD",
-                "stars": 340,
+                "stars": 342,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1785,7 +1785,7 @@
                 "open_issues": 77,
                 "owner": "Gen-Verse",
                 "repo": "OpenClaw-RL",
-                "stars": 5728,
+                "stars": 5727,
                 "topics": [
                   "async",
                   "coding",
@@ -1847,7 +1847,7 @@
                 "open_issues": 10,
                 "owner": "YoungZ365",
                 "repo": "SOD",
-                "stars": 150,
+                "stars": 155,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1886,10 +1886,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-05T00:16:36Z",
-                "open_issues": 1,
+                "open_issues": 2,
                 "owner": "queen-project",
                 "repo": "queen",
-                "stars": 64,
+                "stars": 67,
                 "topics": []
               },
               "first_seen": "2026-10-13T17:21:28.335Z"
@@ -1994,7 +1994,7 @@
                 "open_issues": 1,
                 "owner": "yczhou001",
                 "repo": "PF-OPSD",
-                "stars": 22,
+                "stars": 23,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2156,7 +2156,7 @@
                 "open_issues": 0,
                 "owner": "Thinking-Space",
                 "repo": "Rethinking-OPD",
-                "stars": 1053,
+                "stars": 1056,
                 "topics": [
                   "llms",
                   "mechanism",
@@ -2601,10 +2601,10 @@
                 "language": "Python",
                 "license": null,
                 "last_commit": "2026-01-09T03:05:47Z",
-                "open_issues": 69,
+                "open_issues": 68,
                 "owner": "QwenLM",
                 "repo": "Qwen3",
-                "stars": 27679,
+                "stars": 27680,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2760,11 +2760,11 @@
                 "id": 599547518,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-21T14:39:47Z",
-                "open_issues": 9217,
+                "last_commit": "2026-10-22T14:52:25Z",
+                "open_issues": 9281,
                 "owner": "vllm-project",
                 "repo": "vllm",
-                "stars": 94725,
+                "stars": 95124,
                 "topics": [
                   "amd",
                   "blackwell",
@@ -2802,11 +2802,11 @@
                 "id": 881221486,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-21T12:14:45Z",
-                "open_issues": 1378,
+                "last_commit": "2026-10-22T11:19:03Z",
+                "open_issues": 1375,
                 "owner": "verl-project",
                 "repo": "verl",
-                "stars": 23965,
+                "stars": 23978,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2823,11 +2823,11 @@
                 "id": 1019793048,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-19T23:53:09Z",
+                "last_commit": "2026-10-22T06:30:32Z",
                 "open_issues": 150,
                 "owner": "thinking-machines-lab",
                 "repo": "tinker-cookbook",
-                "stars": 4207,
+                "stars": 4212,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -3037,7 +3037,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-21T14:50:54.706Z",
+    "last_updated": "2026-10-22T14:52:22.820Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated collection of papers and resources on On-Policy Distillation for Large Language Models.",
