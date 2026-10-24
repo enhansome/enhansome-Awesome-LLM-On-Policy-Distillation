@@ -21,7 +21,7 @@
                 "open_issues": 120,
                 "owner": "microsoft",
                 "repo": "LMOps",
-                "stars": 4484,
+                "stars": 4485,
                 "topics": [
                   "agi",
                   "gpt",
@@ -96,7 +96,7 @@
                 "open_issues": 0,
                 "owner": "uanu2002",
                 "repo": "DAPD",
-                "stars": 81,
+                "stars": 79,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -439,7 +439,7 @@
                 "open_issues": 120,
                 "owner": "microsoft",
                 "repo": "LMOps",
-                "stars": 4484,
+                "stars": 4485,
                 "topics": [
                   "agi",
                   "gpt",
@@ -498,7 +498,7 @@
                 "open_issues": 1,
                 "owner": "Ahren09",
                 "repo": "UniSD",
-                "stars": 850,
+                "stars": 856,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -540,7 +540,7 @@
                 "open_issues": 8,
                 "owner": "VisionOPD",
                 "repo": "Vision-OPD",
-                "stars": 342,
+                "stars": 343,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -896,6 +896,27 @@
             },
             {
               "node_type": "item",
+              "title": "Learn where to Click from Yourself: On-Policy Self-Distillation for GUI Grounding",
+              "description": "2026-05-01 · Analysis · CodeGUI-SD compares privileged visual interfaces for GUI grounding. Its box-and-hint condition yields higher student grounding accuracy than textual coordinates despite lower teacher accuracy, showing that teacher accuracy alone does not determine transfer utility in the tested setting.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 1228512152,
+                "language": "Python",
+                "license": "Apache-2.0",
+                "last_commit": "2026-09-25T07:21:50Z",
+                "open_issues": 0,
+                "owner": "zhangyan-ucas",
+                "repo": "GUI-SD-code",
+                "stars": 17,
+                "topics": []
+              },
+              "first_seen": "2026-10-06T16:29:51.331Z"
+            },
+            {
+              "node_type": "item",
               "title": "A Dual-Space Framework for General Knowledge Distillation of Large Language Models",
               "description": "2025-04-15 · Direct OPD · CodeDSKD constructs comparable teacher and student output spaces through learned projections. Cross-tokenizer losses use exactly aligned positions; the student-space term also masks positions where the projected teacher fails to reproduce its top prediction. The method does not provide a lossless mapping between arbitrary tokenizers.",
               "children": [],
@@ -935,27 +956,6 @@
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
-            },
-            {
-              "node_type": "item",
-              "title": "Learn where to Click from Yourself: On-Policy Self-Distillation for GUI Grounding",
-              "description": "2026-05-01 · Analysis · CodeGUI-SD compares privileged visual interfaces for GUI grounding. Its box-and-hint condition yields higher student grounding accuracy than textual coordinates despite lower teacher accuracy, showing that teacher accuracy alone does not determine transfer utility in the tested setting.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": null,
-                "homepage": null,
-                "id": 1228512152,
-                "language": "Python",
-                "license": "Apache-2.0",
-                "last_commit": "2026-09-25T07:21:50Z",
-                "open_issues": 0,
-                "owner": "zhangyan-ucas",
-                "repo": "GUI-SD-code",
-                "stars": 16,
-                "topics": []
-              },
-              "first_seen": "2026-10-06T16:29:51.331Z"
             },
             {
               "node_type": "item",
@@ -1070,27 +1070,6 @@
             },
             {
               "node_type": "item",
-              "title": "Weak Critics Make Strong Learners: On-Policy Critique Distillation for Scalable Oversight",
-              "description": "2026-05-29 · Direct OPD · CodeOn-Policy Critique Distillation uses a weaker critic to condition a frozen view of the stronger student, which supplies token targets on filtered student answers. The alignment results support the complete filtering-and-distillation recipe, while the reasoning experiment's loss description remains unresolved.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Weak Critics Make Strong Learners: On-Policy Critique Distillation (OPCD) for scalable oversight [ICML2026' at ai4math]",
-                "homepage": null,
-                "id": 1344343623,
-                "language": "Python",
-                "license": null,
-                "last_commit": "2026-08-24T00:18:27Z",
-                "open_issues": 0,
-                "owner": "jiakanglee",
-                "repo": "OPCD-Weak_critiques_strong",
-                "stars": 8,
-                "topics": []
-              },
-              "first_seen": "2026-10-06T16:29:51.331Z"
-            },
-            {
-              "node_type": "item",
               "title": "It Takes Two: Complementary Self-Distillation for Contextual Integrity in LLMs",
               "description": "2026-05-18 · Direct OPD · CodeOn student-generated responses, two feedback-conditioned self-teachers separately guide task-relevant retention and minimal disclosure through weighted token-level reverse KL, inducing a product-of-experts target. The construction uses explicit attribute partitions and synthetic disclosure decisions, and evaluation focuses on final responses.",
               "children": [],
@@ -1109,6 +1088,27 @@
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Weak Critics Make Strong Learners: On-Policy Critique Distillation for Scalable Oversight",
+              "description": "2026-05-29 · Direct OPD · CodeOn-Policy Critique Distillation uses a weaker critic to condition a frozen view of the stronger student, which supplies token targets on filtered student answers. The alignment results support the complete filtering-and-distillation recipe, while the reasoning experiment's loss description remains unresolved.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Weak Critics Make Strong Learners: On-Policy Critique Distillation (OPCD) for scalable oversight [ICML2026' at ai4math]",
+                "homepage": null,
+                "id": 1344343623,
+                "language": "Python",
+                "license": null,
+                "last_commit": "2026-08-24T00:18:27Z",
+                "open_issues": 0,
+                "owner": "jiakanglee",
+                "repo": "OPCD-Weak_critiques_strong",
+                "stars": 7,
+                "topics": []
+              },
+              "first_seen": "2026-10-06T16:29:51.331Z"
             },
             {
               "node_type": "item",
@@ -1333,11 +1333,11 @@
                 "id": 1072725553,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-23T11:40:05Z",
-                "open_issues": 976,
+                "last_commit": "2026-10-24T13:39:49Z",
+                "open_issues": 861,
                 "owner": "radixark",
                 "repo": "miles",
-                "stars": 3201,
+                "stars": 3203,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -1358,7 +1358,7 @@
                 "open_issues": 7,
                 "owner": "idanshen",
                 "repo": "Self-Distillation",
-                "stars": 724,
+                "stars": 723,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -1379,7 +1379,7 @@
                 "open_issues": 8,
                 "owner": "VisionOPD",
                 "repo": "Vision-OPD",
-                "stars": 342,
+                "stars": 343,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1785,7 +1785,7 @@
                 "open_issues": 77,
                 "owner": "Gen-Verse",
                 "repo": "OpenClaw-RL",
-                "stars": 5730,
+                "stars": 5729,
                 "topics": [
                   "async",
                   "coding",
@@ -1847,7 +1847,7 @@
                 "open_issues": 10,
                 "owner": "YoungZ365",
                 "repo": "SOD",
-                "stars": 158,
+                "stars": 162,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2167,6 +2167,27 @@
             },
             {
               "node_type": "item",
+              "title": "Trajectory-Refined Distillation",
+              "description": "2026-06-07 · Analysis · CodeTRD reports low teacher–student KL even on incorrect student trajectories and compares these diagnostics with teacher-refined prefixes. Its proposed training method uses teacher-rewritten offline trajectories, so the retained contribution is the diagnostic comparison rather than a new core OPD algorithm.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Official Implementation of Trajectory-Refined Distillation",
+                "homepage": null,
+                "id": 1260931078,
+                "language": "Python",
+                "license": "Apache-2.0",
+                "last_commit": "2026-06-09T04:12:01Z",
+                "open_issues": 1,
+                "owner": "louieworth",
+                "repo": "trd",
+                "stars": 137,
+                "topics": []
+              },
+              "first_seen": "2026-10-06T16:29:51.331Z"
+            },
+            {
+              "node_type": "item",
               "title": "Rethinking On-Policy Distillation of Large Language Models II: One Training Example",
               "description": "2026-09-03 · Analysis · CodeThis study compares repeated distillation from very few queries with full-data training. A top-k configuration tests task performance; separate sampled-token runs measure semantic-cluster coverage and alignment rates. The coverage proxy does not measure visitation frequency or instructional value.",
               "children": [],
@@ -2227,27 +2248,6 @@
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
-            },
-            {
-              "node_type": "item",
-              "title": "Trajectory-Refined Distillation",
-              "description": "2026-06-07 · Analysis · CodeTRD reports low teacher–student KL even on incorrect student trajectories and compares these diagnostics with teacher-refined prefixes. Its proposed training method uses teacher-rewritten offline trajectories, so the retained contribution is the diagnostic comparison rather than a new core OPD algorithm.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Official Implementation of Trajectory-Refined Distillation",
-                "homepage": null,
-                "id": 1260931078,
-                "language": "Python",
-                "license": "Apache-2.0",
-                "last_commit": "2026-06-09T04:12:01Z",
-                "open_issues": 1,
-                "owner": "louieworth",
-                "repo": "trd",
-                "stars": 71,
-                "topics": []
-              },
-              "first_seen": "2026-10-06T16:29:51.331Z"
             },
             {
               "node_type": "item",
@@ -2604,7 +2604,7 @@
                 "open_issues": 68,
                 "owner": "QwenLM",
                 "repo": "Qwen3",
-                "stars": 27683,
+                "stars": 27681,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2760,11 +2760,11 @@
                 "id": 599547518,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-23T14:37:03Z",
-                "open_issues": 9356,
+                "last_commit": "2026-10-24T12:28:36Z",
+                "open_issues": 9384,
                 "owner": "vllm-project",
                 "repo": "vllm",
-                "stars": 95225,
+                "stars": 95292,
                 "topics": [
                   "amd",
                   "blackwell",
@@ -2803,10 +2803,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-23T14:35:07Z",
-                "open_issues": 1384,
+                "open_issues": 1389,
                 "owner": "verl-project",
                 "repo": "verl",
-                "stars": 23994,
+                "stars": 24000,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2824,10 +2824,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-22T06:30:32Z",
-                "open_issues": 152,
+                "open_issues": 146,
                 "owner": "thinking-machines-lab",
                 "repo": "tinker-cookbook",
-                "stars": 4213,
+                "stars": 4214,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2848,7 +2848,7 @@
                 "open_issues": 117,
                 "owner": "stanford-crfm",
                 "repo": "helm",
-                "stars": 2955,
+                "stars": 2957,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -3037,7 +3037,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-23T14:40:05.701Z",
+    "last_updated": "2026-10-24T13:50:00.224Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated collection of papers and resources on On-Policy Distillation for Large Language Models.",
