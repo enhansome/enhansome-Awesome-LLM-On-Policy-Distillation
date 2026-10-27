@@ -11,7 +11,7 @@
               "description": "2023-06-14 · Direct OPD · CodeMiniLLM targets sequence-level reverse KL using student-generated responses and teacher probabilities. Its update separates an immediate full-vocabulary term from estimated future effects, with teacher-mixed sampling and other stabilizers; its reported evaluation centers on instruction following, not a general rule favoring reverse KL.",
               "children": [],
               "repo_info": {
-                "archived": false,
+                "archived": true,
                 "description": "General technology for enabling AI capabilities w/ LLMs and MLLMs",
                 "homepage": "https://aka.ms/GeneralAI",
                 "id": 577753426,
@@ -54,7 +54,7 @@
                 "open_issues": 1,
                 "owner": "RUCBM",
                 "repo": "G-OPD",
-                "stars": 300,
+                "stars": 301,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -208,6 +208,27 @@
             },
             {
               "node_type": "item",
+              "title": "When Are Teacher Tokens Reliable? Position-Weighted On-Policy Self-Distillation for Reasoning",
+              "description": "2026-05-20 · Direct OPD · CodePW-OPSD increases position weights on clipped forward-KL supervision from a privileged-answer self-teacher and averages losses per sequence. Its reliability diagnostic concerns ambiguous candidate tokens on correct reasoning traces; the reported method changes both weighting and aggregation, limiting attribution to weighting alone.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "[NeurIPS 2026] The official implementation of our preprint paper \"When Are Teacher Tokens Reliable? Position-Weighted On-Policy Self-Distillation for Reasoning\"",
+                "homepage": null,
+                "id": 1244210855,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-09-25T06:01:32Z",
+                "open_issues": 0,
+                "owner": "SaFo-Lab",
+                "repo": "PW-OPSD",
+                "stars": 14,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
+            },
+            {
+              "node_type": "item",
               "title": "Explain in Your Own Words: Improving Reasoning via Token-Selective Dual Knowledge Distillation",
               "description": "2026-02-25 · Direct OPD · CodeTSD-KD trains on student-generated reasoning using teacher rankings of student-proposed token candidates in an early response segment, alongside distribution matching gated by the student–teacher uncertainty gap and selective entropy minimization. The ranking loss supplies preferences, not full-distribution matching.",
               "children": [],
@@ -247,27 +268,6 @@
                 "topics": []
               },
               "first_seen": "2026-10-13T17:21:28.335Z"
-            },
-            {
-              "node_type": "item",
-              "title": "When Are Teacher Tokens Reliable? Position-Weighted On-Policy Self-Distillation for Reasoning",
-              "description": "2026-05-20 · Direct OPD · CodePW-OPSD increases position weights on clipped forward-KL supervision from a privileged-answer self-teacher and averages losses per sequence. Its reliability diagnostic concerns ambiguous candidate tokens on correct reasoning traces; the reported method changes both weighting and aggregation, limiting attribution to weighting alone.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "[NeurIPS 2026] The official implementation of our preprint paper \"When Are Teacher Tokens Reliable? Position-Weighted On-Policy Self-Distillation for Reasoning\"",
-                "homepage": null,
-                "id": 1244210855,
-                "language": "Python",
-                "license": "MIT",
-                "last_commit": "2026-09-25T06:01:32Z",
-                "open_issues": 0,
-                "owner": "SaFo-Lab",
-                "repo": "PW-OPSD",
-                "stars": 13,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -429,7 +429,7 @@
               "description": "2025-11-13 · Teacher-mediated RL · CodeGAD trains a discriminator to score teacher responses above current student responses, then uses its scalar score as reinforcement-learning feedback for student rollouts. This permits black-box teacher access, but the feedback is a learned response-level proxy, not teacher token probabilities.",
               "children": [],
               "repo_info": {
-                "archived": false,
+                "archived": true,
                 "description": "General technology for enabling AI capabilities w/ LLMs and MLLMs",
                 "homepage": "https://aka.ms/GeneralAI",
                 "id": 577753426,
@@ -472,7 +472,7 @@
                 "open_issues": 12,
                 "owner": "lasgroup",
                 "repo": "SDPO",
-                "stars": 1131,
+                "stars": 1133,
                 "topics": [
                   "distillation",
                   "llm",
@@ -498,7 +498,7 @@
                 "open_issues": 1,
                 "owner": "Ahren09",
                 "repo": "UniSD",
-                "stars": 862,
+                "stars": 863,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -519,7 +519,7 @@
                 "open_issues": 8,
                 "owner": "siyan-zhao",
                 "repo": "OPSD",
-                "stars": 687,
+                "stars": 689,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -540,7 +540,7 @@
                 "open_issues": 8,
                 "owner": "VisionOPD",
                 "repo": "Vision-OPD",
-                "stars": 343,
+                "stars": 344,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -784,7 +784,7 @@
                 "open_issues": 2,
                 "owner": "zzy1127",
                 "repo": "OPHSD-On-Policy-Harness-Self-Distillation",
-                "stars": 26,
+                "stars": 27,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -847,7 +847,7 @@
                 "open_issues": 1,
                 "owner": "Oranger-l",
                 "repo": "MGSD",
-                "stars": 22,
+                "stars": 23,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -1333,11 +1333,11 @@
                 "id": 1072725553,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-26T15:32:32Z",
-                "open_issues": 865,
+                "last_commit": "2026-10-27T15:05:50Z",
+                "open_issues": 870,
                 "owner": "radixark",
                 "repo": "miles",
-                "stars": 3211,
+                "stars": 3223,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -1379,7 +1379,7 @@
                 "open_issues": 8,
                 "owner": "VisionOPD",
                 "repo": "Vision-OPD",
-                "stars": 343,
+                "stars": 344,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1442,7 +1442,7 @@
                 "open_issues": 2,
                 "owner": "jet-ai-projects",
                 "repo": "Lightning-OPD",
-                "stars": 86,
+                "stars": 87,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -1785,7 +1785,7 @@
                 "open_issues": 77,
                 "owner": "Gen-Verse",
                 "repo": "OpenClaw-RL",
-                "stars": 5734,
+                "stars": 5737,
                 "topics": [
                   "async",
                   "coding",
@@ -1820,7 +1820,7 @@
                 "open_issues": 10,
                 "owner": "ZJU-REAL",
                 "repo": "SDAR",
-                "stars": 374,
+                "stars": 375,
                 "topics": [
                   "agentic-ai",
                   "agentic-skill",
@@ -1868,7 +1868,7 @@
                 "open_issues": 2,
                 "owner": "kokolerk",
                 "repo": "TCOD",
-                "stars": 115,
+                "stars": 116,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2123,7 +2123,7 @@
                 "open_issues": 0,
                 "owner": "wgcyeo",
                 "repo": "HINT-SD",
-                "stars": 3,
+                "stars": 4,
                 "topics": [
                   "llm",
                   "long-horizon-agents",
@@ -2441,7 +2441,7 @@
                 "open_issues": 1,
                 "owner": "HancCui",
                 "repo": "opd_hacking",
-                "stars": 8,
+                "stars": 9,
                 "topics": []
               },
               "first_seen": "2026-10-13T17:21:28.335Z"
@@ -2572,7 +2572,7 @@
                 "id": 1408569176,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-10-26T07:13:45Z",
+                "last_commit": "2026-10-26T18:58:10Z",
                 "open_issues": 0,
                 "owner": "leizhao7",
                 "repo": "opd-learning-signals",
@@ -2604,7 +2604,7 @@
                 "open_issues": 68,
                 "owner": "QwenLM",
                 "repo": "Qwen3",
-                "stars": 27683,
+                "stars": 27686,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2736,7 +2736,7 @@
                 "open_issues": 1,
                 "owner": "pppyb",
                 "repo": "SecOPD",
-                "stars": 14,
+                "stars": 15,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2760,11 +2760,11 @@
                 "id": 599547518,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-26T16:25:17Z",
-                "open_issues": 9493,
+                "last_commit": "2026-10-27T15:32:28Z",
+                "open_issues": 9598,
                 "owner": "vllm-project",
                 "repo": "vllm",
-                "stars": 95599,
+                "stars": 95691,
                 "topics": [
                   "amd",
                   "blackwell",
@@ -2802,11 +2802,11 @@
                 "id": 881221486,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-26T12:35:16Z",
+                "last_commit": "2026-10-27T12:14:43Z",
                 "open_issues": 1395,
                 "owner": "verl-project",
                 "repo": "verl",
-                "stars": 24024,
+                "stars": 24038,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2824,10 +2824,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-26T04:47:58Z",
-                "open_issues": 139,
+                "open_issues": 138,
                 "owner": "thinking-machines-lab",
                 "repo": "tinker-cookbook",
-                "stars": 4216,
+                "stars": 4219,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2848,7 +2848,7 @@
                 "open_issues": 117,
                 "owner": "stanford-crfm",
                 "repo": "helm",
-                "stars": 2959,
+                "stars": 2960,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -3037,7 +3037,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-26T16:30:44.240Z",
+    "last_updated": "2026-10-27T15:43:36.840Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated collection of papers and resources on On-Policy Distillation for Large Language Models.",
@@ -3049,7 +3049,7 @@
       "open_issues": 8,
       "owner": "nick7nlp",
       "repo": "Awesome-LLM-On-Policy-Distillation",
-      "stars": 587,
+      "stars": 588,
       "topics": [
         "awesome-list",
         "awesome-opd",
