@@ -21,7 +21,7 @@
                 "open_issues": 120,
                 "owner": "microsoft",
                 "repo": "LMOps",
-                "stars": 4484,
+                "stars": 4483,
                 "topics": [
                   "agi",
                   "gpt",
@@ -439,7 +439,7 @@
                 "open_issues": 120,
                 "owner": "microsoft",
                 "repo": "LMOps",
-                "stars": 4484,
+                "stars": 4483,
                 "topics": [
                   "agi",
                   "gpt",
@@ -472,7 +472,7 @@
                 "open_issues": 12,
                 "owner": "lasgroup",
                 "repo": "SDPO",
-                "stars": 1133,
+                "stars": 1134,
                 "topics": [
                   "distillation",
                   "llm",
@@ -498,7 +498,7 @@
                 "open_issues": 1,
                 "owner": "Ahren09",
                 "repo": "UniSD",
-                "stars": 863,
+                "stars": 869,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -519,7 +519,7 @@
                 "open_issues": 8,
                 "owner": "siyan-zhao",
                 "repo": "OPSD",
-                "stars": 689,
+                "stars": 694,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -611,7 +611,7 @@
                 "open_issues": 3,
                 "owner": "ShenzhiYang2000",
                 "repo": "OPRD",
-                "stars": 83,
+                "stars": 84,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -910,7 +910,7 @@
                 "open_issues": 0,
                 "owner": "zhangyan-ucas",
                 "repo": "GUI-SD-code",
-                "stars": 17,
+                "stars": 18,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -1060,7 +1060,7 @@
                 "language": "Python",
                 "license": null,
                 "last_commit": "2026-10-09T06:05:47Z",
-                "open_issues": 1,
+                "open_issues": 2,
                 "owner": "ZJU-REAL",
                 "repo": "GPD",
                 "stars": 11,
@@ -1151,6 +1151,27 @@
                 "topics": []
               },
               "first_seen": "2026-10-13T17:21:28.335Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Counterfactual Constraint-Conditioned On-Policy Distillation for Multi-Constraint Instruction Following",
+              "description": "2026-09-23 · Direct OPD · CodeCC-OPD generates student responses under all constraints while a frozen teacher rescores the same tokens with each constraint removed in turn. Summed, clipped likelihood shifts shape the distillation reward; teacher scoring grows with the number of constraints, without requiring additional student rollouts.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Counterfactual Constraint-Conditioned On-Policy Distillation for Multi-Constraint Instruction Following",
+                "homepage": null,
+                "id": 1382811593,
+                "language": "Python",
+                "license": "Apache-2.0",
+                "last_commit": "2026-09-24T02:34:20Z",
+                "open_issues": 0,
+                "owner": "zhengyanzhao1997",
+                "repo": "cc-opd",
+                "stars": 5,
+                "topics": []
+              },
+              "first_seen": "2026-10-05T19:03:38.723Z"
             },
             {
               "node_type": "item",
@@ -1274,27 +1295,6 @@
             },
             {
               "node_type": "item",
-              "title": "Counterfactual Constraint-Conditioned On-Policy Distillation for Multi-Constraint Instruction Following",
-              "description": "2026-09-23 · Direct OPD · CodeCC-OPD generates student responses under all constraints while a frozen teacher rescores the same tokens with each constraint removed in turn. Summed, clipped likelihood shifts shape the distillation reward; teacher scoring grows with the number of constraints, without requiring additional student rollouts.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Counterfactual Constraint-Conditioned On-Policy Distillation for Multi-Constraint Instruction Following",
-                "homepage": null,
-                "id": 1382811593,
-                "language": "Python",
-                "license": "Apache-2.0",
-                "last_commit": "2026-09-24T02:34:20Z",
-                "open_issues": 0,
-                "owner": "zhengyanzhao1997",
-                "repo": "cc-opd",
-                "stars": 2,
-                "topics": []
-              },
-              "first_seen": "2026-10-05T19:03:38.723Z"
-            },
-            {
-              "node_type": "item",
               "title": "Self-Improving Large Language Models via Progressive Experience Evolution",
               "description": "2026-08-03 · Hybrid OPD · CodeSPEE consolidates experience from successful and failed trajectories into privileged self-teacher context for distillation on student-generated prefixes, followed by GRPO. Its reported single-round results support the combined experience-distillation recipe without establishing sustained improvement across repeated training cycles.",
               "children": [],
@@ -1333,11 +1333,11 @@
                 "id": 1072725553,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-27T15:05:50Z",
-                "open_issues": 870,
+                "last_commit": "2026-10-28T16:24:06Z",
+                "open_issues": 869,
                 "owner": "radixark",
                 "repo": "miles",
-                "stars": 3223,
+                "stars": 3230,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -1358,7 +1358,7 @@
                 "open_issues": 7,
                 "owner": "idanshen",
                 "repo": "Self-Distillation",
-                "stars": 725,
+                "stars": 726,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -1386,6 +1386,27 @@
             },
             {
               "node_type": "item",
+              "title": "TIP: Token Importance in On-Policy Distillation",
+              "description": "2026-04-15 · Direct OPD · CodeTIP studies which positions in student-generated rollouts warrant distillation, selecting tokens using student entropy and teacher–student disagreement. Entropy alone misses confident disagreements; the combined selector retains them, but disagreement does not establish that the teacher’s preferred continuation is correct.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "On Policy Distillation Build on top of Verl",
+                "homepage": null,
+                "id": 1202211835,
+                "language": "Python",
+                "license": null,
+                "last_commit": "2026-09-03T01:52:02Z",
+                "open_issues": 3,
+                "owner": "HJSang",
+                "repo": "OPSD_OnPolicyDistillation",
+                "stars": 105,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
+            },
+            {
+              "node_type": "item",
               "title": "Distribution-Aligned Sequence Distillation for Superior Long-CoT Reasoning",
               "description": "2026-01-14 · Hybrid OPD · CodeDASD includes a mixed-policy stage in which a teacher completes retained prefixes from student-generated reasoning traces. Its masking comparison studies whether retaining the student segment helps subsequent fine-tuning, alongside substantial offline sequence-distillation stages.",
               "children": [],
@@ -1404,27 +1425,6 @@
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
-            },
-            {
-              "node_type": "item",
-              "title": "TIP: Token Importance in On-Policy Distillation",
-              "description": "2026-04-15 · Direct OPD · CodeTIP studies which positions in student-generated rollouts warrant distillation, selecting tokens using student entropy and teacher–student disagreement. Entropy alone misses confident disagreements; the combined selector retains them, but disagreement does not establish that the teacher’s preferred continuation is correct.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "On Policy Distillation Build on top of Verl",
-                "homepage": null,
-                "id": 1202211835,
-                "language": "Python",
-                "license": null,
-                "last_commit": "2026-09-03T01:52:02Z",
-                "open_issues": 3,
-                "owner": "HJSang",
-                "repo": "OPSD_OnPolicyDistillation",
-                "stars": 104,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T21:05:04.438Z"
             },
             {
               "node_type": "item",
@@ -1501,7 +1501,7 @@
                 "id": 1276546290,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-06-29T00:34:25Z",
+                "last_commit": "2026-10-28T04:06:30Z",
                 "open_issues": 0,
                 "owner": "furiosa-ai",
                 "repo": "async-opd",
@@ -1820,7 +1820,7 @@
                 "open_issues": 10,
                 "owner": "ZJU-REAL",
                 "repo": "SDAR",
-                "stars": 375,
+                "stars": 376,
                 "topics": [
                   "agentic-ai",
                   "agentic-skill",
@@ -2156,7 +2156,7 @@
                 "open_issues": 0,
                 "owner": "Thinking-Space",
                 "repo": "Rethinking-OPD",
-                "stars": 1059,
+                "stars": 1060,
                 "topics": [
                   "llms",
                   "mechanism",
@@ -2604,7 +2604,7 @@
                 "open_issues": 68,
                 "owner": "QwenLM",
                 "repo": "Qwen3",
-                "stars": 27686,
+                "stars": 27688,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2642,11 +2642,11 @@
                 "id": 1330629905,
                 "language": "Python",
                 "license": null,
-                "last_commit": "2026-09-16T06:38:18Z",
+                "last_commit": "2026-10-28T07:08:49Z",
                 "open_issues": 0,
                 "owner": "ZinYY",
                 "repo": "AdaFlash",
-                "stars": 134,
+                "stars": 133,
                 "topics": [
                   "diffusion-language-models",
                   "efficient-inference",
@@ -2760,11 +2760,11 @@
                 "id": 599547518,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-27T15:32:28Z",
-                "open_issues": 9598,
+                "last_commit": "2026-10-28T16:23:26Z",
+                "open_issues": 9608,
                 "owner": "vllm-project",
                 "repo": "vllm",
-                "stars": 95691,
+                "stars": 95774,
                 "topics": [
                   "amd",
                   "blackwell",
@@ -2802,11 +2802,11 @@
                 "id": 881221486,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-27T12:14:43Z",
-                "open_issues": 1395,
+                "last_commit": "2026-10-28T12:38:05Z",
+                "open_issues": 1405,
                 "owner": "verl-project",
                 "repo": "verl",
-                "stars": 24038,
+                "stars": 24044,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2823,8 +2823,8 @@
                 "id": 1019793048,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-26T04:47:58Z",
-                "open_issues": 138,
+                "last_commit": "2026-10-27T22:59:56Z",
+                "open_issues": 139,
                 "owner": "thinking-machines-lab",
                 "repo": "tinker-cookbook",
                 "stars": 4219,
@@ -2845,7 +2845,7 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-01T01:33:19Z",
-                "open_issues": 117,
+                "open_issues": 119,
                 "owner": "stanford-crfm",
                 "repo": "helm",
                 "stars": 2960,
@@ -2906,7 +2906,7 @@
                 "open_issues": 25,
                 "owner": "uclaml",
                 "repo": "SPIN",
-                "stars": 1255,
+                "stars": 1254,
                 "topics": [
                   "deep-learning",
                   "fine-tuning",
@@ -3037,7 +3037,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-27T15:43:36.840Z",
+    "last_updated": "2026-10-28T16:26:00.930Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated collection of papers and resources on On-Policy Distillation for Large Language Models.",
@@ -3049,7 +3049,7 @@
       "open_issues": 8,
       "owner": "nick7nlp",
       "repo": "Awesome-LLM-On-Policy-Distillation",
-      "stars": 588,
+      "stars": 589,
       "topics": [
         "awesome-list",
         "awesome-opd",
