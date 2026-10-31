@@ -159,7 +159,7 @@
                 "open_issues": 2,
                 "owner": "LeapLabTHU",
                 "repo": "OPDVR",
-                "stars": 30,
+                "stars": 34,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -498,7 +498,7 @@
                 "open_issues": 1,
                 "owner": "Ahren09",
                 "repo": "UniSD",
-                "stars": 878,
+                "stars": 881,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -516,10 +516,10 @@
                 "language": "Python",
                 "license": null,
                 "last_commit": "2026-09-05T04:48:16Z",
-                "open_issues": 9,
+                "open_issues": 8,
                 "owner": "siyan-zhao",
                 "repo": "OPSD",
-                "stars": 696,
+                "stars": 697,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1333,11 +1333,11 @@
                 "id": 1072725553,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-30T16:25:22Z",
-                "open_issues": 889,
+                "last_commit": "2026-10-31T15:26:20Z",
+                "open_issues": 905,
                 "owner": "radixark",
                 "repo": "miles",
-                "stars": 3242,
+                "stars": 3245,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -1868,7 +1868,7 @@
                 "open_issues": 2,
                 "owner": "kokolerk",
                 "repo": "TCOD",
-                "stars": 116,
+                "stars": 117,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2156,7 +2156,7 @@
                 "open_issues": 0,
                 "owner": "Thinking-Space",
                 "repo": "Rethinking-OPD",
-                "stars": 1061,
+                "stars": 1062,
                 "topics": [
                   "llms",
                   "mechanism",
@@ -2551,7 +2551,7 @@
                 "id": 1252996341,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-06-01T10:00:59Z",
+                "last_commit": "2026-10-31T08:04:03Z",
                 "open_issues": 0,
                 "owner": "zui-jiang",
                 "repo": "LGR",
@@ -2572,7 +2572,7 @@
                 "id": 1408569176,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-10-26T18:58:10Z",
+                "last_commit": "2026-10-30T16:53:11Z",
                 "open_issues": 0,
                 "owner": "leizhao7",
                 "repo": "opd-learning-signals",
@@ -2601,10 +2601,10 @@
                 "language": "Python",
                 "license": null,
                 "last_commit": "2026-01-09T03:05:47Z",
-                "open_issues": 68,
+                "open_issues": 69,
                 "owner": "QwenLM",
                 "repo": "Qwen3",
-                "stars": 27695,
+                "stars": 27696,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2760,11 +2760,11 @@
                 "id": 599547518,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-30T16:28:04Z",
-                "open_issues": 9668,
+                "last_commit": "2026-10-31T15:25:10Z",
+                "open_issues": 9659,
                 "owner": "vllm-project",
                 "repo": "vllm",
-                "stars": 95918,
+                "stars": 95974,
                 "topics": [
                   "amd",
                   "blackwell",
@@ -2802,11 +2802,11 @@
                 "id": 881221486,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-30T06:53:24Z",
-                "open_issues": 1426,
+                "last_commit": "2026-10-31T09:16:04Z",
+                "open_issues": 1434,
                 "owner": "verl-project",
                 "repo": "verl",
-                "stars": 24077,
+                "stars": 24082,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2823,11 +2823,11 @@
                 "id": 1019793048,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-29T22:48:19Z",
-                "open_issues": 139,
+                "last_commit": "2026-10-30T23:10:52Z",
+                "open_issues": 140,
                 "owner": "thinking-machines-lab",
                 "repo": "tinker-cookbook",
-                "stars": 4228,
+                "stars": 4231,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2848,7 +2848,7 @@
                 "open_issues": 119,
                 "owner": "stanford-crfm",
                 "repo": "helm",
-                "stars": 2959,
+                "stars": 2961,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2906,7 +2906,7 @@
                 "open_issues": 25,
                 "owner": "uclaml",
                 "repo": "SPIN",
-                "stars": 1254,
+                "stars": 1255,
                 "topics": [
                   "deep-learning",
                   "fine-tuning",
@@ -3037,7 +3037,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-30T16:31:48.141Z",
+    "last_updated": "2026-10-31T15:36:04.089Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated collection of papers and resources on On-Policy Distillation for Large Language Models.",
