@@ -21,7 +21,7 @@
                 "open_issues": 120,
                 "owner": "microsoft",
                 "repo": "LMOps",
-                "stars": 4483,
+                "stars": 4484,
                 "topics": [
                   "agi",
                   "gpt",
@@ -159,7 +159,7 @@
                 "open_issues": 2,
                 "owner": "LeapLabTHU",
                 "repo": "OPDVR",
-                "stars": 37,
+                "stars": 39,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -439,7 +439,7 @@
                 "open_issues": 120,
                 "owner": "microsoft",
                 "repo": "LMOps",
-                "stars": 4483,
+                "stars": 4484,
                 "topics": [
                   "agi",
                   "gpt",
@@ -469,10 +469,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-07-01T13:51:47Z",
-                "open_issues": 12,
+                "open_issues": 11,
                 "owner": "lasgroup",
                 "repo": "SDPO",
-                "stars": 1138,
+                "stars": 1141,
                 "topics": [
                   "distillation",
                   "llm",
@@ -498,7 +498,7 @@
                 "open_issues": 1,
                 "owner": "Ahren09",
                 "repo": "UniSD",
-                "stars": 887,
+                "stars": 891,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -519,7 +519,7 @@
                 "open_issues": 8,
                 "owner": "siyan-zhao",
                 "repo": "OPSD",
-                "stars": 698,
+                "stars": 701,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -540,7 +540,7 @@
                 "open_issues": 8,
                 "owner": "VisionOPD",
                 "repo": "Vision-OPD",
-                "stars": 345,
+                "stars": 347,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -561,7 +561,7 @@
                 "open_issues": 0,
                 "owner": "THU-BPM",
                 "repo": "RLCSD",
-                "stars": 115,
+                "stars": 116,
                 "topics": [
                   "large-language-models",
                   "llm",
@@ -611,7 +611,7 @@
                 "open_issues": 3,
                 "owner": "ShenzhiYang2000",
                 "repo": "OPRD",
-                "stars": 84,
+                "stars": 85,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -674,7 +674,7 @@
                 "open_issues": 2,
                 "owner": "princeton-pli",
                 "repo": "Self-Distillation-Zero",
-                "stars": 41,
+                "stars": 42,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -1091,6 +1091,27 @@
             },
             {
               "node_type": "item",
+              "title": "Lightning Weave: Improving the Accuracy-Efficiency Frontier of Reasoning Models through Capability Composition",
+              "description": "2026-09-13 · Hybrid OPD · CodeLightning Weave combines aligned policy shifts into an explicit target on cached student states and fits a finite-support log-residual loss. Its composition comparisons favor joint target construction over data mixing and sequential application, while full-vocabulary KL identities do not transfer unchanged to the implemented surrogate.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": "https://jet-ai-projects.github.io/Lightning-Weave/",
+                "id": 1372301793,
+                "language": "Python",
+                "license": "Apache-2.0",
+                "last_commit": "2026-10-12T17:57:38Z",
+                "open_issues": 0,
+                "owner": "jet-ai-projects",
+                "repo": "Lightning-Weave",
+                "stars": 7,
+                "topics": []
+              },
+              "first_seen": "2026-10-06T16:29:51.331Z"
+            },
+            {
+              "node_type": "item",
               "title": "Weak Critics Make Strong Learners: On-Policy Critique Distillation for Scalable Oversight",
               "description": "2026-05-29 · Direct OPD · CodeOn-Policy Critique Distillation uses a weaker critic to condition a frozen view of the stronger student, which supplies token targets on filtered student answers. The alignment results support the complete filtering-and-distillation recipe, while the reasoning experiment's loss description remains unresolved.",
               "children": [],
@@ -1106,27 +1127,6 @@
                 "owner": "jiakanglee",
                 "repo": "OPCD-Weak_critiques_strong",
                 "stars": 7,
-                "topics": []
-              },
-              "first_seen": "2026-10-06T16:29:51.331Z"
-            },
-            {
-              "node_type": "item",
-              "title": "Lightning Weave: Improving the Accuracy-Efficiency Frontier of Reasoning Models through Capability Composition",
-              "description": "2026-09-13 · Hybrid OPD · CodeLightning Weave combines aligned policy shifts into an explicit target on cached student states and fits a finite-support log-residual loss. Its composition comparisons favor joint target construction over data mixing and sequential application, while full-vocabulary KL identities do not transfer unchanged to the implemented surrogate.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": null,
-                "homepage": "https://jet-ai-projects.github.io/Lightning-Weave/",
-                "id": 1372301793,
-                "language": "Python",
-                "license": "Apache-2.0",
-                "last_commit": "2026-10-12T17:57:38Z",
-                "open_issues": 0,
-                "owner": "jet-ai-projects",
-                "repo": "Lightning-Weave",
-                "stars": 6,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -1333,11 +1333,11 @@
                 "id": 1072725553,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-01T06:28:00Z",
-                "open_issues": 902,
+                "last_commit": "2026-11-02T19:51:30Z",
+                "open_issues": 913,
                 "owner": "radixark",
                 "repo": "miles",
-                "stars": 3247,
+                "stars": 3254,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -1358,7 +1358,7 @@
                 "open_issues": 7,
                 "owner": "idanshen",
                 "repo": "Self-Distillation",
-                "stars": 727,
+                "stars": 728,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -1379,7 +1379,7 @@
                 "open_issues": 8,
                 "owner": "VisionOPD",
                 "repo": "Vision-OPD",
-                "stars": 345,
+                "stars": 347,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1442,7 +1442,7 @@
                 "open_issues": 2,
                 "owner": "jet-ai-projects",
                 "repo": "Lightning-OPD",
-                "stars": 87,
+                "stars": 88,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -1505,7 +1505,7 @@
                 "open_issues": 0,
                 "owner": "furiosa-ai",
                 "repo": "async-opd",
-                "stars": 39,
+                "stars": 40,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1817,7 +1817,7 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-10-15T09:42:26Z",
-                "open_issues": 10,
+                "open_issues": 11,
                 "owner": "ZJU-REAL",
                 "repo": "SDAR",
                 "stars": 376,
@@ -2328,7 +2328,7 @@
                 "open_issues": 1,
                 "owner": "SalesforceAIResearch",
                 "repo": "CaOPD",
-                "stars": 17,
+                "stars": 18,
                 "topics": [
                   "agent",
                   "calibration",
@@ -2604,7 +2604,7 @@
                 "open_issues": 69,
                 "owner": "QwenLM",
                 "repo": "Qwen3",
-                "stars": 27698,
+                "stars": 27700,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2625,7 +2625,7 @@
                 "open_issues": 23,
                 "owner": "XiaomiMiMo",
                 "repo": "MiMo-V2-Flash",
-                "stars": 1399,
+                "stars": 1398,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2760,11 +2760,11 @@
                 "id": 599547518,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-01T15:03:44Z",
-                "open_issues": 9704,
+                "last_commit": "2026-11-02T19:54:38Z",
+                "open_issues": 9800,
                 "owner": "vllm-project",
                 "repo": "vllm",
-                "stars": 96055,
+                "stars": 96158,
                 "topics": [
                   "amd",
                   "blackwell",
@@ -2802,11 +2802,11 @@
                 "id": 881221486,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-01T15:22:14Z",
-                "open_issues": 1439,
+                "last_commit": "2026-11-02T19:04:27Z",
+                "open_issues": 1448,
                 "owner": "verl-project",
                 "repo": "verl",
-                "stars": 24091,
+                "stars": 24111,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2827,7 +2827,7 @@
                 "open_issues": 141,
                 "owner": "thinking-machines-lab",
                 "repo": "tinker-cookbook",
-                "stars": 4232,
+                "stars": 4233,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2845,10 +2845,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-01T01:33:19Z",
-                "open_issues": 117,
+                "open_issues": 120,
                 "owner": "stanford-crfm",
                 "repo": "helm",
-                "stars": 2961,
+                "stars": 2964,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2906,7 +2906,7 @@
                 "open_issues": 25,
                 "owner": "uclaml",
                 "repo": "SPIN",
-                "stars": 1255,
+                "stars": 1256,
                 "topics": [
                   "deep-learning",
                   "fine-tuning",
@@ -3037,7 +3037,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-01T16:34:46.727Z",
+    "last_updated": "2026-11-02T19:58:02.499Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated collection of papers and resources on On-Policy Distillation for Large Language Models.",
