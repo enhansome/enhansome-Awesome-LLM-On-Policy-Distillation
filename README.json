@@ -96,7 +96,7 @@
                 "open_issues": 0,
                 "owner": "uanu2002",
                 "repo": "DAPD",
-                "stars": 79,
+                "stars": 80,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -159,7 +159,7 @@
                 "open_issues": 2,
                 "owner": "LeapLabTHU",
                 "repo": "OPDVR",
-                "stars": 40,
+                "stars": 41,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -472,7 +472,7 @@
                 "open_issues": 11,
                 "owner": "lasgroup",
                 "repo": "SDPO",
-                "stars": 1143,
+                "stars": 1141,
                 "topics": [
                   "distillation",
                   "llm",
@@ -498,7 +498,7 @@
                 "open_issues": 1,
                 "owner": "Ahren09",
                 "repo": "UniSD",
-                "stars": 895,
+                "stars": 897,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -519,7 +519,7 @@
                 "open_issues": 8,
                 "owner": "siyan-zhao",
                 "repo": "OPSD",
-                "stars": 704,
+                "stars": 706,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -742,7 +742,7 @@
                 "open_issues": 2,
                 "owner": "aniri15",
                 "repo": "OPD-V",
-                "stars": 30,
+                "stars": 31,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -830,6 +830,27 @@
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Distilling Routed 3D Privilege for Spatial Reasoning in Vision-Language Models",
+              "description": "2026-10-08 · Hybrid OPD · CodeGPD combines GRPO with self-distillation on RGB-conditioned student trajectories, using a teacher supplied with question-routed textual 3D cues and the reference answer. Controlled spatial-VLM comparisons favor this recipe over GRPO and answer-privileged OPSD on the reported averages, while ablations favor routed cues and incorrect-only distillation in the tested setting.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "GPD: Distilling Routed 3D Privilege for Spatial Reasoning in Vision-Language Models",
+                "homepage": null,
+                "id": 1394969461,
+                "language": "Python",
+                "license": null,
+                "last_commit": "2026-11-05T09:47:43Z",
+                "open_issues": 2,
+                "owner": "ZJU-REAL",
+                "repo": "GPD",
+                "stars": 23,
+                "topics": []
+              },
+              "first_seen": "2026-10-13T17:21:28.335Z"
             },
             {
               "node_type": "item",
@@ -1046,27 +1067,6 @@
                 ]
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
-            },
-            {
-              "node_type": "item",
-              "title": "Distilling Routed 3D Privilege for Spatial Reasoning in Vision-Language Models",
-              "description": "2026-10-08 · Hybrid OPD · CodeGPD combines GRPO with self-distillation on RGB-conditioned student trajectories, using a teacher supplied with question-routed textual 3D cues and the reference answer. Controlled spatial-VLM comparisons favor this recipe over GRPO and answer-privileged OPSD on the reported averages, while ablations favor routed cues and incorrect-only distillation in the tested setting.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "GPD: Distilling Routed 3D Privilege for Spatial Reasoning in Vision-Language Models",
-                "homepage": null,
-                "id": 1394969461,
-                "language": "Python",
-                "license": null,
-                "last_commit": "2026-10-09T06:05:47Z",
-                "open_issues": 2,
-                "owner": "ZJU-REAL",
-                "repo": "GPD",
-                "stars": 11,
-                "topics": []
-              },
-              "first_seen": "2026-10-13T17:21:28.335Z"
             },
             {
               "node_type": "item",
@@ -1333,11 +1333,11 @@
                 "id": 1072725553,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-04T17:39:02Z",
-                "open_issues": 927,
+                "last_commit": "2026-11-05T17:39:27Z",
+                "open_issues": 947,
                 "owner": "radixark",
                 "repo": "miles",
-                "stars": 3267,
+                "stars": 3272,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -1785,7 +1785,7 @@
                 "open_issues": 77,
                 "owner": "Gen-Verse",
                 "repo": "OpenClaw-RL",
-                "stars": 5745,
+                "stars": 5744,
                 "topics": [
                   "async",
                   "coding",
@@ -1889,7 +1889,7 @@
                 "open_issues": 2,
                 "owner": "queen-project",
                 "repo": "queen",
-                "stars": 75,
+                "stars": 77,
                 "topics": []
               },
               "first_seen": "2026-10-13T17:21:28.335Z"
@@ -2156,7 +2156,7 @@
                 "open_issues": 0,
                 "owner": "Thinking-Space",
                 "repo": "Rethinking-OPD",
-                "stars": 1065,
+                "stars": 1067,
                 "topics": [
                   "llms",
                   "mechanism",
@@ -2181,7 +2181,7 @@
                 "open_issues": 1,
                 "owner": "louieworth",
                 "repo": "trd",
-                "stars": 140,
+                "stars": 141,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -2357,7 +2357,7 @@
                 "open_issues": 0,
                 "owner": "Quester-one",
                 "repo": "PlanPhysCode",
-                "stars": 16,
+                "stars": 17,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2604,7 +2604,7 @@
                 "open_issues": 69,
                 "owner": "QwenLM",
                 "repo": "Qwen3",
-                "stars": 27705,
+                "stars": 27713,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2760,11 +2760,11 @@
                 "id": 599547518,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-04T17:43:15Z",
-                "open_issues": 9852,
+                "last_commit": "2026-11-05T17:46:53Z",
+                "open_issues": 9940,
                 "owner": "vllm-project",
                 "repo": "vllm",
-                "stars": 96309,
+                "stars": 96400,
                 "topics": [
                   "amd",
                   "blackwell",
@@ -2802,11 +2802,11 @@
                 "id": 881221486,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-04T17:34:44Z",
-                "open_issues": 1449,
+                "last_commit": "2026-11-05T14:16:24Z",
+                "open_issues": 1451,
                 "owner": "verl-project",
                 "repo": "verl",
-                "stars": 24128,
+                "stars": 24146,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2827,7 +2827,7 @@
                 "open_issues": 142,
                 "owner": "thinking-machines-lab",
                 "repo": "tinker-cookbook",
-                "stars": 4236,
+                "stars": 4235,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2845,7 +2845,7 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-01T01:33:19Z",
-                "open_issues": 122,
+                "open_issues": 124,
                 "owner": "stanford-crfm",
                 "repo": "helm",
                 "stars": 2964,
@@ -3037,7 +3037,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-04T17:45:18.174Z",
+    "last_updated": "2026-11-05T17:50:59.084Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated collection of papers and resources on On-Policy Distillation for Large Language Models.",
