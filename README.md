@@ -72,7 +72,7 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 * **[Learning beyond Teacher: Generalized On-Policy Distillation with Reward Extrapolation](https://arxiv.org/abs/2602.12125)**\ <sub>2026-02-12 · Direct OPD · [Code](https://github.com/RUCBM/G-OPD) ⭐ 300 | 🐛 1 | 🌐 Python | 📅 2026-05-28</sub>\
   Generalized on-policy distillation scores student-generated trajectories with a teacher-to-reference log-probability ratio, scales that implicit reward, and penalizes divergence from the reference. Its extrapolation variants are studied in math and code; using a teacher’s pre-RL checkpoint as the reference requires access to that checkpoint.
 
-* **[DistiLLM: Towards Streamlined Distillation for Large Language Models](https://arxiv.org/abs/2402.03898)**\ <sub>2024-02-06 · Hybrid OPD · [Code](https://github.com/jongwooko/distillm) ⭐ 269 | 🐛 7 | 🌐 Python | 📅 2025-03-13</sub>\
+* **[DistiLLM: Towards Streamlined Distillation for Large Language Models](https://arxiv.org/abs/2402.03898)**\ <sub>2024-02-06 · Hybrid OPD · [Code](https://github.com/jongwooko/distillm) ⭐ 270 | 🐛 7 | 🌐 Python | 📅 2025-03-13</sub>\
   DistiLLM combines skewed token-distribution matching with an adaptive schedule that draws from fixed data or a replay buffer of student-generated responses. Because buffered responses are reused after collection, its data strategy is partly off-policy rather than continuously fresh student rollout.
 
 * **[DAPD: Dual-Anchored Policy Distillation](https://arxiv.org/abs/2608.01735)**\ <sub>2026-08-03 · Direct OPD · [Code](https://github.com/uanu2002/DAPD) ⭐ 80 | 🐛 0 | 🌐 Python | 📅 2026-08-10</sub>\
@@ -84,7 +84,7 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 * **[Self-Distilled Policy Gradient](https://arxiv.org/abs/2606.04036)**\ <sub>2026-06-02 · Hybrid OPD · [Code](https://github.com/lauyikfung/SDPG) ⭐ 56 | 🐛 2 | 🌐 Python | 📅 2026-06-15</sub>\
   SDPG combines outcome optimization, full-vocabulary reverse-KL matching to a privileged self-teacher, and fixed-reference regularization. Removing the teacher or reference component produces different accuracy, length, and entropy behavior in its mathematical-reasoning experiments.
 
-* **[On-policy Distillation with Verifiable Reward](https://arxiv.org/abs/2608.24696)**\ <sub>2026-08-25 · Hybrid OPD · [Code](https://github.com/LeapLabTHU/OPDVR) ⭐ 41 | 🐛 2 | 🌐 Python | 📅 2026-09-08</sub>\
+* **[On-policy Distillation with Verifiable Reward](https://arxiv.org/abs/2608.24696)**\ <sub>2026-08-25 · Hybrid OPD · [Code](https://github.com/LeapLabTHU/OPDVR) ⭐ 43 | 🐛 2 | 🌐 Python | 📅 2026-09-08</sub>\
   On student-generated reasoning trajectories, this method gates each sampled token’s teacher–student log-probability signal by verified correctness, retaining updates that reinforce correct responses or suppress incorrect ones. Its group-relative variant uses the sign, not the magnitude, of the group advantage; the reported tests concern mathematical reasoning.
 
 * **[Mismatch Matters: On-Policy Distillation Beyond Token Agreement](https://arxiv.org/abs/2608.09836)**\ <sub>2026-08-10 · Direct OPD · [Code](https://github.com/yzc-666/TIDE) ⭐ 19 | 🐛 1 | 🌐 Python | 📅 2026-09-15</sub>\
@@ -279,16 +279,16 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 * **[UniSD: Towards a Unified Self-Distillation Framework for Large Language Models](https://arxiv.org/abs/2605.06597)**\ <sub>2026-05-07 · Analysis · [Code](https://github.com/Ahren09/UniSD) ⭐ 904 | 🐛 1 | 🌐 Python | 📅 2026-06-13</sub>\
   UniSD compares self-distillation variants using EMA targets, contrastive supervision, representation matching, and divergence clipping. Task-dependent results inform comparison of these components; they do not establish a benefit from the sequence-agreement scalar that cancels under the stated normalization.
 
-* **[Self-Distilled Reasoner: On-Policy Self-Distillation for Large Language Models](https://arxiv.org/abs/2601.18734)**\ <sub>2026-01-26 · Direct OPD · [Code](https://github.com/siyan-zhao/OPSD) ⭐ 711 | 🐛 8 | 🌐 Python | 📅 2026-09-05</sub>\
+* **[Self-Distilled Reasoner: On-Policy Self-Distillation for Large Language Models](https://arxiv.org/abs/2601.18734)**\ <sub>2026-01-26 · Direct OPD · [Code](https://github.com/siyan-zhao/OPSD) ⭐ 713 | 🐛 8 | 🌐 Python | 📅 2026-09-05</sub>\
   OPSD distills a reference-solution-conditioned teacher into a problem-only student on the student’s rollout prefixes. Its main experiments freeze the initial teacher and use full-vocabulary forward KL with pointwise clipping; the reported selected-checkpoint comparisons favor OPSD over GRPO at 1.7B, 4B, and 8B.
 
-* **[Vision-OPD: Learning to See Fine Details for Multimodal LLMs via On-Policy Self-Distillation](https://arxiv.org/abs/2605.18740)**\ <sub>2026-05-18 · Direct OPD · [Code](https://github.com/VisionOPD/Vision-OPD) ⭐ 347 | 🐛 8 | 🌐 Python | 📅 2026-09-27</sub>\
+* **[Vision-OPD: Learning to See Fine Details for Multimodal LLMs via On-Policy Self-Distillation](https://arxiv.org/abs/2605.18740)**\ <sub>2026-05-18 · Direct OPD · [Code](https://github.com/VisionOPD/Vision-OPD) ⭐ 348 | 🐛 8 | 🌐 Python | 📅 2026-09-27</sub>\
   Vision-OPD uses an EMA teacher conditioned on a regional crop to supervise student rollouts from the full image with bounding-box and spatial-prompt guidance during training. Its default Jensen–Shannon objective uses student top-100 tokens plus a residual tail; comparisons evaluate the regional-to-global recipe.
 
 * **[RLCSD: Reinforcement Learning with Contrastive On-Policy Self-Distillation](https://arxiv.org/abs/2606.11709)**\ <sub>2026-06-10 · Hybrid OPD · [Code](https://github.com/THU-BPM/RLCSD) ⭐ 116 | 🐛 1 | 🌐 Python | 📅 2026-09-14</sub>\
   RLCSD separately tests contrastive teacher targets within an OPSD plugin, using helpful and incorrect contexts to alter student-prefix supervision. That distillation experiment is distinct from the paper's main verifier-advantage modulation algorithm.
 
-* **[Beyond SFT-to-RL: Pre-alignment via Black-Box On-Policy Distillation for Multimodal RL](https://arxiv.org/abs/2604.28123)**\ <sub>2026-04-30 · Teacher-mediated RL · [Code](https://github.com/XIAO4579/PRISM) ⭐ 102 | 🐛 1 | 🌐 Python | 📅 2026-05-06</sub>\
+* **[Beyond SFT-to-RL: Pre-alignment via Black-Box On-Policy Distillation for Multimodal RL](https://arxiv.org/abs/2604.28123)**\ <sub>2026-04-30 · Teacher-mediated RL · [Code](https://github.com/XIAO4579/PRISM) ⭐ 102 | 🐛 2 | 🌐 Python | 📅 2026-05-06</sub>\
   PRISM inserts an adversarial pre-alignment stage between multimodal SFT and verifiable-reward RL, using separate perception and reasoning discriminators. Stage and discriminator comparisons support this teacher-mediated training recipe without establishing exact distribution matching or complete correction of rollout shift.
 
 * **[OPRD: On-Policy Representation Distillation](https://arxiv.org/abs/2606.06021)**\ <sub>2026-06-04 · Direct OPD · [Code](https://github.com/ShenzhiYang2000/OPRD) ⭐ 86 | 🐛 3 | 🌐 Python | 📅 2026-09-09</sub>\
@@ -576,13 +576,13 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 
 *Which states, tokens, and training stages matter?*
 
-* **[Miles v0.1: Production-Level Post-Training](https://arxiv.org/abs/2609.08368)**\ <sub>2026-09-08 · Direct OPD · [Code](https://github.com/radixark/miles) ⭐ 3,275 | 🐛 939 | 🌐 Python | 📅 2026-11-06</sub>\
+* **[Miles v0.1: Production-Level Post-Training](https://arxiv.org/abs/2609.08368)**\ <sub>2026-09-08 · Direct OPD · [Code](https://github.com/radixark/miles) ⭐ 3,278 | 🐛 941 | 🌐 Python | 📅 2026-11-07</sub>\
   Miles integrates teacher log-probability scoring with configurable advantage estimators through served and in-process deployment paths. Its OPD contribution is the scoring and routing interface with explicit tokenizer and architecture constraints, while a five-step example demonstrates use without establishing a system speedup.
 
 * **[Self-Distillation Enables Continual Learning](https://arxiv.org/abs/2601.19897)**\ <sub>2026-01-27 · Direct OPD · [Code](https://github.com/idanshen/Self-Distillation) ⭐ 733 | 🐛 7 | 🌐 Python | 📅 2026-04-07</sub>\
   SDFT distills a demonstration-conditioned EMA teacher on fresh student rollouts. Its practical experiments use full-vocabulary forward KL despite the paper’s reverse-KL motivation; they study continual skill and knowledge adaptation, rely on effective in-context learning, and reduce rather than eliminate forgetting.
 
-* **[ShortOPD: Recovering Pruned LLMs with Short-to-Long On-Policy Distillation](https://arxiv.org/abs/2607.13124)**\ <sub>2026-07-14 · Direct OPD · [Code 1](https://github.com/VisionOPD/Vision-OPD) ⭐ 347 | 🐛 8 | 🌐 Python | 📅 2026-09-27 · [Code 2](https://github.com/icip-cas/ShortX) ⭐ 10 | 🐛 0 | 🌐 Python | 📅 2025-10-30</sub>\
+* **[ShortOPD: Recovering Pruned LLMs with Short-to-Long On-Policy Distillation](https://arxiv.org/abs/2607.13124)**\ <sub>2026-07-14 · Direct OPD · [Code 1](https://github.com/VisionOPD/Vision-OPD) ⭐ 348 | 🐛 8 | 🌐 Python | 📅 2026-09-27 · [Code 2](https://github.com/icip-cas/ShortX) ⭐ 10 | 🐛 0 | 🌐 Python | 📅 2025-10-30</sub>\
   ShortOPD recovers a structurally pruned student by distilling its pre-pruning self on student-generated rollouts. A controller shortens future rollout horizons when terminal repetition is high and grows them when clean rollouts hit the limit; detected suffixes do not mask the current batch’s loss.
 
 * **[TIP: Token Importance in On-Policy Distillation](https://arxiv.org/abs/2604.14084)**\ <sub>2026-04-15 · Direct OPD · [Code](https://github.com/HJSang/OPSD_OnPolicyDistillation) ⭐ 106 | 🐛 3 | 🌐 Python | 📅 2026-09-03</sub>\
@@ -627,11 +627,11 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 * **[Revisiting Complete Reasoning Traces for Post-Training](https://arxiv.org/abs/2609.07103)**\ <sub>2026-09-07 · Analysis · [Code](https://github.com/naver-ai/revisiting-trace) ⭐ 3 | 🐛 1 | 📅 2026-08-31</sub>\
   A small OPD comparison tests masking the middle 20% of tokens or reasoning steps against unmasked supervision. Step masking gives the highest reported average, while MATH-500 declines, illustrating a setting-dependent tradeoff in supervision coverage.
 
+* **[Backtracking When It Strays: Mitigating Dual Exposure Biases in LLM Reasoning Distillation](https://arxiv.org/abs/2605.19433)**\ <sub>2026-05-19 · Hybrid OPD · [Code](https://github.com/wangbing1416/MOTAB) ⭐ 3 | 🐛 0 | 🌐 Python | 📅 2026-04-29</sub>\
+  MOTAB monitors student reasoning, backtracks when teacher likelihood crosses an adaptive boundary, and generates a corrective continuation from an earlier prefix. Training retains the student's deviation before the correction, and module ablations support backtracking and stitching without proving that the boundary certifies logical validity.
+
 * **[Better Starts, Better Ends: Bootstrapped Iterative Self-Reasoning Distillation for Compressed Reasoning](https://arxiv.org/abs/2607.15736)**\ <sub>2026-07-17 · Direct OPD · [Code](https://github.com/PRISM-AI-Lab/BIRD) ⭐ 2 | 🐛 0 | 🌐 Python | 📅 2026-07-23</sub>\
   BIRD first learns verified concise self-generated traces, then performs on-policy matching to a conciseness-conditioned self-teacher. Stage and order comparisons favor this warm start under the reported accuracy-length metric, without isolating prefix quality as the causal mediator.
-
-* **[Backtracking When It Strays: Mitigating Dual Exposure Biases in LLM Reasoning Distillation](https://arxiv.org/abs/2605.19433)**\ <sub>2026-05-19 · Hybrid OPD · [Code](https://github.com/wangbing1416/MOTAB) ⭐ 2 | 🐛 0 | 🌐 Python | 📅 2026-04-29</sub>\
-  MOTAB monitors student reasoning, backtracks when teacher likelihood crosses an adaptive boundary, and generates a corrective continuation from an earlier prefix. Training retains the student's deviation before the correction, and module ablations support backtracking and stitching without proving that the boundary certifies logical validity.
 
 * **[Reward-Gated On-Policy Distillation](https://arxiv.org/abs/2607.04037)**\ <sub>2026-07-04 · Direct OPD · [Code](https://github.com/UoC-tail/RG-OPD) ⭐ 1 | 🐛 0 | 🌐 Python | 📅 2026-10-08</sub>\
   RG-OPD selects student trajectories using agreement between reward advantages and teacher-student likelihood differences, then retains the same distillation objective on selected records. Its generation-based comparisons support the full gate, while reward-only and likelihood-only contributions are not separately isolated.
@@ -801,10 +801,10 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 
 *How does supervision change across actions and turns?*
 
-* **[OpenClaw-RL: Train Any Agent Simply by Talking](https://arxiv.org/abs/2603.10165)**\ <sub>2026-03-10 · Hybrid OPD · [Code](https://github.com/Gen-Verse/OpenClaw-RL) ⭐ 5,744 | 🐛 77 | 🌐 Python | 📅 2026-05-23</sub>\
+* **[OpenClaw-RL: Train Any Agent Simply by Talking](https://arxiv.org/abs/2603.10165)**\ <sub>2026-03-10 · Hybrid OPD · [Code](https://github.com/Gen-Verse/OpenClaw-RL) ⭐ 5,742 | 🐛 77 | 🌐 Python | 📅 2026-05-23</sub>\
   OpenClaw-RL turns subsequent interaction feedback into hints for a privileged self-teacher that scores the student’s original response prefixes. The updated report compares overlap-based hint selection with random hints and tests support and clipping choices. Its asynchronous agent results have task-specific training and evaluation limits.
 
-* **[Self-Distilled Agentic Reinforcement Learning](https://arxiv.org/abs/2605.15155)**\ <sub>2026-05-14 · Hybrid OPD · [Code](https://github.com/ZJU-REAL/SDAR) ⭐ 378 | 🐛 11 | 🌐 Python | 📅 2026-10-15</sub>\
+* **[Self-Distilled Agentic Reinforcement Learning](https://arxiv.org/abs/2605.15155)**\ <sub>2026-05-14 · Hybrid OPD · [Code](https://github.com/ZJU-REAL/SDAR) ⭐ 379 | 🐛 11 | 🌐 Python | 📅 2026-10-15</sub>\
   SDAR combines agentic RL with an independent, skill-conditioned auxiliary update whose token weights depend on teacher-student probability gaps. Within-recipe comparisons support gap gating over alternative gates, while the published frozen-reference baseline does not isolate gating alone.
 
 * **[SOD: Step-wise On-policy Distillation for Small Language Model Agents](https://arxiv.org/abs/2605.07725)**\ <sub>2026-05-08 · Hybrid OPD · [Code](https://github.com/YoungZ365/SOD) ⭐ 166 | 🐛 10 | 🌐 Python | 📅 2026-05-22</sub>\
@@ -813,7 +813,7 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 * **[TCOD: Exploring Temporal Curriculum in On-Policy Distillation for Multi-turn Autonomous Agents](https://arxiv.org/abs/2604.24005)**\ <sub>2026-04-27 · Direct OPD · [Code](https://github.com/kokolerk/TCOD) ⭐ 117 | 🐛 2 | 🌐 Python | 📅 2026-07-09</sub>\
   TCOD addresses rising divergence across turns in interactive distillation by gradually extending the student’s training horizon. One variant lengthens student-generated prefixes; another starts student suffixes after successful teacher-executed prefixes, which require pre-collected trajectories and do not contribute gradients.
 
-* **[Language Models that Play Chess and Explain Their Moves](https://arxiv.org/abs/2610.03695)**\ <sub>2026-10-02 · Hybrid OPD · [Code](https://github.com/queen-project/queen) ⭐ 77 | 🐛 2 | 🌐 Python | 📅 2026-10-05</sub>\
+* **[Language Models that Play Chess and Explain Their Moves](https://arxiv.org/abs/2610.03695)**\ <sub>2026-10-02 · Hybrid OPD · [Code](https://github.com/queen-project/queen) ⭐ 78 | 🐛 2 | 🌐 Python | 📅 2026-10-05</sub>\
   QUEEN iteratively distills engine-checked, consolidated analyses of candidate successor positions into a chess-language model, using a mixture of model-play and external root positions. Its reported playing-strength gains support the full training recipe, while weaker conceptual coherence and the absence of component-isolating controls limit stronger claims.
 
 * **[UI-MOPD: Multi-Platform On-Policy Distillation for Unified GUI Agents](https://arxiv.org/abs/2607.04425)**\ <sub>2026-07-05 · Hybrid OPD · [Code](https://github.com/EliSpectre/UI-MOPD) ⭐ 62 | 🐛 3 | 🌐 Python | 📅 2026-08-10</sub>\
@@ -828,7 +828,7 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 * **[What and When to Distill: Selective Hindsight Distillation for Multi-Turn Agents](https://arxiv.org/abs/2605.19447)**\ <sub>2026-05-19 · Hybrid OPD · [Code](https://github.com/OliverLeeXZ/SERL) ⭐ 26 | 🐛 5 | 🌐 Python | 📅 2026-06-29</sub>\
   SERL combines hindsight-conditioned action-token matching with teacher-informed reweighting of outcome advantages. Experiments varying feedback source and placement show that richer context and coarser placement are not uniformly better, while the independent action-only forward-KL term distinguishes the method from reward modulation alone.
 
-* **[World Models Meet Language Models: On the Complementarity of Concrete and Abstract Reasoning](https://arxiv.org/abs/2606.03603)**\ <sub>2026-06-02 · Direct OPD · [Code](https://github.com/yczhou001/PF-OPSD) ⭐ 23 | 🐛 1 | 🌐 Python | 📅 2026-08-21</sub>\
+* **[World Models Meet Language Models: On the Complementarity of Concrete and Abstract Reasoning](https://arxiv.org/abs/2606.03603)**\ <sub>2026-06-02 · Direct OPD · [Code](https://github.com/yczhou001/PF-OPSD) ⭐ 24 | 🐛 1 | 🌐 Python | 📅 2026-08-21</sub>\
   An external privileged evaluator sees future video and answers when scoring candidate actions at student-visited decision states. Discrete nodes match a stopped target distribution; text nodes use weighted likelihood. Deployment excludes the privileged future observations.
 
 * **[CoMAP: Co-Evolving World Models and Agent Policies for LLM Agents](https://arxiv.org/abs/2606.02372)**\ <sub>2026-06-01 · Hybrid OPD · [Code](https://github.com/loyiv/CoMAP) ⭐ 20 | 🐛 0 | 🌐 Python | 📅 2026-10-05</sub>\
@@ -930,7 +930,7 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 
 *What transfers, what fails, and why?*
 
-* **[Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe](https://arxiv.org/abs/2604.13016)**\ <sub>2026-04-14 · Analysis · [Code](https://github.com/Thinking-Space/Rethinking-OPD) ⭐ 1,066 | 🐛 1 | 🌐 Python | 📅 2026-08-20</sub>\
+* **[Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe](https://arxiv.org/abs/2604.13016)**\ <sub>2026-04-14 · Analysis · [Code](https://github.com/Thinking-Space/Rethinking-OPD) ⭐ 1,067 | 🐛 1 | 🌐 Python | 📅 2026-08-20</sub>\
   This study compares teacher preparation, supervised cold starts, and prompt formats in mathematical-reasoning distillation. Its cold-start control fixes the subsequent teacher and prompt set; a separate experiment changes only the prompt template. Token overlap is a diagnostic rather than a universal test of transferable capability.
 
 * **[Trajectory-Refined Distillation](https://arxiv.org/abs/2606.08432)**\ <sub>2026-06-07 · Analysis · [Code](https://github.com/louieworth/trd) ⭐ 141 | 🐛 1 | 🌐 Python | 📅 2026-06-09</sub>\
@@ -1080,7 +1080,7 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 
 *How does distillation fit into a deployed system?*
 
-* **[Qwen3 Technical Report](https://arxiv.org/abs/2505.09388)**\ <sub>2025-05-14 · Application / system report · [Code](https://github.com/QwenLM/Qwen3) ⭐ 27,715 | 🐛 69 | 🌐 Python | 📅 2026-01-09</sub>\
+* **[Qwen3 Technical Report](https://arxiv.org/abs/2505.09388)**\ <sub>2025-05-14 · Application / system report · [Code](https://github.com/QwenLM/Qwen3) ⭐ 27,720 | 🐛 69 | 🌐 Python | 📅 2026-01-09</sub>\
   The report describes a small-model compression pipeline that uses off-policy transfer from stronger models before on-policy distillation with teacher-logit guidance. It also describes separate supervised and reinforcement-learning stages for preparing larger models; its student-stage comparison does not account for preparing the stronger teacher.
 
 * **[MiMo-V2-Flash Technical Report](https://arxiv.org/abs/2601.02780)**\ <sub>2026-01-06 · Hybrid OPD · [Code](https://github.com/XiaomiMiMo/MiMo-V2-Flash) ⭐ 1,399 | 🐛 23 | 📅 2026-10-29</sub>\
@@ -1095,10 +1095,10 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 * **[Multi-Token Prediction via Self-Distillation](https://arxiv.org/abs/2602.06019)**\ <sub>2026-02-05 · Direct OPD · [Code](https://github.com/jwkirchenbauer/mtp-lm) ⭐ 42 | 🐛 1 | 🌐 Python | 📅 2026-02-21</sub>\
   A pretrained autoregressive model learns to propose token blocks in one pass while a frozen copy scores the student’s own greedy proposals. The resulting predictor uses confidence-adaptive decoding; the conversion is evaluated on selected generation tasks rather than all text domains.
 
-* **[Reducing the Safety Tax in LLM Safety Alignment with On-Policy Self-Distillation](https://arxiv.org/abs/2605.15239)**\ <sub>2026-05-14 · Direct OPD · [Code](https://github.com/FYYFU/OPSA) ⭐ 16 | 🐛 0 | 🌐 Python | 📅 2026-05-15</sub>\
+* **[Reducing the Safety Tax in LLM Safety Alignment with On-Policy Self-Distillation](https://arxiv.org/abs/2605.15239)**\ <sub>2026-05-14 · Direct OPD · [Code](https://github.com/FYYFU/OPSA) ⭐ 17 | 🐛 0 | 🌐 Python | 📅 2026-05-15</sub>\
   For safety alignment, the student generates responses to harmful and benign prompts while a frozen copy conditioned on type-specific safety or helpfulness context supplies token-distribution targets. Context search uses teacher flip rate; the approach depends on privileged prompts eliciting safer behavior.
 
-* **[SecOPD: Mitigating Adaptive Prompt Injections by On-Policy Distillation](https://arxiv.org/abs/2608.21500)**\ <sub>2026-08-21 · Application / system report · [Code](https://github.com/pppyb/SecOPD) ⭐ 15 | 🐛 1 | 🌐 Python | 📅 2026-08-25</sub>\
+* **[SecOPD: Mitigating Adaptive Prompt Injections by On-Policy Distillation](https://arxiv.org/abs/2608.21500)**\ <sub>2026-08-21 · Application / system report · [Code](https://github.com/pppyb/SecOPD) ⭐ 16 | 🐛 1 | 🌐 Python | 📅 2026-08-25</sub>\
   For indirect prompt-injection defense, this application samples student responses to attacked inputs and scores each token with a frozen initialization model given the corresponding clean input, using detached token advantages for policy updates. It assumes trusted instructions and untrusted data are distinguishable.
 
 * **[Lapras: Latent Reasoning for Time Series Language Models](https://arxiv.org/abs/2610.11111)**\ <sub>2026-10-08 · Direct OPD</sub>\
@@ -1164,16 +1164,16 @@ Expand a topic to read the paper summaries, or **[search and filter on OPDHub �
 
 *Which foundations and comparators clarify OPD?*
 
-* **[Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180)**\ <sub>2023-09-12 · Background · [Code](https://github.com/vllm-project/vllm) ⭐ 96,467 | 🐛 9,961 | 🌐 Python | 📅 2026-11-06</sub>\
+* **[Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180)**\ <sub>2023-09-12 · Background · [Code](https://github.com/vllm-project/vllm) ⭐ 96,513 | 🐛 9,993 | 🌐 Python | 📅 2026-11-07</sub>\
   PagedAttention stores attention key–value caches in fixed-size blocks that need not occupy contiguous memory, allowing an LLM serving engine to allocate and share cache space across sequences. It addresses generation-time memory management, not teacher supervision or a distillation update.
 
-* **[HybridFlow: A Flexible and Efficient RLHF Framework](https://arxiv.org/abs/2409.19256)**\ <sub>2024-09-28 · Background · [Code](https://github.com/verl-project/verl) ⭐ 24,154 | 🐛 1,464 | 🌐 Python | 📅 2026-11-06</sub>\
+* **[HybridFlow: A Flexible and Efficient RLHF Framework](https://arxiv.org/abs/2409.19256)**\ <sub>2024-09-28 · Background · [Code](https://github.com/verl-project/verl) ⭐ 24,162 | 🐛 1,463 | 🌐 Python | 📅 2026-11-06</sub>\
   HybridFlow is an RLHF execution framework that centrally coordinates dependencies between distributed models while letting each model manage its own computation. It also reshards actor weights between generation and training; these systems mechanisms do not specify teacher targets for on-policy distillation.
 
-* **[On-Policy Distillation](https://www.thinkingmachines.ai/blog/on-policy-distillation/)**\ <sub>2025-10-27 · Background · [Code](https://github.com/thinking-machines-lab/tinker-cookbook/tree/main/tinker_cookbook/recipes/distillation) ⭐ 4,238 | 🐛 142 | 🌐 Python | 📅 2026-11-05</sub>\
+* **[On-Policy Distillation](https://www.thinkingmachines.ai/blog/on-policy-distillation/)**\ <sub>2025-10-27 · Background · [Code](https://github.com/thinking-machines-lab/tinker-cookbook/tree/main/tinker_cookbook/recipes/distillation) ⭐ 4,240 | 🐛 144 | 🌐 Python | 📅 2026-11-06</sub>\
   Student-generated trajectories are scored using teacher log probabilities for sampled tokens, and a policy-gradient-style update uses the negative log-ratio as per-token feedback. This implementation uses immediate next-token credit, not full-vocabulary teacher distributions or future-token returns; the citation here supports sampled-token supervision.
 
-* **[Holistic Evaluation of Language Models](https://arxiv.org/abs/2211.09110)**\ <sub>2022-11-16 · Background · [Code](https://github.com/stanford-crfm/helm) ⭐ 2,967 | 🐛 124 | 🌐 Python | 📅 2026-09-01</sub>\
+* **[Holistic Evaluation of Language Models](https://arxiv.org/abs/2211.09110)**\ <sub>2022-11-16 · Background · [Code](https://github.com/stanford-crfm/helm) ⭐ 2,968 | 🐛 124 | 🌐 Python | 📅 2026-09-01</sub>\
   This evaluation framework organizes language-model use cases and metrics, then benchmarks models across shared scenarios using multiple measures beyond accuracy. Its implemented coverage is selective, and its standardized prompting evaluations are not a training or on-policy distillation method.
 
 * **[A Survey on Knowledge Distillation of Large Language Models](https://arxiv.org/abs/2402.13116)**\ <sub>2024-02-20 · Background · [Code](https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs) ⭐ 1,318 | 🐛 4 | 📅 2025-03-09</sub>\
@@ -1314,4 +1314,4 @@ For corrections, provide the paper version and the primary source supporting the
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-06._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-07._

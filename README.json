@@ -75,7 +75,7 @@
                 "open_issues": 7,
                 "owner": "jongwooko",
                 "repo": "distillm",
-                "stars": 269,
+                "stars": 270,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -159,7 +159,7 @@
                 "open_issues": 2,
                 "owner": "LeapLabTHU",
                 "repo": "OPDVR",
-                "stars": 41,
+                "stars": 43,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -519,7 +519,7 @@
                 "open_issues": 8,
                 "owner": "siyan-zhao",
                 "repo": "OPSD",
-                "stars": 711,
+                "stars": 713,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -540,7 +540,7 @@
                 "open_issues": 8,
                 "owner": "VisionOPD",
                 "repo": "Vision-OPD",
-                "stars": 347,
+                "stars": 348,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -587,7 +587,7 @@
                 "language": "Python",
                 "license": "MIT",
                 "last_commit": "2026-05-06T05:52:20Z",
-                "open_issues": 1,
+                "open_issues": 2,
                 "owner": "XIAO4579",
                 "repo": "PRISM",
                 "stars": 102,
@@ -1333,11 +1333,11 @@
                 "id": 1072725553,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-06T17:10:21Z",
-                "open_issues": 939,
+                "last_commit": "2026-11-07T11:52:41Z",
+                "open_issues": 941,
                 "owner": "radixark",
                 "repo": "miles",
-                "stars": 3275,
+                "stars": 3278,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -1379,7 +1379,7 @@
                 "open_issues": 8,
                 "owner": "VisionOPD",
                 "repo": "Vision-OPD",
-                "stars": 347,
+                "stars": 348,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1680,27 +1680,6 @@
             },
             {
               "node_type": "item",
-              "title": "Better Starts, Better Ends: Bootstrapped Iterative Self-Reasoning Distillation for Compressed Reasoning",
-              "description": "2026-07-17 · Direct OPD · CodeBIRD first learns verified concise self-generated traces, then performs on-policy matching to a conciseness-conditioned self-teacher. Stage and order comparisons favor this warm start under the reported accuracy-length metric, without isolating prefix quality as the causal mediator.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "Official implementation of “Better Starts, Better Ends: Bootstrapped Iterative Self-Reasoning Distillation for Compressed Reasoning.”",
-                "homepage": null,
-                "id": 1302827376,
-                "language": "Python",
-                "license": "MIT",
-                "last_commit": "2026-07-23T13:39:34Z",
-                "open_issues": 0,
-                "owner": "PRISM-AI-Lab",
-                "repo": "BIRD",
-                "stars": 2,
-                "topics": []
-              },
-              "first_seen": "2026-10-06T16:29:51.331Z"
-            },
-            {
-              "node_type": "item",
               "title": "Backtracking When It Strays: Mitigating Dual Exposure Biases in LLM Reasoning Distillation",
               "description": "2026-05-19 · Hybrid OPD · CodeMOTAB monitors student reasoning, backtracks when teacher likelihood crosses an adaptive boundary, and generates a corrective continuation from an earlier prefix. Training retains the student's deviation before the correction, and module ablations support backtracking and stitching without proving that the boundary certifies logical validity.",
               "children": [],
@@ -1715,6 +1694,27 @@
                 "open_issues": 0,
                 "owner": "wangbing1416",
                 "repo": "MOTAB",
+                "stars": 3,
+                "topics": []
+              },
+              "first_seen": "2026-10-06T16:29:51.331Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Better Starts, Better Ends: Bootstrapped Iterative Self-Reasoning Distillation for Compressed Reasoning",
+              "description": "2026-07-17 · Direct OPD · CodeBIRD first learns verified concise self-generated traces, then performs on-policy matching to a conciseness-conditioned self-teacher. Stage and order comparisons favor this warm start under the reported accuracy-length metric, without isolating prefix quality as the causal mediator.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Official implementation of “Better Starts, Better Ends: Bootstrapped Iterative Self-Reasoning Distillation for Compressed Reasoning.”",
+                "homepage": null,
+                "id": 1302827376,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-07-23T13:39:34Z",
+                "open_issues": 0,
+                "owner": "PRISM-AI-Lab",
+                "repo": "BIRD",
                 "stars": 2,
                 "topics": []
               },
@@ -1785,7 +1785,7 @@
                 "open_issues": 77,
                 "owner": "Gen-Verse",
                 "repo": "OpenClaw-RL",
-                "stars": 5744,
+                "stars": 5742,
                 "topics": [
                   "async",
                   "coding",
@@ -1820,7 +1820,7 @@
                 "open_issues": 11,
                 "owner": "ZJU-REAL",
                 "repo": "SDAR",
-                "stars": 378,
+                "stars": 379,
                 "topics": [
                   "agentic-ai",
                   "agentic-skill",
@@ -1889,7 +1889,7 @@
                 "open_issues": 2,
                 "owner": "queen-project",
                 "repo": "queen",
-                "stars": 77,
+                "stars": 78,
                 "topics": []
               },
               "first_seen": "2026-10-13T17:21:28.335Z"
@@ -1994,7 +1994,7 @@
                 "open_issues": 1,
                 "owner": "yczhou001",
                 "repo": "PF-OPSD",
-                "stars": 23,
+                "stars": 24,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2156,7 +2156,7 @@
                 "open_issues": 1,
                 "owner": "Thinking-Space",
                 "repo": "Rethinking-OPD",
-                "stars": 1066,
+                "stars": 1067,
                 "topics": [
                   "llms",
                   "mechanism",
@@ -2604,7 +2604,7 @@
                 "open_issues": 69,
                 "owner": "QwenLM",
                 "repo": "Qwen3",
-                "stars": 27715,
+                "stars": 27720,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2715,7 +2715,7 @@
                 "open_issues": 0,
                 "owner": "FYYFU",
                 "repo": "OPSA",
-                "stars": 16,
+                "stars": 17,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2736,7 +2736,7 @@
                 "open_issues": 1,
                 "owner": "pppyb",
                 "repo": "SecOPD",
-                "stars": 15,
+                "stars": 16,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2760,11 +2760,11 @@
                 "id": 599547518,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-06T17:03:15Z",
-                "open_issues": 9961,
+                "last_commit": "2026-11-07T15:56:07Z",
+                "open_issues": 9993,
                 "owner": "vllm-project",
                 "repo": "vllm",
-                "stars": 96467,
+                "stars": 96513,
                 "topics": [
                   "amd",
                   "blackwell",
@@ -2803,10 +2803,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-11-06T10:51:47Z",
-                "open_issues": 1464,
+                "open_issues": 1463,
                 "owner": "verl-project",
                 "repo": "verl",
-                "stars": 24154,
+                "stars": 24162,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2823,11 +2823,11 @@
                 "id": 1019793048,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-05T22:55:03Z",
-                "open_issues": 142,
+                "last_commit": "2026-11-06T22:05:56Z",
+                "open_issues": 144,
                 "owner": "thinking-machines-lab",
                 "repo": "tinker-cookbook",
-                "stars": 4238,
+                "stars": 4240,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2848,7 +2848,7 @@
                 "open_issues": 124,
                 "owner": "stanford-crfm",
                 "repo": "helm",
-                "stars": 2967,
+                "stars": 2968,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -3037,7 +3037,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-06T17:10:45.470Z",
+    "last_updated": "2026-11-07T16:06:05.152Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated collection of papers and resources on On-Policy Distillation for Large Language Models.",
