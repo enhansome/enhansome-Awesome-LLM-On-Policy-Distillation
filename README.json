@@ -75,7 +75,7 @@
                 "open_issues": 7,
                 "owner": "jongwooko",
                 "repo": "distillm",
-                "stars": 270,
+                "stars": 271,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -770,6 +770,27 @@
             },
             {
               "node_type": "item",
+              "title": "SimCT: Recovering Lost Supervision for Cross-Tokenizer On-Policy Distillation",
+              "description": "2026-05-08 · Direct OPD · CodeSimCT compares teacher and student on shared tokens plus short text continuations jointly expressible under different tokenizers, using student-generated prefixes and retaining the reverse-KL OPD loss. Its normalized candidate scores are not a probability-preserving mapping of all continuations.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 1232945890,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-08-03T02:39:25Z",
+                "open_issues": 3,
+                "owner": "sunjie279",
+                "repo": "SimCT-",
+                "stars": 27,
+                "topics": []
+              },
+              "first_seen": "2026-10-05T19:03:38.723Z"
+            },
+            {
+              "node_type": "item",
               "title": "Training with Harnesses: On-Policy Harness Self-Distillation for Complex Reasoning",
               "description": "2026-05-09 · Direct OPD · CodeOPHSD prepares teacher context through a dynamic reasoning harness and supervises direct student rollouts with a frozen initial teacher. Comparisons with static privileged context evaluate the complete preparation recipe, including additional harness computation.",
               "children": [],
@@ -788,27 +809,6 @@
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
-            },
-            {
-              "node_type": "item",
-              "title": "SimCT: Recovering Lost Supervision for Cross-Tokenizer On-Policy Distillation",
-              "description": "2026-05-08 · Direct OPD · CodeSimCT compares teacher and student on shared tokens plus short text continuations jointly expressible under different tokenizers, using student-generated prefixes and retaining the reverse-KL OPD loss. Its normalized candidate scores are not a probability-preserving mapping of all continuations.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": null,
-                "homepage": null,
-                "id": 1232945890,
-                "language": "Python",
-                "license": "MIT",
-                "last_commit": "2026-08-03T02:39:25Z",
-                "open_issues": 3,
-                "owner": "sunjie279",
-                "repo": "SimCT-",
-                "stars": 26,
-                "topics": []
-              },
-              "first_seen": "2026-10-05T19:03:38.723Z"
             },
             {
               "node_type": "item",
@@ -1333,11 +1333,11 @@
                 "id": 1072725553,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-09T19:47:12Z",
-                "open_issues": 950,
+                "last_commit": "2026-11-10T09:07:13Z",
+                "open_issues": 944,
                 "owner": "radixark",
                 "repo": "miles",
-                "stars": 3284,
+                "stars": 3288,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -1439,7 +1439,7 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-05-12T05:08:51Z",
-                "open_issues": 2,
+                "open_issues": 3,
                 "owner": "jet-ai-projects",
                 "repo": "Lightning-OPD",
                 "stars": 89,
@@ -1463,7 +1463,7 @@
                 "open_issues": 0,
                 "owner": "ZJU-REAL",
                 "repo": "Relay-OPD",
-                "stars": 62,
+                "stars": 63,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1785,7 +1785,7 @@
                 "open_issues": 77,
                 "owner": "Gen-Verse",
                 "repo": "OpenClaw-RL",
-                "stars": 5742,
+                "stars": 5743,
                 "topics": [
                   "async",
                   "coding",
@@ -1820,7 +1820,7 @@
                 "open_issues": 11,
                 "owner": "ZJU-REAL",
                 "repo": "SDAR",
-                "stars": 379,
+                "stars": 380,
                 "topics": [
                   "agentic-ai",
                   "agentic-skill",
@@ -1868,7 +1868,7 @@
                 "open_issues": 2,
                 "owner": "kokolerk",
                 "repo": "TCOD",
-                "stars": 117,
+                "stars": 116,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1889,7 +1889,7 @@
                 "open_issues": 2,
                 "owner": "queen-project",
                 "repo": "queen",
-                "stars": 78,
+                "stars": 79,
                 "topics": []
               },
               "first_seen": "2026-10-13T17:21:28.335Z"
@@ -2604,7 +2604,7 @@
                 "open_issues": 69,
                 "owner": "QwenLM",
                 "repo": "Qwen3",
-                "stars": 27718,
+                "stars": 27720,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2625,7 +2625,7 @@
                 "open_issues": 23,
                 "owner": "XiaomiMiMo",
                 "repo": "MiMo-V2-Flash",
-                "stars": 1399,
+                "stars": 1400,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2760,11 +2760,11 @@
                 "id": 599547518,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-09T20:18:58Z",
-                "open_issues": 10121,
+                "last_commit": "2026-11-10T17:20:02Z",
+                "open_issues": 10182,
                 "owner": "vllm-project",
                 "repo": "vllm",
-                "stars": 96616,
+                "stars": 96681,
                 "topics": [
                   "amd",
                   "blackwell",
@@ -2802,11 +2802,11 @@
                 "id": 881221486,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-09T12:09:38Z",
-                "open_issues": 1475,
+                "last_commit": "2026-11-10T15:39:07Z",
+                "open_issues": 1478,
                 "owner": "verl-project",
                 "repo": "verl",
-                "stars": 24175,
+                "stars": 24185,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2824,10 +2824,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-11-06T22:05:56Z",
-                "open_issues": 145,
+                "open_issues": 146,
                 "owner": "thinking-machines-lab",
                 "repo": "tinker-cookbook",
-                "stars": 4245,
+                "stars": 4246,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2906,7 +2906,7 @@
                 "open_issues": 25,
                 "owner": "uclaml",
                 "repo": "SPIN",
-                "stars": 1256,
+                "stars": 1255,
                 "topics": [
                   "deep-learning",
                   "fine-tuning",
@@ -3037,7 +3037,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-09T20:24:16.083Z",
+    "last_updated": "2026-11-10T17:29:33.260Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated collection of papers and resources on On-Policy Distillation for Large Language Models.",
