@@ -21,7 +21,7 @@
                 "open_issues": 120,
                 "owner": "microsoft",
                 "repo": "LMOps",
-                "stars": 4484,
+                "stars": 4483,
                 "topics": [
                   "agi",
                   "gpt",
@@ -54,7 +54,7 @@
                 "open_issues": 1,
                 "owner": "RUCBM",
                 "repo": "G-OPD",
-                "stars": 300,
+                "stars": 301,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -159,7 +159,7 @@
                 "open_issues": 2,
                 "owner": "LeapLabTHU",
                 "repo": "OPDVR",
-                "stars": 43,
+                "stars": 44,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -439,7 +439,7 @@
                 "open_issues": 120,
                 "owner": "microsoft",
                 "repo": "LMOps",
-                "stars": 4484,
+                "stars": 4483,
                 "topics": [
                   "agi",
                   "gpt",
@@ -472,7 +472,7 @@
                 "open_issues": 11,
                 "owner": "lasgroup",
                 "repo": "SDPO",
-                "stars": 1143,
+                "stars": 1145,
                 "topics": [
                   "distillation",
                   "llm",
@@ -519,7 +519,7 @@
                 "open_issues": 8,
                 "owner": "siyan-zhao",
                 "repo": "OPSD",
-                "stars": 714,
+                "stars": 715,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -791,6 +791,27 @@
             },
             {
               "node_type": "item",
+              "title": "dOPSD: On-Policy Self-Distillation for Diffusion Language Models",
+              "description": "2026-07-05 · Direct OPD · CodeFor diffusion language models, dOPSD matches predictions at masked positions in a student decoding state to stop-gradient predictions from later states of the same trajectory. Its reported training keeps only final-answer-correct rollouts; the teacher’s extra context does not come from a reference solution.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 1231463858,
+                "language": "Python",
+                "license": null,
+                "last_commit": "2026-07-14T15:50:57Z",
+                "open_issues": 1,
+                "owner": "tuandattt",
+                "repo": "dOPSD",
+                "stars": 26,
+                "topics": []
+              },
+              "first_seen": "2026-10-05T19:03:38.723Z"
+            },
+            {
+              "node_type": "item",
               "title": "Training with Harnesses: On-Policy Harness Self-Distillation for Complex Reasoning",
               "description": "2026-05-09 · Direct OPD · CodeOPHSD prepares teacher context through a dynamic reasoning harness and supervises direct student rollouts with a frozen initial teacher. Comparisons with static privileged context evaluate the complete preparation recipe, including additional harness computation.",
               "children": [],
@@ -809,27 +830,6 @@
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
-            },
-            {
-              "node_type": "item",
-              "title": "dOPSD: On-Policy Self-Distillation for Diffusion Language Models",
-              "description": "2026-07-05 · Direct OPD · CodeFor diffusion language models, dOPSD matches predictions at masked positions in a student decoding state to stop-gradient predictions from later states of the same trajectory. Its reported training keeps only final-answer-correct rollouts; the teacher’s extra context does not come from a reference solution.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": null,
-                "homepage": null,
-                "id": 1231463858,
-                "language": "Python",
-                "license": null,
-                "last_commit": "2026-07-14T15:50:57Z",
-                "open_issues": 1,
-                "owner": "tuandattt",
-                "repo": "dOPSD",
-                "stars": 25,
-                "topics": []
-              },
-              "first_seen": "2026-10-05T19:03:38.723Z"
             },
             {
               "node_type": "item",
@@ -1333,11 +1333,11 @@
                 "id": 1072725553,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-10T09:07:13Z",
-                "open_issues": 944,
+                "last_commit": "2026-11-11T13:01:55Z",
+                "open_issues": 945,
                 "owner": "radixark",
                 "repo": "miles",
-                "stars": 3288,
+                "stars": 3293,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -1670,7 +1670,7 @@
                 "language": null,
                 "license": null,
                 "last_commit": "2026-08-31T04:41:59Z",
-                "open_issues": 1,
+                "open_issues": 2,
                 "owner": "naver-ai",
                 "repo": "revisiting-trace",
                 "stars": 3,
@@ -1785,7 +1785,7 @@
                 "open_issues": 77,
                 "owner": "Gen-Verse",
                 "repo": "OpenClaw-RL",
-                "stars": 5743,
+                "stars": 5744,
                 "topics": [
                   "async",
                   "coding",
@@ -1889,7 +1889,7 @@
                 "open_issues": 2,
                 "owner": "queen-project",
                 "repo": "queen",
-                "stars": 79,
+                "stars": 80,
                 "topics": []
               },
               "first_seen": "2026-10-13T17:21:28.335Z"
@@ -2202,7 +2202,7 @@
                 "open_issues": 0,
                 "owner": "Thinking-Space",
                 "repo": "One-Shot-OPD",
-                "stars": 98,
+                "stars": 99,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2604,7 +2604,7 @@
                 "open_issues": 69,
                 "owner": "QwenLM",
                 "repo": "Qwen3",
-                "stars": 27720,
+                "stars": 27726,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2760,11 +2760,11 @@
                 "id": 599547518,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-10T17:20:02Z",
-                "open_issues": 10182,
+                "last_commit": "2026-11-11T17:31:25Z",
+                "open_issues": 10245,
                 "owner": "vllm-project",
                 "repo": "vllm",
-                "stars": 96681,
+                "stars": 96755,
                 "topics": [
                   "amd",
                   "blackwell",
@@ -2802,11 +2802,11 @@
                 "id": 881221486,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-10T15:39:07Z",
-                "open_issues": 1478,
+                "last_commit": "2026-11-11T17:34:10Z",
+                "open_issues": 1494,
                 "owner": "verl-project",
                 "repo": "verl",
-                "stars": 24185,
+                "stars": 24199,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2827,7 +2827,7 @@
                 "open_issues": 146,
                 "owner": "thinking-machines-lab",
                 "repo": "tinker-cookbook",
-                "stars": 4246,
+                "stars": 4250,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2845,10 +2845,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-01T01:33:19Z",
-                "open_issues": 124,
+                "open_issues": 126,
                 "owner": "stanford-crfm",
                 "repo": "helm",
-                "stars": 2969,
+                "stars": 2968,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2869,7 +2869,7 @@
                 "open_issues": 4,
                 "owner": "Tebmer",
                 "repo": "Awesome-Knowledge-Distillation-of-LLMs",
-                "stars": 1319,
+                "stars": 1318,
                 "topics": [
                   "alignment",
                   "compression",
@@ -2953,7 +2953,7 @@
                 "open_issues": 5,
                 "owner": "thu-coai",
                 "repo": "MiniPLM",
-                "stars": 81,
+                "stars": 80,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -3037,7 +3037,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-10T17:29:33.260Z",
+    "last_updated": "2026-11-11T17:42:11.032Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated collection of papers and resources on On-Policy Distillation for Large Language Models.",
@@ -3049,7 +3049,7 @@
       "open_issues": 8,
       "owner": "nick7nlp",
       "repo": "Awesome-LLM-On-Policy-Distillation",
-      "stars": 593,
+      "stars": 592,
       "topics": [
         "awesome-list",
         "awesome-opd",
