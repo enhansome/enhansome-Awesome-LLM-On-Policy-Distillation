@@ -239,7 +239,7 @@
                 "id": 1145221454,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-10-14T13:30:37Z",
+                "last_commit": "2026-11-15T11:29:36Z",
                 "open_issues": 1,
                 "owner": "kmswin1",
                 "repo": "TSD-KD",
@@ -472,7 +472,7 @@
                 "open_issues": 11,
                 "owner": "lasgroup",
                 "repo": "SDPO",
-                "stars": 1147,
+                "stars": 1148,
                 "topics": [
                   "distillation",
                   "llm",
@@ -1175,6 +1175,27 @@
             },
             {
               "node_type": "item",
+              "title": "π-Play: Multi-Agent Self-Play via Privileged Self-Distillation without External Data",
+              "description": "2026-04-15 · Hybrid OPD · CodeIn search-agent self-play, an examiner constructs questions and their search paths; a path-conditioned teacher supervises unprivileged student rollouts while the student also learns from outcome rewards. The teacher tracks the student by moving average, and evaluation is limited to search tasks.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 1241596261,
+                "language": null,
+                "license": null,
+                "last_commit": "2026-05-18T07:01:58Z",
+                "open_issues": 1,
+                "owner": "zhyaoch",
+                "repo": "pi-play",
+                "stars": 5,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
+            },
+            {
+              "node_type": "item",
               "title": "LastOPD: Taming Collapse in Latent On-Policy Distillation",
               "description": "2026-09-23 · Direct OPD · CodeLastOPD aligns the student’s final pre-head representation with the teacher’s on student-generated responses, then fades that latent loss into token-level distillation. The crossfade is motivated by observed collapse under continued latent supervision in the tested cross-size model pairs.",
               "children": [],
@@ -1253,27 +1274,6 @@
             },
             {
               "node_type": "item",
-              "title": "π-Play: Multi-Agent Self-Play via Privileged Self-Distillation without External Data",
-              "description": "2026-04-15 · Hybrid OPD · CodeIn search-agent self-play, an examiner constructs questions and their search paths; a path-conditioned teacher supervises unprivileged student rollouts while the student also learns from outcome rewards. The teacher tracks the student by moving average, and evaluation is limited to search tasks.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": null,
-                "homepage": null,
-                "id": 1241596261,
-                "language": null,
-                "license": null,
-                "last_commit": "2026-05-18T07:01:58Z",
-                "open_issues": 1,
-                "owner": "zhyaoch",
-                "repo": "pi-play",
-                "stars": 4,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T21:05:04.438Z"
-            },
-            {
-              "node_type": "item",
               "title": "Stable On-Policy Distillation through Adaptive Target Reformulation",
               "description": "2026-01-12 · Direct OPD · CodeVeto forms a product target from teacher probabilities and a detached student contribution. Its fixed-coefficient comparison tests target reweighting independently of annealing; the paper's parameter-gradient stability guarantee is not established by that empirical result.",
               "children": [],
@@ -1333,11 +1333,11 @@
                 "id": 1072725553,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-14T07:46:14Z",
-                "open_issues": 976,
+                "last_commit": "2026-11-15T10:12:02Z",
+                "open_issues": 1003,
                 "owner": "radixark",
                 "repo": "miles",
-                "stars": 3312,
+                "stars": 3315,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -1952,7 +1952,7 @@
                 "open_issues": 0,
                 "owner": "ChenChiShui",
                 "repo": "FutureBridge-OPD",
-                "stars": 26,
+                "stars": 27,
                 "topics": []
               },
               "first_seen": "2026-09-15T14:38:16.400Z"
@@ -2156,7 +2156,7 @@
                 "open_issues": 2,
                 "owner": "Thinking-Space",
                 "repo": "Rethinking-OPD",
-                "stars": 1072,
+                "stars": 1073,
                 "topics": [
                   "llms",
                   "mechanism",
@@ -2601,10 +2601,10 @@
                 "language": "Python",
                 "license": null,
                 "last_commit": "2026-01-09T03:05:47Z",
-                "open_issues": 69,
+                "open_issues": 70,
                 "owner": "QwenLM",
                 "repo": "Qwen3",
-                "stars": 27731,
+                "stars": 27732,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2760,11 +2760,11 @@
                 "id": 599547518,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-14T16:02:27Z",
-                "open_issues": 10347,
+                "last_commit": "2026-11-15T15:27:44Z",
+                "open_issues": 10425,
                 "owner": "vllm-project",
                 "repo": "vllm",
-                "stars": 96927,
+                "stars": 96964,
                 "topics": [
                   "amd",
                   "blackwell",
@@ -2802,11 +2802,11 @@
                 "id": 881221486,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-14T07:56:50Z",
-                "open_issues": 1504,
+                "last_commit": "2026-11-15T03:20:30Z",
+                "open_issues": 1507,
                 "owner": "verl-project",
                 "repo": "verl",
-                "stars": 24229,
+                "stars": 24236,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2823,11 +2823,11 @@
                 "id": 1019793048,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-06T22:05:56Z",
-                "open_issues": 147,
+                "last_commit": "2026-11-14T18:00:15Z",
+                "open_issues": 161,
                 "owner": "thinking-machines-lab",
                 "repo": "tinker-cookbook",
-                "stars": 4256,
+                "stars": 4257,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2845,7 +2845,7 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-09-01T01:33:19Z",
-                "open_issues": 126,
+                "open_issues": 127,
                 "owner": "stanford-crfm",
                 "repo": "helm",
                 "stars": 2970,
@@ -3037,7 +3037,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-14T16:22:14.187Z",
+    "last_updated": "2026-11-15T16:48:18.512Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated collection of papers and resources on On-Policy Distillation for Large Language Models.",
