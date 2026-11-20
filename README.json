@@ -21,7 +21,7 @@
                 "open_issues": 120,
                 "owner": "microsoft",
                 "repo": "LMOps",
-                "stars": 4484,
+                "stars": 4481,
                 "topics": [
                   "agi",
                   "gpt",
@@ -439,7 +439,7 @@
                 "open_issues": 120,
                 "owner": "microsoft",
                 "repo": "LMOps",
-                "stars": 4484,
+                "stars": 4481,
                 "topics": [
                   "agi",
                   "gpt",
@@ -472,7 +472,7 @@
                 "open_issues": 11,
                 "owner": "lasgroup",
                 "repo": "SDPO",
-                "stars": 1149,
+                "stars": 1152,
                 "topics": [
                   "distillation",
                   "llm",
@@ -540,7 +540,7 @@
                 "open_issues": 8,
                 "owner": "VisionOPD",
                 "repo": "Vision-OPD",
-                "stars": 354,
+                "stars": 355,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -847,7 +847,7 @@
                 "open_issues": 2,
                 "owner": "ZJU-REAL",
                 "repo": "GPD",
-                "stars": 23,
+                "stars": 24,
                 "topics": []
               },
               "first_seen": "2026-10-13T17:21:28.335Z"
@@ -889,7 +889,7 @@
                 "open_issues": 1,
                 "owner": "viviable",
                 "repo": "mopd_code",
-                "stars": 21,
+                "stars": 22,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -959,6 +959,27 @@
             },
             {
               "node_type": "item",
+              "title": "Breaking the Tokenizer Barrier: On-Policy Distillation across Model Families",
+              "description": "2026-06-08 · Direct OPD · CodeThis cross-tokenizer method aligns student responses and teacher retokenizations into synchronized text chunks, then distributes teacher path likelihoods across student tokens. Two post-SFT comparisons evaluate the full recipe; they do not prove optimal allocation or lossless vocabulary mapping.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 1262804542,
+                "language": "Python",
+                "license": "Apache-2.0",
+                "last_commit": "2026-06-09T07:16:21Z",
+                "open_issues": 1,
+                "owner": "ivanniu",
+                "repo": "On-Policy-Distill",
+                "stars": 16,
+                "topics": []
+              },
+              "first_seen": "2026-10-05T19:03:38.723Z"
+            },
+            {
+              "node_type": "item",
               "title": "AVSD: Adaptive-View Self-Distillation by Balancing Consensus and Teacher-Specific Privileged Signals",
               "description": "2026-05-20 · Direct OPD · CodeAVSD combines privileged views of the same model on student-generated trajectories. A geometric consensus anchors the target, while gated view-specific residuals adjust it; the student learns through reverse KL. Evaluation covers mathematical and code reasoning, with broader agent applications left untested.",
               "children": [],
@@ -994,27 +1015,6 @@
                 "open_issues": 0,
                 "owner": "Echochef",
                 "repo": "OPD-Aha",
-                "stars": 15,
-                "topics": []
-              },
-              "first_seen": "2026-10-05T19:03:38.723Z"
-            },
-            {
-              "node_type": "item",
-              "title": "Breaking the Tokenizer Barrier: On-Policy Distillation across Model Families",
-              "description": "2026-06-08 · Direct OPD · CodeThis cross-tokenizer method aligns student responses and teacher retokenizations into synchronized text chunks, then distributes teacher path likelihoods across student tokens. Two post-SFT comparisons evaluate the full recipe; they do not prove optimal allocation or lossless vocabulary mapping.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": null,
-                "homepage": null,
-                "id": 1262804542,
-                "language": "Python",
-                "license": "Apache-2.0",
-                "last_commit": "2026-06-09T07:16:21Z",
-                "open_issues": 1,
-                "owner": "ivanniu",
-                "repo": "On-Policy-Distill",
                 "stars": 15,
                 "topics": []
               },
@@ -1333,11 +1333,11 @@
                 "id": 1072725553,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-19T17:50:32Z",
-                "open_issues": 1022,
+                "last_commit": "2026-11-20T16:59:05Z",
+                "open_issues": 1008,
                 "owner": "radixark",
                 "repo": "miles",
-                "stars": 3369,
+                "stars": 3380,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -1379,7 +1379,7 @@
                 "open_issues": 8,
                 "owner": "VisionOPD",
                 "repo": "Vision-OPD",
-                "stars": 354,
+                "stars": 355,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1442,7 +1442,7 @@
                 "open_issues": 3,
                 "owner": "jet-ai-projects",
                 "repo": "Lightning-OPD",
-                "stars": 89,
+                "stars": 90,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -1785,7 +1785,7 @@
                 "open_issues": 77,
                 "owner": "Gen-Verse",
                 "repo": "OpenClaw-RL",
-                "stars": 5750,
+                "stars": 5749,
                 "topics": [
                   "async",
                   "coding",
@@ -2395,7 +2395,7 @@
                 "id": 1392456262,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-10-11T01:25:01Z",
+                "last_commit": "2026-11-20T04:25:37Z",
                 "open_issues": 0,
                 "owner": "Geraldxm",
                 "repo": "opd-test-time-scaling",
@@ -2760,11 +2760,11 @@
                 "id": 599547518,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-19T18:51:06Z",
-                "open_issues": 10730,
+                "last_commit": "2026-11-20T18:17:16Z",
+                "open_issues": 10777,
                 "owner": "vllm-project",
                 "repo": "vllm",
-                "stars": 97219,
+                "stars": 97272,
                 "topics": [
                   "amd",
                   "blackwell",
@@ -2802,11 +2802,11 @@
                 "id": 881221486,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-19T07:08:34Z",
-                "open_issues": 1520,
+                "last_commit": "2026-11-20T15:15:52Z",
+                "open_issues": 1522,
                 "owner": "verl-project",
                 "repo": "verl",
-                "stars": 24284,
+                "stars": 24293,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2824,10 +2824,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-11-17T20:28:45Z",
-                "open_issues": 166,
+                "open_issues": 169,
                 "owner": "thinking-machines-lab",
                 "repo": "tinker-cookbook",
-                "stars": 4272,
+                "stars": 4275,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2848,7 +2848,7 @@
                 "open_issues": 128,
                 "owner": "stanford-crfm",
                 "repo": "helm",
-                "stars": 2976,
+                "stars": 2975,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2869,7 +2869,7 @@
                 "open_issues": 4,
                 "owner": "Tebmer",
                 "repo": "Awesome-Knowledge-Distillation-of-LLMs",
-                "stars": 1318,
+                "stars": 1317,
                 "topics": [
                   "alignment",
                   "compression",
@@ -3037,7 +3037,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-19T18:52:25.257Z",
+    "last_updated": "2026-11-20T18:18:49.674Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated collection of papers and resources on On-Policy Distillation for Large Language Models.",
