@@ -472,7 +472,7 @@
                 "open_issues": 11,
                 "owner": "lasgroup",
                 "repo": "SDPO",
-                "stars": 1152,
+                "stars": 1153,
                 "topics": [
                   "distillation",
                   "llm",
@@ -519,7 +519,7 @@
                 "open_issues": 9,
                 "owner": "siyan-zhao",
                 "repo": "OPSD",
-                "stars": 720,
+                "stars": 719,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1333,11 +1333,11 @@
                 "id": 1072725553,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-21T06:59:33Z",
-                "open_issues": 1011,
+                "last_commit": "2026-11-22T07:41:07Z",
+                "open_issues": 1015,
                 "owner": "radixark",
                 "repo": "miles",
-                "stars": 3386,
+                "stars": 3387,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -1994,7 +1994,7 @@
                 "open_issues": 1,
                 "owner": "yczhou001",
                 "repo": "PF-OPSD",
-                "stars": 24,
+                "stars": 25,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2156,7 +2156,7 @@
                 "open_issues": 2,
                 "owner": "Thinking-Space",
                 "repo": "Rethinking-OPD",
-                "stars": 1074,
+                "stars": 1075,
                 "topics": [
                   "llms",
                   "mechanism",
@@ -2601,10 +2601,10 @@
                 "language": "Python",
                 "license": null,
                 "last_commit": "2026-01-09T03:05:47Z",
-                "open_issues": 71,
+                "open_issues": 72,
                 "owner": "QwenLM",
                 "repo": "Qwen3",
-                "stars": 27755,
+                "stars": 27761,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2760,11 +2760,11 @@
                 "id": 599547518,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-21T16:21:32Z",
-                "open_issues": 10845,
+                "last_commit": "2026-11-22T16:25:32Z",
+                "open_issues": 10920,
                 "owner": "vllm-project",
                 "repo": "vllm",
-                "stars": 97309,
+                "stars": 97349,
                 "topics": [
                   "amd",
                   "blackwell",
@@ -2802,11 +2802,11 @@
                 "id": 881221486,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-20T18:48:57Z",
-                "open_issues": 1527,
+                "last_commit": "2026-11-22T14:17:17Z",
+                "open_issues": 1535,
                 "owner": "verl-project",
                 "repo": "verl",
-                "stars": 24304,
+                "stars": 24312,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2824,10 +2824,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-11-20T23:19:00Z",
-                "open_issues": 168,
+                "open_issues": 169,
                 "owner": "thinking-machines-lab",
                 "repo": "tinker-cookbook",
-                "stars": 4299,
+                "stars": 4312,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2848,7 +2848,7 @@
                 "open_issues": 130,
                 "owner": "stanford-crfm",
                 "repo": "helm",
-                "stars": 2975,
+                "stars": 2976,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -3037,7 +3037,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-21T17:05:52.005Z",
+    "last_updated": "2026-11-22T17:37:26.237Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated collection of papers and resources on On-Policy Distillation for Large Language Models.",
