@@ -8,7 +8,7 @@
             {
               "node_type": "item",
               "title": "MiniLLM: On-Policy Distillation of Large Language Models",
-              "description": "2023-06-14 · Direct OPD · CodeMiniLLM targets sequence-level reverse KL using student-generated responses and teacher probabilities. Its update separates an immediate full-vocabulary term from estimated future effects, with teacher-mixed sampling and other stabilizers; its reported evaluation centers on instruction following, not a general rule favoring reverse KL.",
+              "description": "2023-06-14 · Hybrid OPD · CodeMiniLLM targets sequence-level reverse KL using student-generated responses and teacher probabilities. Its update separates an immediate full-vocabulary term from estimated future effects, with teacher-mixed sampling and other stabilizers; its reported evaluation centers on instruction following, not a general rule favoring reverse KL.",
               "children": [],
               "repo_info": {
                 "archived": true,
@@ -419,7 +419,7 @@
           ],
           "description": "What does the student update optimize?",
           "node_type": "group",
-          "title": "Objectives and update rules &nbsp;·&nbsp;64"
+          "title": "Objectives and update rules &nbsp;·&nbsp;67"
         },
         {
           "children": [
@@ -472,7 +472,7 @@
                 "open_issues": 11,
                 "owner": "lasgroup",
                 "repo": "SDPO",
-                "stars": 1155,
+                "stars": 1156,
                 "topics": [
                   "distillation",
                   "llm",
@@ -485,7 +485,7 @@
             {
               "node_type": "item",
               "title": "UniSD: Towards a Unified Self-Distillation Framework for Large Language Models",
-              "description": "2026-05-07 · Analysis · CodeUniSD compares self-distillation variants using EMA targets, contrastive supervision, representation matching, and divergence clipping. Task-dependent results inform comparison of these components; they do not establish a benefit from the sequence-agreement scalar that cancels under the stated normalization.",
+              "description": "2026-05-07 · Analysis · CodeUniSD compares self-distillation variants using EMA targets, contrastive supervision, representation matching, and divergence clipping. Its sequence-agreement weight is constant within each sequence and cancels from the normalized loss when the normalization floor is inactive; below that floor, it still scales the loss.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -519,7 +519,7 @@
                 "open_issues": 9,
                 "owner": "siyan-zhao",
                 "repo": "OPSD",
-                "stars": 723,
+                "stars": 725,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -540,7 +540,7 @@
                 "open_issues": 8,
                 "owner": "VisionOPD",
                 "repo": "Vision-OPD",
-                "stars": 355,
+                "stars": 356,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -770,6 +770,27 @@
             },
             {
               "node_type": "item",
+              "title": "Training with Harnesses: On-Policy Harness Self-Distillation for Complex Reasoning",
+              "description": "2026-05-09 · Direct OPD · CodeOPHSD prepares teacher context through a dynamic reasoning harness and supervises direct student rollouts with a frozen initial teacher. Comparisons with static privileged context evaluate the complete preparation recipe, including additional harness computation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "[NeurIPS 2026] Training with Harnesses: On-Policy Harness Self-Distillation for Complex Reasoning",
+                "homepage": "https://arxiv.org/abs/2605.08741",
+                "id": 1231018959,
+                "language": "Python",
+                "license": null,
+                "last_commit": "2026-10-19T06:56:45Z",
+                "open_issues": 2,
+                "owner": "zzy1127",
+                "repo": "OPHSD-On-Policy-Harness-Self-Distillation",
+                "stars": 27,
+                "topics": []
+              },
+              "first_seen": "2026-08-28T21:05:04.438Z"
+            },
+            {
+              "node_type": "item",
               "title": "SimCT: Recovering Lost Supervision for Cross-Tokenizer On-Policy Distillation",
               "description": "2026-05-08 · Direct OPD · CodeSimCT compares teacher and student on shared tokens plus short text continuations jointly expressible under different tokenizers, using student-generated prefixes and retaining the reverse-KL OPD loss. Its normalized candidate scores are not a probability-preserving mapping of all continuations.",
               "children": [],
@@ -812,27 +833,6 @@
             },
             {
               "node_type": "item",
-              "title": "Training with Harnesses: On-Policy Harness Self-Distillation for Complex Reasoning",
-              "description": "2026-05-09 · Direct OPD · CodeOPHSD prepares teacher context through a dynamic reasoning harness and supervises direct student rollouts with a frozen initial teacher. Comparisons with static privileged context evaluate the complete preparation recipe, including additional harness computation.",
-              "children": [],
-              "repo_info": {
-                "archived": false,
-                "description": "[NeurIPS 2026] Training with Harnesses: On-Policy Harness Self-Distillation for Complex Reasoning",
-                "homepage": "https://arxiv.org/abs/2605.08741",
-                "id": 1231018959,
-                "language": "Python",
-                "license": null,
-                "last_commit": "2026-10-19T06:56:45Z",
-                "open_issues": 2,
-                "owner": "zzy1127",
-                "repo": "OPHSD-On-Policy-Harness-Self-Distillation",
-                "stars": 26,
-                "topics": []
-              },
-              "first_seen": "2026-08-28T21:05:04.438Z"
-            },
-            {
-              "node_type": "item",
               "title": "Distilling Routed 3D Privilege for Spatial Reasoning in Vision-Language Models",
               "description": "2026-10-08 · Hybrid OPD · CodeGPD combines GRPO with self-distillation on RGB-conditioned student trajectories, using a teacher supplied with question-routed textual 3D cues and the reference answer. Controlled spatial-VLM comparisons favor this recipe over GRPO and answer-privileged OPSD on the reported averages, while ablations favor routed cues and incorrect-only distillation in the tested setting.",
               "children": [],
@@ -868,7 +868,7 @@
                 "open_issues": 1,
                 "owner": "Oranger-l",
                 "repo": "MGSD",
-                "stars": 23,
+                "stars": 24,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -1067,6 +1067,36 @@
                 ]
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Strong Starts, Simple Recipes: Unified Multi-Teacher On-Policy Distillation from Multimodal Specialists",
+              "description": "2026-11-25 · Direct OPD · CodeUni-MOPD initializes a generalist by uniformly merging five specialists derived from a common base, then routes student-generated responses to domain teachers. Its comparisons separate initialization from distillation and show benefits of distribution targets over sampled-token supervision within the same training backend.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Uni-MOPD: Strong Starts, Simple Recipes — unified multi-teacher on-policy distillation from multimodal specialists. Official training framework, merge suite, and eight checkpoints.",
+                "homepage": "https://amberheart.github.io/Uni-MOPD/",
+                "id": 1430635156,
+                "language": "Python",
+                "license": "Apache-2.0",
+                "last_commit": "2026-11-26T08:29:16Z",
+                "open_issues": 0,
+                "owner": "AmberHeart",
+                "repo": "Uni-MOPD",
+                "stars": 10,
+                "topics": [
+                  "knowledge-distillation",
+                  "mixture-of-experts",
+                  "model-merging",
+                  "multi-teacher-distillation",
+                  "multimodal",
+                  "on-policy-distillation",
+                  "qwen3-vl",
+                  "vision-language-model"
+                ]
+              },
+              "first_seen": "2026-11-27T19:20:29.043Z"
             },
             {
               "node_type": "item",
@@ -1295,6 +1325,48 @@
             },
             {
               "node_type": "item",
+              "title": "STAR: Counterfactual Dual-World Rollouts and Spatial Target Adaptive Reconstruction for Visual On-Policy Distillation",
+              "description": "2026-11-24 · Direct OPD · CodeSTAR generates independent student rollouts in two image worlds and constructs spatially informed targets by contrasting real and mean-color crop views. An attention-based proxy controls the target adjustment before distribution matching on a shared compact support.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Official implementation of STAR: Counterfactual Dual-World Rollouts and Spatial Target Adaptive Reconstruction for Visual On-Policy Distillation.",
+                "homepage": null,
+                "id": 1471348193,
+                "language": "Python",
+                "license": "Apache-2.0",
+                "last_commit": "2026-11-25T09:41:25Z",
+                "open_issues": 0,
+                "owner": "xiaolingdudu",
+                "repo": "STAR",
+                "stars": 2,
+                "topics": []
+              },
+              "first_seen": "2026-11-27T19:20:29.043Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Composing What Each Teacher Learned: Delta Distillation for Multi-Teacher On-Policy Learning",
+              "description": "2026-10-07 · Direct OPD · CodeTeacher-relative logit shifts re-anchored at the student's initialization offer a distinct target-construction choice in multi-teacher OPD. Paired experiments report more balanced targets and stronger three-teacher Math composition than endpoint targets, while interleaved single-teacher routing is comparable.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Miles-based MOPD and Delta-MOPD: teacher-relative on-policy distillation research code",
+                "homepage": "https://arxiv.org/abs/2610.10460",
+                "id": 1411007982,
+                "language": "Python",
+                "license": "Apache-2.0",
+                "last_commit": "2026-10-09T17:00:25Z",
+                "open_issues": 0,
+                "owner": "HJSang",
+                "repo": "Delta-MOPD",
+                "stars": 1,
+                "topics": []
+              },
+              "first_seen": "2026-11-27T19:20:29.043Z"
+            },
+            {
+              "node_type": "item",
               "title": "Self-Improving Large Language Models via Progressive Experience Evolution",
               "description": "2026-08-03 · Hybrid OPD · CodeSPEE consolidates experience from successful and failed trajectories into privileged self-teacher context for distillation on student-generated prefixes, followed by GRPO. Its reported single-round results support the combined experience-distillation recipe without establishing sustained improvement across repeated training cycles.",
               "children": [],
@@ -1313,11 +1385,53 @@
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Seeing the Right Context: Grounded On-Policy Distillation for Remote Sensing",
+              "description": "2026-11-25 · Direct OPD · CodeGeOPD constructs teacher signals from marked and masked image views and weights them using the student's response to restored visual evidence. Its combined alignment and contrastive supervision improves the tested visual reasoning tasks, whereas the contrastive component alone can hurt performance.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 1471813272,
+                "language": "Python",
+                "license": "Apache-2.0",
+                "last_commit": "2026-11-26T06:09:56Z",
+                "open_issues": 1,
+                "owner": "YeeCharm",
+                "repo": "GeOPD",
+                "stars": 0,
+                "topics": []
+              },
+              "first_seen": "2026-11-27T19:20:29.043Z"
+            },
+            {
+              "node_type": "item",
+              "title": "DiCT: Teaching X-ray Vision-Language Models to Reason via Imagining CT",
+              "description": "2026-11-24 · Hybrid OPD · CodeDiCT transfers CT-informed reasoning to an X-ray vision-language model through clipped updates using teacher-versus-student token log-probabilities. The teacher omits the student's X-ray reasoning from its context, so the two conditioning prefixes differ; offline formatting supervision and later clinical GRPO are separate parts of the recipe.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 1469614642,
+                "language": "Python",
+                "license": null,
+                "last_commit": "2026-11-24T03:45:48Z",
+                "open_issues": 0,
+                "owner": "HongYep",
+                "repo": "DiCT",
+                "stars": 0,
+                "topics": []
+              },
+              "first_seen": "2026-11-27T19:20:29.043Z"
             }
           ],
           "description": "What makes a teacher useful on student trajectories?",
           "node_type": "group",
-          "title": "Teacher and supervision construction &nbsp;·&nbsp;98"
+          "title": "Teacher and supervision construction &nbsp;·&nbsp;114"
         },
         {
           "children": [
@@ -1333,11 +1447,11 @@
                 "id": 1072725553,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-26T11:58:30Z",
-                "open_issues": 1063,
+                "last_commit": "2026-11-27T18:31:37Z",
+                "open_issues": 1070,
                 "owner": "radixark",
                 "repo": "miles",
-                "stars": 3416,
+                "stars": 3420,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -1358,7 +1472,7 @@
                 "open_issues": 7,
                 "owner": "idanshen",
                 "repo": "Self-Distillation",
-                "stars": 736,
+                "stars": 739,
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
@@ -1379,7 +1493,7 @@
                 "open_issues": 8,
                 "owner": "VisionOPD",
                 "repo": "Vision-OPD",
-                "stars": 355,
+                "stars": 356,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -1761,11 +1875,32 @@
                 "topics": []
               },
               "first_seen": "2026-10-06T16:29:51.331Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Distillation with Errors: Sparse Unbiased Backpropagation for Knowledge Distillation",
+              "description": "2026-11-20 · Direct OPD · CodeDWE develops sparse output-head backpropagation with an unbiased conditional-gradient estimator and includes an OPD experiment alongside its offline studies. The OPD unit uses a fixed teacher and current-student responses; its reported full-update time reduction is 1.53%, smaller than the savings in offline distillation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Distillation with Errors: Sparse Unbiased Backpropagation for Knowledge Distillation",
+                "homepage": null,
+                "id": 1399935108,
+                "language": "Python",
+                "license": "Apache-2.0",
+                "last_commit": "2026-11-19T14:24:42Z",
+                "open_issues": 0,
+                "owner": "dwe-lab",
+                "repo": "DWE",
+                "stars": 0,
+                "topics": []
+              },
+              "first_seen": "2026-11-27T19:20:29.043Z"
             }
           ],
           "description": "Which states, tokens, and training stages matter?",
           "node_type": "group",
-          "title": "Data and training dynamics &nbsp;·&nbsp;71"
+          "title": "Data and training dynamics &nbsp;·&nbsp;75"
         },
         {
           "children": [
@@ -1785,7 +1920,7 @@
                 "open_issues": 77,
                 "owner": "Gen-Verse",
                 "repo": "OpenClaw-RL",
-                "stars": 5752,
+                "stars": 5753,
                 "topics": [
                   "async",
                   "coding",
@@ -1820,7 +1955,7 @@
                 "open_issues": 11,
                 "owner": "ZJU-REAL",
                 "repo": "SDAR",
-                "stars": 382,
+                "stars": 384,
                 "topics": [
                   "agentic-ai",
                   "agentic-skill",
@@ -2132,11 +2267,32 @@
                 ]
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
+            },
+            {
+              "node_type": "item",
+              "title": "Distilling Visual Agents from Limited Interaction Experience",
+              "description": "2026-11-21 · Direct OPD · CodeThis visual-agent method selects representative histories from a limited initial-student interaction pool, then regenerates current-student responses for teacher scoring. New actions are not executed during distillation; the reported comparisons control response counts rather than all training tokens or computation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 1446943116,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-11-24T05:38:43Z",
+                "open_issues": 0,
+                "owner": "elated-sawyer",
+                "repo": "visual-agent-distillation",
+                "stars": 3,
+                "topics": []
+              },
+              "first_seen": "2026-11-27T19:20:29.043Z"
             }
           ],
           "description": "How does supervision change across actions and turns?",
           "node_type": "group",
-          "title": "Agentic and multi-turn distillation &nbsp;·&nbsp;39"
+          "title": "Agentic and multi-turn distillation &nbsp;·&nbsp;45"
         },
         {
           "children": [
@@ -2156,7 +2312,7 @@
                 "open_issues": 2,
                 "owner": "Thinking-Space",
                 "repo": "Rethinking-OPD",
-                "stars": 1078,
+                "stars": 1079,
                 "topics": [
                   "llms",
                   "mechanism",
@@ -2168,7 +2324,7 @@
             {
               "node_type": "item",
               "title": "Trajectory-Refined Distillation",
-              "description": "2026-06-07 · Analysis · CodeTRD reports low teacher–student KL even on incorrect student trajectories and compares these diagnostics with teacher-refined prefixes. Its proposed training method uses teacher-rewritten offline trajectories, so the retained contribution is the diagnostic comparison rather than a new core OPD algorithm.",
+              "description": "2026-06-07 · Analysis · CodeTRD studies cases where incorrect student trajectories still have low teacher–student KL. Its training procedure asks the teacher to rewrite student rollouts, then matches teacher distributions on the refined prefixes. The supervision therefore follows rewritten trajectories, which distinguishes it from matching on the original student states.",
               "children": [],
               "repo_info": {
                 "archived": false,
@@ -2469,6 +2625,27 @@
             },
             {
               "node_type": "item",
+              "title": "GRAPE-Bench: When Vision Degrades, Does Video Reasoning Hold?",
+              "description": "2026-11-24 · Application / system report · CodeGRAPE-Bench studies video reasoning under visual degradation and includes distillation from a clean-video, answer-conditioned teacher to a corrupted-video student. In its reported comparison, this approach exceeds reasoning SFT but trails direct-answer SFT, showing that richer teacher context need not yield the strongest transfer.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "Code for GRAPE-Bench: When Vision Degrades, Does Video Reasoning Hold? Evaluation on the synthetic and real-world sets + corruption synthesis toolkit",
+                "homepage": "https://zhangce01.github.io/grape-bench/",
+                "id": 1469873060,
+                "language": "Python",
+                "license": "MIT",
+                "last_commit": "2026-11-25T05:22:20Z",
+                "open_issues": 0,
+                "owner": "zhangce01",
+                "repo": "GRAPE-Bench",
+                "stars": 4,
+                "topics": []
+              },
+              "first_seen": "2026-11-27T19:20:29.043Z"
+            },
+            {
+              "node_type": "item",
               "title": "Behavior Cloning is Not All You Need: The Optimality of On-Policy Distillation for Noisy Expert Feedback",
               "description": "2026-06-29 · Analysis · CodeThis analysis asks why learner-state queries can outperform offline cloning when expert feedback is noisy. It derives an offline horizon barrier and studies interactive imitation through augmented-trajectory matching; its guarantees depend on a finite policy class and corruption assumptions, not on arbitrary OPD procedures.",
               "children": [],
@@ -2562,6 +2739,27 @@
             },
             {
               "node_type": "item",
+              "title": "When Students Fail to Learn from Teachers: Learning Dynamics of On-Policy Distillation",
+              "description": "2026-11-20 · Analysis · CodeThis analysis distinguishes immediate token-level distillation updates from the full sequence-KL gradient and studies weak updates at extreme probabilities and coupling across positions. An adaptive switch between forward- and reverse-KL supervision improves the tested learning dynamics, with the strongest reported gains on LiveCodeBench.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": null,
+                "homepage": null,
+                "id": 1464704655,
+                "language": "Python",
+                "license": "Apache-2.0",
+                "last_commit": "2026-11-19T22:01:00Z",
+                "open_issues": 0,
+                "owner": "zhangxinnan123",
+                "repo": "learning-dynamic-opd",
+                "stars": 0,
+                "topics": []
+              },
+              "first_seen": "2026-11-27T19:20:29.043Z"
+            },
+            {
+              "node_type": "item",
               "title": "Why On-Policy Distillation Sometimes Fails: Vanishing Learning Signals",
               "description": "2026-10-08 · Analysis · CodeFor an idealized full-KL OPD flow, Zhao et al. decompose loss decay into a fixed-prefix learning signal and a rollout-occupancy term, and prove a finite-local-time recovery bound for sufficiently nearby teachers sharing the student's parameterization. Their single-run training logs show associated plateaus and declining gradient proxies, not a causal explanation of them.",
               "children": [],
@@ -2584,7 +2782,7 @@
           ],
           "description": "What transfers, what fails, and why?",
           "node_type": "group",
-          "title": "Mechanisms, failures, and evaluation &nbsp;·&nbsp;46"
+          "title": "Mechanisms, failures, and evaluation &nbsp;·&nbsp;50"
         },
         {
           "children": [
@@ -2601,7 +2799,7 @@
                 "language": "Python",
                 "license": null,
                 "last_commit": "2026-01-09T03:05:47Z",
-                "open_issues": 72,
+                "open_issues": 75,
                 "owner": "QwenLM",
                 "repo": "Qwen3",
                 "stars": 27773,
@@ -2644,7 +2842,7 @@
                 "license": null,
                 "last_commit": "2026-10-28T07:08:49Z",
                 "open_issues": 0,
-                "owner": "ZinYY",
+                "owner": "LAMDA-effML",
                 "repo": "AdaFlash",
                 "stars": 134,
                 "topics": [
@@ -2656,6 +2854,31 @@
                 ]
               },
               "first_seen": "2026-10-13T17:21:28.335Z"
+            },
+            {
+              "node_type": "item",
+              "title": "WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce",
+              "description": "2026-11-23 · Application / system report · CodeWeMM-Ecom applies OPD to multimodal e-commerce models, using teacher token scores on student-generated responses in thinking and non-thinking modes. Distillation is followed by parameter merging and GRPO; the reported final-model comparisons evaluate the overall training recipe.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "description": "WeMM-Ecom is a family of multimodal foundation models by the WeChat Vision Team at Tencent, built for frontier E-commerce understanding and SoTA general vision-language performance.",
+                "homepage": null,
+                "id": 1462519757,
+                "language": "Shell",
+                "license": "NOASSERTION",
+                "last_commit": "2026-11-24T16:58:31Z",
+                "open_issues": 1,
+                "owner": "Tencent",
+                "repo": "WeMM-Ecom",
+                "stars": 77,
+                "topics": [
+                  "e-commerce",
+                  "mllms",
+                  "multimodal"
+                ]
+              },
+              "first_seen": "2026-11-27T19:20:29.043Z"
             },
             {
               "node_type": "item",
@@ -2744,7 +2967,7 @@
           ],
           "description": "How does distillation fit into a deployed system?",
           "node_type": "group",
-          "title": "Applications and systems &nbsp;·&nbsp;24"
+          "title": "Applications and systems &nbsp;·&nbsp;26"
         },
         {
           "children": [
@@ -2760,11 +2983,11 @@
                 "id": 599547518,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-26T19:18:58Z",
-                "open_issues": 11276,
+                "last_commit": "2026-11-27T19:17:17Z",
+                "open_issues": 11269,
                 "owner": "vllm-project",
                 "repo": "vllm",
-                "stars": 97637,
+                "stars": 97709,
                 "topics": [
                   "amd",
                   "blackwell",
@@ -2802,11 +3025,11 @@
                 "id": 881221486,
                 "language": "Python",
                 "license": "Apache-2.0",
-                "last_commit": "2026-11-26T14:37:34Z",
-                "open_issues": 1566,
+                "last_commit": "2026-11-27T03:06:43Z",
+                "open_issues": 1568,
                 "owner": "verl-project",
                 "repo": "verl",
-                "stars": 24364,
+                "stars": 24374,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -2824,10 +3047,10 @@
                 "language": "Python",
                 "license": "Apache-2.0",
                 "last_commit": "2026-11-25T21:18:57Z",
-                "open_issues": 170,
+                "open_issues": 172,
                 "owner": "thinking-machines-lab",
                 "repo": "tinker-cookbook",
-                "stars": 4359,
+                "stars": 4365,
                 "topics": []
               },
               "first_seen": "2026-08-28T21:05:04.438Z"
@@ -2848,7 +3071,7 @@
                 "open_issues": 131,
                 "owner": "stanford-crfm",
                 "repo": "helm",
-                "stars": 2978,
+                "stars": 2979,
                 "topics": []
               },
               "first_seen": "2026-10-05T19:03:38.723Z"
@@ -3037,7 +3260,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-26T19:25:01.243Z",
+    "last_updated": "2026-11-27T19:20:29.043Z",
     "original_repository_info": {
       "archived": false,
       "description": "A curated collection of papers and resources on On-Policy Distillation for Large Language Models.",
@@ -3045,7 +3268,7 @@
       "id": 1201758422,
       "language": "Python",
       "license": "MIT",
-      "last_commit": "2026-10-13T09:11:43Z",
+      "last_commit": "2026-11-27T12:51:11Z",
       "open_issues": 9,
       "owner": "nick7nlp",
       "repo": "Awesome-LLM-On-Policy-Distillation",
@@ -3066,7 +3289,7 @@
         "survey"
       ]
     },
-    "original_repository_sha": "0aa0d84184a3098dfe57da0b17c9476f7c44f114",
+    "original_repository_sha": "e69718affa588a5332a964edaa06937a93721972",
     "enhanced_repository": "enhansome/enhansome-Awesome-LLM-On-Policy-Distillation",
     "enhanced_repository_description": null,
     "title": "Awesome LLM On Policy Distillation with stars"
